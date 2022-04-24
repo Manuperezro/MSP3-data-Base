@@ -1,5 +1,18 @@
 from flask import Flask, render_template, request 
+from database import db_session, init_db
 app = Flask(__name__)
+
+
+# before the first request is send, initialize the database
+@app.before_first_request
+def init():
+    init_db()
+
+
+# to clean the page after all the request are done move the databa sesesion
+@app.teardown_appcontext
+def shutdown_session(exception=None):
+    db_session.remove()
 
 
 @app.route('/')
