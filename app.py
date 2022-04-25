@@ -38,6 +38,11 @@ def create_restaurant():
     return render_template('create_restaurant.html')
 
 
+@app.route('/restaurants')
+def restaurant_list():
+    restaurants = Restaurants.query.all()
+    return render_template("restaurant.html", restaurants=restaurants)
+    
 
 if __name__ == '__main__':
     app.jinja_env.auto_reload = True
