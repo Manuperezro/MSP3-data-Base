@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>
+        
         {% block title %}
         {% endblock %}
+
     </title>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -18,16 +20,14 @@
     <h5 class="my-0 mr-md-auto font-weight-normal">LuckyDraw</h5>
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="btn btn-outline-primary" href="/">Start</a>
-        <a class="btn btn-outline-fix  text-dark" href="{{url_for('start')}}">Top 5</a>
-        <a class="btn btn-outline-fix text-dark" href="{{url_for('restaurant_list')}}">Restaurants List</a>
-        <a class="btn btn-outline-fix text-dark" href="{{url_for('create_restaurant')}}">Add Restaurants</a>
+        <a class="btn btn-outline-fix  text-dark" href="/top">Top 5</a>
+        <a class="btn btn-outline-fix text-dark" href="/restaurants">Restaurants</a>
         <a class="btn btn-outline-fix text-dark" href="/history">History</a>
     </nav>
 </div>
 
 {% block content %}
 {% endblock %}
-
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
