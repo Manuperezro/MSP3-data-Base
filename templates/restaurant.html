@@ -19,7 +19,7 @@ Restaurants lists
                 <div class="btn-group">
                     <a href="{{ restaurant['site_url'] }}" class="btn btn-visit" target="_blank">Visit Site</a>
                     <a href="/edit-restaurant?id={{  restaurant['id'] }}" class="btn btn-primary">Edit</a>
-                    <a href="#" onclick="return confirm('delete?')" class="btn btn-danger">Delete</a>
+                    <a href="/delete-restaurant?id={{restaurant['id'] }}" onclick="return confirm('delete?')" class="btn btn-danger">Delete</a>
                 </div>
             </div>
         </div>
