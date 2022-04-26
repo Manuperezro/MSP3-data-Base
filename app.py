@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, redirect
 from database import db_session, init_db
-from restaurants import Restaurants
+from sqlalchemy import desc
+from models.restaurants import Restaurants
+from models.histories import Histories 
 import datetime
 from random import choice
 
@@ -21,7 +23,7 @@ def shutdown_session(exception=None):
 @app.route('/')
 def start():
     now = datetime.datetime.now
-    return render_template('start.html', now=now)
+    return render_template('start.html', nav='start', now=now)
 
 
 @app.route('/draw')
@@ -33,9 +35,18 @@ def draw():
 
     random_restaurant = choice(restaurants)
 
-    restaurant = Restaurants.query.get(random_restaurant.id)
-    restaurant.draw += 1 
-    db_session.commit()
+    try:
+        restaurant = Restaurants.query.get(random_restaurant.id)
+        restaurant.draw += 1
+
+        history = Histories(restaurant_id=restaurant.id)
+
+        db_session.add(history)
+        db_session.commit()
+
+    except:
+        db_session.rollback()
+        return redirect('/')
 
     now = datetime.datetime.now()
 
@@ -82,7 +93,6 @@ def edit_restaurant():
         restaurant.modified_time = datetime.datetime.now()
         
         db_session.commit()
-
         return redirect('/restaurants')
     
     return render_template('edit_restaurant.html', restaurant=restaurant)
@@ -90,20 +100,33 @@ def edit_restaurant():
 
 @app.route('/delete-restaurant')
 def delete_restaurant():
-
     id = request.args.get('id')
 
     restaurant = Restaurants.query.filter(Restaurants.id == id).first()
 
     if restaurant:
         db_session.delete(restaurant)
-        de_session.commit()
+        db_session.commit()
 
-        return redirect('/restaurants')
+    return redirect('/restaurants')
 
-        
+
+@app.route('/history')
+def history():
+
+    histories = Histories.query.order_by(desc(Histories.created_time)).limit(20)
+
+    return render_template('history.html', histories=histories)
+
+
+# @app.route('/top')
+# def top():
+#     restaurants = Restaurants.query.order_by('-draw').limit(5)
+
+#     return render_template('top.html', nav='top', restaurants=restaurants)
+
+
 def mealformat(value):
-
     if value.hour in [4, 5, 6, 7, 8, 9]:
         return 'Breakfast'
     elif value.hour in [10, 11, 12, 13, 14, 15]:
@@ -113,7 +136,12 @@ def mealformat(value):
     else:
         return 'Supper'
 
+
+def datetimeformat(value):
+    return value.strftime("%m/%d/%Y, %H:%M:%S")
+
 app.jinja_env.filters['meal'] = mealformat
+app.jinja_env.filters['datetime'] = datetimeformat
 
 
 if __name__ == '__main__':

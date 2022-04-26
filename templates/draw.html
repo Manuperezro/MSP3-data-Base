@@ -7,7 +7,7 @@
 {% block content %}
 
 <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" style="max-width: 700px;">
-    <h1 class="display-4">let's eat {{ restaurant['name'] }} for {{ now }}?</h1>
+    <h1 class="display-4">let's eat {{ restaurant['name'] }} for {{ now|meal }}?</h1>
     <p class="lead">{{ restaurant['description'] }}</p>
     <a href="{{ restaurant['site_url'] }}" class="btn btn-lg btn-outline-primary">Go to the Website</a>
     <a href="/draw" class="btn btn-lg btn-outline-primary">Try Again</a>
