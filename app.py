@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect
 from database import db_session, init_db
 from sqlalchemy import desc
-from models.restaurants import Restaurants
+from models.recipes import Recipes
 from models.histories import Histories 
 import datetime
 from random import choice
@@ -28,18 +28,18 @@ def start():
 
 @app.route('/draw')
 def draw():
-    restaurants = Restaurants.query.all()
+    recipes = Recipes.query.all()
 
-    if not restaurants:
-        return redirect('/create-restaurant')
+    if not recipes:
+        return redirect('/create-recipe')
 
-    random_restaurant = choice(restaurants)
+    random_recipe = choice(recipes)
 
     try:
-        restaurant = Restaurants.query.get(random_restaurant.id)
-        restaurant.draw += 1
+        recipe = recipes.query.get(random_recipe.id)
+        recipe.draw += 1
 
-        history = Histories(restaurant_id=restaurant.id)
+        history = Histories(recipe_id=recipe.id)
 
         db_session.add(history)
         db_session.commit()
@@ -50,65 +50,65 @@ def draw():
 
     now = datetime.datetime.now()
 
-    return render_template('draw.html', restaurant=restaurant, now=now)
+    return render_template('draw.html', recipe=recipe, now=now)
 
 
-@app.route('/create-restaurant', methods=['GET', 'POST'])
-def create_restaurant():
+@app.route('/create-recipe', methods=['GET', 'POST'])
+def create_recipe():
     if request.method == 'POST':
         name = request.form.get('name')
         description = request.form.get('description')
         site_url = request.form.get('site_url')
 
-        restaurant = Restaurants(name=name, description=description, site_url=site_url)
-        db_session.add(restaurant)
+        recipe = Recipes(name=name, description=description, site_url=site_url)
+        db_session.add(recipe)
         db_session.commit()
 
-        return redirect('/restaurants')
+        return redirect('/recipes')
 
-    return render_template('create_restaurant.html')
-
-
-@app.route('/restaurants')
-def restaurant_list():
-    restaurants = Restaurants.query.all()
-    return render_template("restaurant.html", nav=restaurants, restaurants=restaurants)
+    return render_template('create_recipe.html')
 
 
-@app.route('/edit-restaurant', methods=['GET', 'POST'])
-def edit_restaurant():
+@app.route('/recipes')
+def recipe_list():
+    recipes = Recipes.query.all()
+    return render_template("recipe.html", nav=recipes, recipes=recipes)
+
+
+@app.route('/edit-recipe', methods=['GET', 'POST'])
+def edit_recipe():
 
     id = request.args.get('id')
 
-    restaurant = Restaurants.query.filter(Restaurants.id == id).first()
+    recipe = Recipes.query.filter(Recipes.id == id).first()
     
     if request.method == 'POST':
         name = request.form.get('name')
         description = request.form.get('description')
         site_url = request.form.get('site_url')
 
-        restaurant.name = name
-        restaurant.description = description
-        restaurant.site_url = site_url
-        restaurant.modified_time = datetime.datetime.now()
+        recipe.name = name
+        recipe.description = description
+        recipe.site_url = site_url
+        recipe.modified_time = datetime.datetime.now()
         
         db_session.commit()
-        return redirect('/restaurants')
+        return redirect('/recipes')
     
-    return render_template('edit_restaurant.html', restaurant=restaurant)
+    return render_template('edit_recipe.html', recipe=recipe)
 
 
-@app.route('/delete-restaurant')
-def delete_restaurant():
+@app.route('/delete-recipe')
+def delete_recipe():
     id = request.args.get('id')
 
-    restaurant = Restaurants.query.filter(Restaurants.id == id).first()
+    recipe = Recipes.query.filter(Recipes.id == id).first()
 
-    if restaurant:
-        db_session.delete(restaurant)
+    if recipe:
+        db_session.delete(recipe)
         db_session.commit()
 
-    return redirect('/restaurants')
+    return redirect('/recipes')
 
 
 @app.route('/history')
@@ -121,9 +121,9 @@ def history():
 
 # @app.route('/top')
 # def top():
-#     restaurants = Restaurants.query.order_by('-draw').limit(5)
+#     recipes = Recipes.query.order_by('-draw').limit(5)
 
-#     return render_template('top.html', nav='top', restaurants=restaurants)
+#     return render_template('top.html', nav='top', recipes=recipes)
 
 
 def mealformat(value):

@@ -5,8 +5,8 @@ import uuid
 import datetime
 
 
-class Restaurants(Base):
-    __tablename__ = 'restaurants'
+class Recipes(Base):
+    __tablename__ = 'recipes'
     id = Column(String(50), primary_key=True)
     name = Column(String(50), unique=True)
     description = Column(String(100), nullable=True)
@@ -16,7 +16,7 @@ class Restaurants(Base):
     modified_time = Column(DateTime(), nullable=False)
     histories = relationship(
         'Histories',
-        backref='restaurants',
+        backref='recipes',
         cascade='all,delete'
     )
 
@@ -29,4 +29,4 @@ class Restaurants(Base):
         self.modified_time = datetime.datetime.now()
 
     def __repr__(self):
-        return '<Restaurant %r>' % (self.name)
+        return '<Recipe %r>' % (self.name)

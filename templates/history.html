@@ -27,8 +27,8 @@ History
                             {% for history in histories %}
                             <tr>
                                 <td scope="row">{{ loop.index}}</td>
-                                <td>{{ history['restaurants']['name']}}</td>
-                                <td><span class="badge badge-primary">{{ history['restaurants']['description'] }}</span></td>
+                                <td>{{ history['recipes']['name']}}</td>
+                                <td><span class="badge badge-primary">{{ history['recipes']['description'] }}</span></td>
                                 <td>{{ history['created_time']|meal }}</td>
                                 <td>{{ history['created_time']|datetime}}</td>
                             </tr>

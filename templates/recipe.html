@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Recipes lists
+{% endblock %}
+
+{% block content %}
+{% for recipe in recipes %}
+<div class="row justify-content-center">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-title">
+                <h4>{{  recipe['name'] }}</h4>
+            </div>
+            <p class="text-muted ">
+                {{  recipe['Description'] }}
+            </p>
+            <div class="button-list">
+                <div class="btn-group">
+                    <a href="{{ recipe['site_url'] }}" class="btn btn-visit" target="_blank">Visit Site</a>
+                    <a href="/edit-recipe?id={{  recipe['id'] }}" class="btn btn-primary">Edit</a>
+                    <a href="/delete-recipe?id={{recipe['id'] }}" onclick="return confirm('delete?')" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-lg-6" style="margin-bottom: 50px;">
+        <a href="/create-recipe" class="btn btn-primary btn-block">New Recipe</a>
+    </div>
+</div>
+
+{% endfor %}
+{% endblock %}
