@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request 
+from flask import Flask, render_template, request, redirect
 from database import db_session, init_db
 from restaurants import Restaurants
-app = Flask(__name__)
+import datetime
 
 
 app = Flask(__name__)
@@ -42,8 +42,32 @@ def create_restaurant():
 def restaurant_list():
     restaurants = Restaurants.query.all()
     return render_template("restaurant.html", restaurants=restaurants)
-    
 
+
+@app.route('/edit-restaurant', methods=['GET', 'POST'])
+def edit_restaurant():
+
+    id = request.args.get('id')
+
+    restaurant = Restaurants.query.filter(Restaurants.id == id).first()
+    
+    if request.method == 'POST':
+        name = request.form.get('name')
+        description = request.form.get('description')
+        site_url = request.form.get('site_url')
+
+        restaurant.name = name
+        restaurant.description = description
+        restaurant.site_url = site_url
+        restaurant.modified_time = datetime.datetime.now()
+        
+        db_session.commit()
+
+        return redirect('/restaurants')
+    
+    return render_template('edit_restaurant.html', restaurant=restaurant)
+
+        
 if __name__ == '__main__':
     app.jinja_env.auto_reload = True
     app.run(debug=True)
