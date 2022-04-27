@@ -16,7 +16,7 @@ History
                     <table class="table">
                         <thead>
                         <tr>
-                            <th>#</th>
+                            <th>Id</th>
                             <th>Name</th>
                             <th>Description</th>
                             <th>Meal</th>
@@ -27,7 +27,7 @@ History
                             {% for history in histories %}
                             <tr>
                                 <td scope="row">{{ loop.index}}</td>
-                                <td>{{ history['recipes']['name']}}</td>
+                                <td>{{ history['recipes']['name'] }}</td>
                                 <td><span class="badge badge-primary">{{ history['recipes']['description'] }}</span></td>
                                 <td>{{ history['created_time']|meal }}</td>
                                 <td>{{ history['created_time']|datetime}}</td>

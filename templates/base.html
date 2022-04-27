@@ -13,14 +13,14 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
-<body>
+<body style="background:rgb(29, 192, 24)">
 
 <!-- nav -->
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
     <h5 class="my-0 mr-md-auto font-weight-normal">What's For Dinner????</h5>
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="btn {% if nav == 'start' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"  href="/">Start</a>
-        <a class="btn {% if nav == 'top' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}" href="/top">Top 5</a>
+        <!-- <a class="btn {% if nav == 'top' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}" href="/top">Top 5</a> -->
         <a class="btn {% if nav == 'recipes' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}" href="/recipes">Recipes</a>
         <a class="btn {% if nav == 'history' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}" href="/history">History</a>
     </nav>
@@ -28,6 +28,15 @@
 
         {% block content %}
         {% endblock %}
+
+        <!--footer-->
+
+<footer>
+        <div>
+                
+        </div>
+</footer>
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

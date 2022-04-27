@@ -37,18 +37,9 @@ def draw():
 
     random_recipe = choice(recipes)
 
-    try:
-        recipe = recipes.query.get(random_recipe.id)
-        recipe.draw += 1
-
-        history = Histories(recipe_id=recipe.id)
-
-        db_session.add(history)
-        db_session.commit()
-
-    except:
-        db_session.rollback()
-        return redirect('/')
+    recipe = Recipes.query.get(random_recipe.id)
+    recipe.draw += 1
+    db_session.commit()
 
     now = datetime.datetime.now()
 
@@ -83,9 +74,6 @@ def edit_recipe():
     id = request.args.get('id')
 
     recipe = Recipes.query.filter(Recipes.id == id).first()
-
-    app.loger.infor('recipe =  %s', recipe)
-    app.logger.info(' conunter = %s ', recipe.site_visits)
     
     if request.method == 'POST':
         name = request.form.get('name')
@@ -107,28 +95,14 @@ def edit_recipe():
 @app.route('/delete-recipe')
 def delete_recipe():
     id = request.args.get('id')
-    app.logger.info('%s is = ', id)
 
     recipe = Recipes.query.filter(Recipes.id == id).first()
-    app.logger.info('%s is = ', recipe)
 
     if recipe:
-        app.logger.info('got recipe')
         db_session.delete(recipe)
         db_session.commit()
 
     return redirect('/recipes')
-
-
-# @app.route('/visit-site')
-# def visit_site():
-
-#     id = request.args.get('id')
-#     recipe = 
-    
-
-
-
 
 
 @app.route('/history')
@@ -139,11 +113,11 @@ def history():
     return render_template('history.html', nav=history, histories=histories)
 
 
-@app.route('/top')
-def top():
-    recipes = Recipes.query.order_by('-draw').limit(5)
+# @app.route('/top')
+# def top():
+#     recipes = Recipes.query.order_by('-draw').limit(5)
 
-    return render_template('top.html', nav='top', recipes=recipes)
+#     return render_template('top.html', nav='top', recipes=recipes)
 
 
 def mealformat(value):

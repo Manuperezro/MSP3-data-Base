@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block title %}
-Recipes lists
+Recipes list
 {% endblock %}
 
 {% block content %}
@@ -23,12 +23,13 @@ Recipes lists
             <div class="card-title">
                 <h4>{{  recipe['name'] }}</h4>
             </div>
-            <p class="text-muted ">
-                {{  recipe['Description'] }}
+            <p class="text-muted">
+                <h6>Ingredients:</h6>
+                {{  recipe['description'] }}
             </p>
             <div class="button-list">
                 <div class="btn-group">
-                    <a href="/visit-site?id{{ recipe['site_url'] }}" class="btn btn-visit" target="_blank">Visit Site</a>
+                    <a href="{{ recipe['site_url'] }}" class="btn btn-visit" target="_blank">Visit Site</a>
                     <a href="/edit-recipe?id={{  recipe['id'] }}" class="btn btn-primary">Edit</a>
                     <a href="/delete-recipe?id={{recipe['id'] }}" onclick="return confirm('delete?')" class="btn btn-danger">Delete</a>
                 </div>

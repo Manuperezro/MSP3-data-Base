@@ -27,7 +27,7 @@ Top 5
                             {% for recipes in recipes %}
                             <tr>
                                 <td scope="row">{{ loop.index}}</td>
-                                <td>{{ recipe['name']}}</td>
+                                <td>{{ recipe['name'] }}</td>
                                 <td><span class="badge badge-primary">{{ recipe['description'] }}</span></td>
                                 <td><a href="{{recipe['site_url']}}"></a>Visit recipe</td>
                                 <td>{{ recipe['draw']}}</td>

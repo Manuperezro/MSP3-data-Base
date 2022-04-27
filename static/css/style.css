@@ -1,3 +1,8 @@
+
+body{
+    background: url("static/css/images/whattoCook.jpg");
+}
+
 .box-shadow {
     box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
 }
@@ -110,3 +115,12 @@
     border-bottom: 1px solid #e7e7e7;
     font-weight: 400!important;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
