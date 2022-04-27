@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect
+import logging
 from database import db_session, init_db
 from sqlalchemy import desc
 from models.recipes import Recipes
@@ -9,6 +10,7 @@ from random import choice
 
 app = Flask(__name__)
 
+logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
 @app.before_first_request
 def init():
@@ -81,11 +83,15 @@ def edit_recipe():
     id = request.args.get('id')
 
     recipe = Recipes.query.filter(Recipes.id == id).first()
+
+    app.loger.infor('recipe =  %s', recipe)
+    app.logger.info(' conunter = %s ', recipe.site_visits)
     
     if request.method == 'POST':
         name = request.form.get('name')
         description = request.form.get('description')
         site_url = request.form.get('site_url')
+        
 
         recipe.name = name
         recipe.description = description
@@ -101,14 +107,28 @@ def edit_recipe():
 @app.route('/delete-recipe')
 def delete_recipe():
     id = request.args.get('id')
+    app.logger.info('%s is = ', id)
 
     recipe = Recipes.query.filter(Recipes.id == id).first()
+    app.logger.info('%s is = ', recipe)
 
     if recipe:
+        app.logger.info('got recipe')
         db_session.delete(recipe)
         db_session.commit()
 
     return redirect('/recipes')
+
+
+# @app.route('/visit-site')
+# def visit_site():
+
+#     id = request.args.get('id')
+#     recipe = 
+    
+
+
+
 
 
 @app.route('/history')
@@ -119,11 +139,11 @@ def history():
     return render_template('history.html', nav=history, histories=histories)
 
 
-# @app.route('/top')
-# def top():
-#     recipes = Recipes.query.order_by('-draw').limit(5)
+@app.route('/top')
+def top():
+    recipes = Recipes.query.order_by('-draw').limit(5)
 
-#     return render_template('top.html', nav='top', recipes=recipes)
+    return render_template('top.html', nav='top', recipes=recipes)
 
 
 def mealformat(value):

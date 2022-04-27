@@ -1,0 +1,351 @@
+2022-04-27 16:31:55,782 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-27 16:31:55,783 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:31:56,082 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:31:56,082 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:32:44,359 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-27 16:32:44,404 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:32:44,706 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:32:44,706 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:32:48,771 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:32:48] "GET / HTTP/1.1" 200 -
+2022-04-27 16:32:48,873 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:32:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:32:52,698 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:32:52] "[35m[1mGET /top HTTP/1.1[0m" 500 -
+2022-04-27 16:32:52,756 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:32:52] "[36mGET /top?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:32:52,761 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:32:52] "[36mGET /top?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:32:52,813 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:32:52] "[36mGET /top?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:32:56,245 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:32:56] "[35m[1mGET /recipes HTTP/1.1[0m" 500 -
+2022-04-27 16:32:56,309 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:32:56] "GET /recipes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-27 16:32:56,313 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:32:56] "GET /recipes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-27 16:32:56,371 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:32:56] "GET /recipes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-27 16:32:56,471 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:32:56] "[36mGET /recipes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:32:59,907 INFO werkzeug Thread-7 : 127.0.0.1 - - [27/Apr/2022 16:32:59] "GET /history HTTP/1.1" 200 -
+2022-04-27 16:32:59,976 INFO werkzeug Thread-7 : 127.0.0.1 - - [27/Apr/2022 16:32:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:33:01,131 INFO werkzeug Thread-8 : 127.0.0.1 - - [27/Apr/2022 16:33:01] "GET / HTTP/1.1" 200 -
+2022-04-27 16:33:01,229 INFO werkzeug Thread-8 : 127.0.0.1 - - [27/Apr/2022 16:33:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:33:02,071 INFO werkzeug Thread-9 : 127.0.0.1 - - [27/Apr/2022 16:33:02] "[35m[1mGET /draw HTTP/1.1[0m" 500 -
+2022-04-27 16:33:02,142 INFO werkzeug Thread-9 : 127.0.0.1 - - [27/Apr/2022 16:33:02] "[36mGET /draw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:33:02,144 INFO werkzeug Thread-10 : 127.0.0.1 - - [27/Apr/2022 16:33:02] "[36mGET /draw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:33:02,201 INFO werkzeug Thread-11 : 127.0.0.1 - - [27/Apr/2022 16:33:02] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:33:02,301 INFO werkzeug Thread-12 : 127.0.0.1 - - [27/Apr/2022 16:33:02] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:33:16,791 INFO werkzeug Thread-13 : 127.0.0.1 - - [27/Apr/2022 16:33:16] "GET / HTTP/1.1" 200 -
+2022-04-27 16:33:16,839 INFO werkzeug Thread-13 : 127.0.0.1 - - [27/Apr/2022 16:33:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:33:17,644 INFO werkzeug Thread-14 : 127.0.0.1 - - [27/Apr/2022 16:33:17] "[35m[1mGET /draw HTTP/1.1[0m" 500 -
+2022-04-27 16:33:17,706 INFO werkzeug Thread-14 : 127.0.0.1 - - [27/Apr/2022 16:33:17] "[36mGET /draw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:33:17,707 INFO werkzeug Thread-15 : 127.0.0.1 - - [27/Apr/2022 16:33:17] "[36mGET /draw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:33:17,758 INFO werkzeug Thread-16 : 127.0.0.1 - - [27/Apr/2022 16:33:17] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:34:07,186 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:34:07,237 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:34:07,541 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:34:07,542 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:34:16,610 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:34:16,652 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:34:16,952 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:34:16,952 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:34:29,028 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:34:29,076 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:34:29,381 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:34:29,381 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:34:43,470 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:34:43,521 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:34:43,822 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:34:43,822 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:34:48,860 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:34:48,896 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:34:49,192 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:34:49,192 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:35:13,336 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-27 16:35:13,383 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:35:13,680 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:35:13,680 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:35:15,653 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:35:15] "[35m[1mGET /draw HTTP/1.1[0m" 500 -
+2022-04-27 16:35:15,704 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:35:15] "[36mGET /draw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:35:15,706 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:35:15] "[36mGET /draw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:35:15,759 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:35:15] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:35:15,847 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:35:15] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:35:16,232 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:35:16] "[35m[1mGET /draw HTTP/1.1[0m" 500 -
+2022-04-27 16:35:16,288 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:35:16] "[36mGET /draw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:35:16,289 INFO werkzeug Thread-7 : 127.0.0.1 - - [27/Apr/2022 16:35:16] "[36mGET /draw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:35:16,341 INFO werkzeug Thread-8 : 127.0.0.1 - - [27/Apr/2022 16:35:16] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:35:16,378 INFO werkzeug Thread-9 : 127.0.0.1 - - [27/Apr/2022 16:35:16] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:35:18,374 INFO werkzeug Thread-10 : 127.0.0.1 - - [27/Apr/2022 16:35:18] "GET / HTTP/1.1" 200 -
+2022-04-27 16:35:18,423 INFO werkzeug Thread-10 : 127.0.0.1 - - [27/Apr/2022 16:35:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:35:19,356 INFO werkzeug Thread-11 : 127.0.0.1 - - [27/Apr/2022 16:35:19] "[35m[1mGET /draw HTTP/1.1[0m" 500 -
+2022-04-27 16:35:19,418 INFO werkzeug Thread-11 : 127.0.0.1 - - [27/Apr/2022 16:35:19] "[36mGET /draw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:35:19,421 INFO werkzeug Thread-12 : 127.0.0.1 - - [27/Apr/2022 16:35:19] "[36mGET /draw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:35:19,471 INFO werkzeug Thread-13 : 127.0.0.1 - - [27/Apr/2022 16:35:19] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:35:24,186 INFO werkzeug Thread-14 : 127.0.0.1 - - [27/Apr/2022 16:35:24] "[35m[1mGET /top HTTP/1.1[0m" 500 -
+2022-04-27 16:35:24,254 INFO werkzeug Thread-14 : 127.0.0.1 - - [27/Apr/2022 16:35:24] "[36mGET /top?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:35:24,254 INFO werkzeug Thread-15 : 127.0.0.1 - - [27/Apr/2022 16:35:24] "[36mGET /top?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:35:24,311 INFO werkzeug Thread-16 : 127.0.0.1 - - [27/Apr/2022 16:35:24] "[36mGET /top?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:35:27,551 INFO werkzeug Thread-17 : 127.0.0.1 - - [27/Apr/2022 16:35:27] "[35m[1mGET /recipes HTTP/1.1[0m" 500 -
+2022-04-27 16:35:27,609 INFO werkzeug Thread-17 : 127.0.0.1 - - [27/Apr/2022 16:35:27] "[36mGET /recipes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:35:27,611 INFO werkzeug Thread-18 : 127.0.0.1 - - [27/Apr/2022 16:35:27] "[36mGET /recipes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:35:27,671 INFO werkzeug Thread-19 : 127.0.0.1 - - [27/Apr/2022 16:35:27] "[36mGET /recipes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:35:30,128 INFO werkzeug Thread-20 : 127.0.0.1 - - [27/Apr/2022 16:35:30] "GET /history HTTP/1.1" 200 -
+2022-04-27 16:35:30,189 INFO werkzeug Thread-20 : 127.0.0.1 - - [27/Apr/2022 16:35:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:35:32,070 INFO werkzeug Thread-21 : 127.0.0.1 - - [27/Apr/2022 16:35:32] "GET /history HTTP/1.1" 200 -
+2022-04-27 16:35:32,118 INFO werkzeug Thread-21 : 127.0.0.1 - - [27/Apr/2022 16:35:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:35:33,678 INFO werkzeug Thread-22 : 127.0.0.1 - - [27/Apr/2022 16:35:33] "[35m[1mGET /recipes HTTP/1.1[0m" 500 -
+2022-04-27 16:35:33,735 INFO werkzeug Thread-22 : 127.0.0.1 - - [27/Apr/2022 16:35:33] "[36mGET /recipes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:35:33,737 INFO werkzeug Thread-23 : 127.0.0.1 - - [27/Apr/2022 16:35:33] "[36mGET /recipes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:35:33,791 INFO werkzeug Thread-24 : 127.0.0.1 - - [27/Apr/2022 16:35:33] "[36mGET /recipes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:35:41,180 INFO werkzeug Thread-25 : 127.0.0.1 - - [27/Apr/2022 16:35:41] "[35m[1mGET /draw HTTP/1.1[0m" 500 -
+2022-04-27 16:35:41,249 INFO werkzeug Thread-25 : 127.0.0.1 - - [27/Apr/2022 16:35:41] "[36mGET /draw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:35:41,302 INFO werkzeug Thread-26 : 127.0.0.1 - - [27/Apr/2022 16:35:41] "[36mGET /draw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:35:41,353 INFO werkzeug Thread-27 : 127.0.0.1 - - [27/Apr/2022 16:35:41] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:36:07,826 INFO werkzeug Thread-28 : 127.0.0.1 - - [27/Apr/2022 16:36:07] "GET / HTTP/1.1" 200 -
+2022-04-27 16:36:07,883 INFO werkzeug Thread-28 : 127.0.0.1 - - [27/Apr/2022 16:36:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:11,380 INFO werkzeug Thread-29 : 127.0.0.1 - - [27/Apr/2022 16:36:11] "[35m[1mGET /draw HTTP/1.1[0m" 500 -
+2022-04-27 16:36:11,437 INFO werkzeug Thread-29 : 127.0.0.1 - - [27/Apr/2022 16:36:11] "[36mGET /draw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:11,440 INFO werkzeug Thread-30 : 127.0.0.1 - - [27/Apr/2022 16:36:11] "[36mGET /draw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:36:11,526 INFO werkzeug Thread-31 : 127.0.0.1 - - [27/Apr/2022 16:36:11] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:36:15,673 INFO werkzeug Thread-32 : 127.0.0.1 - - [27/Apr/2022 16:36:15] "[35m[1mGET /top HTTP/1.1[0m" 500 -
+2022-04-27 16:36:15,744 INFO werkzeug Thread-32 : 127.0.0.1 - - [27/Apr/2022 16:36:15] "[36mGET /top?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:15,745 INFO werkzeug Thread-33 : 127.0.0.1 - - [27/Apr/2022 16:36:15] "[36mGET /top?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:36:15,816 INFO werkzeug Thread-34 : 127.0.0.1 - - [27/Apr/2022 16:36:15] "[36mGET /top?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:36:39,000 INFO werkzeug Thread-35 : 127.0.0.1 - - [27/Apr/2022 16:36:39] "GET / HTTP/1.1" 200 -
+2022-04-27 16:36:39,053 INFO werkzeug Thread-35 : 127.0.0.1 - - [27/Apr/2022 16:36:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:41,220 INFO werkzeug Thread-36 : 127.0.0.1 - - [27/Apr/2022 16:36:41] "[35m[1mGET /draw HTTP/1.1[0m" 500 -
+2022-04-27 16:36:41,280 INFO werkzeug Thread-36 : 127.0.0.1 - - [27/Apr/2022 16:36:41] "[36mGET /draw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:41,282 INFO werkzeug Thread-37 : 127.0.0.1 - - [27/Apr/2022 16:36:41] "[36mGET /draw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:36:41,368 INFO werkzeug Thread-38 : 127.0.0.1 - - [27/Apr/2022 16:36:41] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:36:45,329 INFO werkzeug Thread-39 : 127.0.0.1 - - [27/Apr/2022 16:36:45] "[35m[1mGET /recipes HTTP/1.1[0m" 500 -
+2022-04-27 16:36:45,388 INFO werkzeug Thread-39 : 127.0.0.1 - - [27/Apr/2022 16:36:45] "[36mGET /recipes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:45,388 INFO werkzeug Thread-40 : 127.0.0.1 - - [27/Apr/2022 16:36:45] "[36mGET /recipes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:36:45,441 INFO werkzeug Thread-41 : 127.0.0.1 - - [27/Apr/2022 16:36:45] "[36mGET /recipes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:36:54,815 INFO werkzeug Thread-42 : 127.0.0.1 - - [27/Apr/2022 16:36:54] "GET / HTTP/1.1" 200 -
+2022-04-27 16:36:54,868 INFO werkzeug Thread-42 : 127.0.0.1 - - [27/Apr/2022 16:36:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:55,641 INFO werkzeug Thread-43 : 127.0.0.1 - - [27/Apr/2022 16:36:55] "GET / HTTP/1.1" 200 -
+2022-04-27 16:36:55,700 INFO werkzeug Thread-43 : 127.0.0.1 - - [27/Apr/2022 16:36:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:56,209 INFO werkzeug Thread-44 : 127.0.0.1 - - [27/Apr/2022 16:36:56] "GET / HTTP/1.1" 200 -
+2022-04-27 16:36:56,253 INFO werkzeug Thread-44 : 127.0.0.1 - - [27/Apr/2022 16:36:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:56,714 INFO werkzeug Thread-45 : 127.0.0.1 - - [27/Apr/2022 16:36:56] "GET / HTTP/1.1" 200 -
+2022-04-27 16:36:56,764 INFO werkzeug Thread-45 : 127.0.0.1 - - [27/Apr/2022 16:36:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:57,139 INFO werkzeug Thread-46 : 127.0.0.1 - - [27/Apr/2022 16:36:57] "GET / HTTP/1.1" 200 -
+2022-04-27 16:36:57,185 INFO werkzeug Thread-46 : 127.0.0.1 - - [27/Apr/2022 16:36:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:57,532 INFO werkzeug Thread-47 : 127.0.0.1 - - [27/Apr/2022 16:36:57] "GET / HTTP/1.1" 200 -
+2022-04-27 16:36:57,582 INFO werkzeug Thread-47 : 127.0.0.1 - - [27/Apr/2022 16:36:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:57,915 INFO werkzeug Thread-48 : 127.0.0.1 - - [27/Apr/2022 16:36:57] "GET / HTTP/1.1" 200 -
+2022-04-27 16:36:57,966 INFO werkzeug Thread-48 : 127.0.0.1 - - [27/Apr/2022 16:36:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:58,830 INFO werkzeug Thread-49 : 127.0.0.1 - - [27/Apr/2022 16:36:58] "[35m[1mGET /draw HTTP/1.1[0m" 500 -
+2022-04-27 16:36:58,893 INFO werkzeug Thread-49 : 127.0.0.1 - - [27/Apr/2022 16:36:58] "[36mGET /draw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:36:58,895 INFO werkzeug Thread-50 : 127.0.0.1 - - [27/Apr/2022 16:36:58] "[36mGET /draw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:36:58,946 INFO werkzeug Thread-51 : 127.0.0.1 - - [27/Apr/2022 16:36:58] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:38:05,652 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:38:05,702 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:38:05,996 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:38:05,996 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:38:06,640 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:38:06] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:38:06,668 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:38:06] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:38:06,965 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:38:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:38:16,355 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:38:16] "[32mPOST /create-recipe HTTP/1.1[0m" 302 -
+2022-04-27 16:38:16,386 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:38:16] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:38:16,465 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:38:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:38:19,233 INFO app Thread-4 : ef10a1f2-c772-469b-81bf-be38ebe500cf is = 
+2022-04-27 16:38:19,235 INFO app Thread-4 : <Recipe 'Manuel R'> is = 
+2022-04-27 16:38:19,236 INFO app Thread-4 : got recipe
+2022-04-27 16:38:19,240 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:38:19] "[32mGET /delete-recipe?id=ef10a1f2-c772-469b-81bf-be38ebe500cf HTTP/1.1[0m" 302 -
+2022-04-27 16:38:19,263 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:38:19] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:38:19,333 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:38:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:38:21,598 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:38:21] "GET / HTTP/1.1" 200 -
+2022-04-27 16:38:21,666 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:38:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:38:22,334 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:38:22] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:38:22,357 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:38:22] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:38:22,417 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:38:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:39:06,358 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:39:06,406 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:39:06,687 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:39:06,688 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:39:09,096 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:39:09] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:39:09,148 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:39:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:39:15,607 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:39:15] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-04-27 16:39:15,693 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:39:15] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:39:15,695 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:39:15] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:39:15,825 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:39:15] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:39:15,903 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:39:15] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:40:34,188 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:40:34,232 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:40:58,034 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-27 16:40:58,035 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:40:58,330 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:40:58,331 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:41:00,104 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:41:00] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-04-27 16:41:00,175 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:41:00] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:41:00,176 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:41:00] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:41:00,208 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:41:00] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:41:00,334 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:41:00] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:41:03,671 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:41:03] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-04-27 16:41:03,724 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:41:03] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:41:03,725 INFO werkzeug Thread-7 : 127.0.0.1 - - [27/Apr/2022 16:41:03] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:41:03,784 INFO werkzeug Thread-8 : 127.0.0.1 - - [27/Apr/2022 16:41:03] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:41:03,873 INFO werkzeug Thread-9 : 127.0.0.1 - - [27/Apr/2022 16:41:03] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:41:27,514 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:41:27,596 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:41:27,967 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:41:27,967 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:41:36,049 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:41:36,106 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:41:36,477 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:41:36,478 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:41:38,531 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:41:38] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-04-27 16:41:38,587 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:41:38] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:41:38,587 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:41:38] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:41:38,646 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:41:38] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:41:38,786 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:41:38] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:41:41,358 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:41:41] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-04-27 16:41:41,413 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:41:41] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:41:41,416 INFO werkzeug Thread-7 : 127.0.0.1 - - [27/Apr/2022 16:41:41] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:41:41,486 INFO werkzeug Thread-8 : 127.0.0.1 - - [27/Apr/2022 16:41:41] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:42:27,827 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:42:27,874 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:42:28,179 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:42:28,179 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:42:52,340 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:42:52,382 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:42:52,682 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:42:52,683 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:43:26,881 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-27 16:43:26,926 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:43:27,219 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:43:27,219 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:43:37,286 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-27 16:43:37,331 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:43:37,643 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:43:37,644 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:44:13,491 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:44:13] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:44:13,839 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:44:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:44:15,904 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:44:15] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:44:15,961 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:44:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-04-27 16:44:16,075 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:44:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-27 16:44:16,191 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:44:16] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:44:16,252 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:44:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-04-27 16:44:16,369 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:44:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-27 16:44:16,384 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:44:16] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:44:16,446 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:44:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-04-27 16:44:18,567 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:44:18] "[35m[1mGET /top HTTP/1.1[0m" 500 -
+2022-04-27 16:44:18,699 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:44:18] "[36mGET /top?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:44:18,700 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:44:18] "[36mGET /top?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:44:18,761 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:44:18] "[36mGET /top?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:44:21,955 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:44:21] "GET / HTTP/1.1" 200 -
+2022-04-27 16:44:22,103 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:44:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:44:23,074 INFO werkzeug Thread-7 : 127.0.0.1 - - [27/Apr/2022 16:44:23] "[35m[1mGET /draw HTTP/1.1[0m" 500 -
+2022-04-27 16:44:23,214 INFO werkzeug Thread-7 : 127.0.0.1 - - [27/Apr/2022 16:44:23] "[36mGET /draw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:44:23,218 INFO werkzeug Thread-8 : 127.0.0.1 - - [27/Apr/2022 16:44:23] "[36mGET /draw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:44:23,273 INFO werkzeug Thread-9 : 127.0.0.1 - - [27/Apr/2022 16:44:23] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:44:23,315 INFO werkzeug Thread-10 : 127.0.0.1 - - [27/Apr/2022 16:44:23] "[36mGET /draw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:45:14,186 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:45:14,233 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:45:14,534 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:45:14,534 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:45:30,631 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-27 16:45:30,672 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:45:30,969 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:45:30,969 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:45:35,000 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-27 16:45:35,043 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:45:35,357 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:45:35,358 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:47:02,839 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:47:02,876 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:47:03,168 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:47:03,169 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:47:06,200 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:47:06,249 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:47:06,541 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:47:06,542 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:47:07,557 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-04-27 16:47:07,605 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-27 16:47:07,910 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-27 16:47:07,910 INFO werkzeug MainThread :  * Debugger PIN: 101-894-230
+2022-04-27 16:47:10,019 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:47:10] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:10,049 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:47:10] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:47:10,097 INFO werkzeug Thread-2 : 127.0.0.1 - - [27/Apr/2022 16:47:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:11,828 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:47:11] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:11,873 INFO werkzeug Thread-3 : 127.0.0.1 - - [27/Apr/2022 16:47:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:12,613 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:47:12] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:12,636 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:47:12] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:47:12,683 INFO werkzeug Thread-4 : 127.0.0.1 - - [27/Apr/2022 16:47:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:17,485 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:47:17] "[32mPOST /create-recipe HTTP/1.1[0m" 302 -
+2022-04-27 16:47:17,509 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:47:17] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:47:17,609 INFO werkzeug Thread-5 : 127.0.0.1 - - [27/Apr/2022 16:47:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:19,482 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:47:19] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:47:19,529 INFO werkzeug Thread-6 : 127.0.0.1 - - [27/Apr/2022 16:47:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:20,684 INFO werkzeug Thread-7 : 127.0.0.1 - - [27/Apr/2022 16:47:20] "GET /history HTTP/1.1" 200 -
+2022-04-27 16:47:20,746 INFO werkzeug Thread-7 : 127.0.0.1 - - [27/Apr/2022 16:47:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:21,887 INFO werkzeug Thread-8 : 127.0.0.1 - - [27/Apr/2022 16:47:21] "[35m[1mGET /top HTTP/1.1[0m" 500 -
+2022-04-27 16:47:21,938 INFO werkzeug Thread-8 : 127.0.0.1 - - [27/Apr/2022 16:47:21] "[36mGET /top?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:21,940 INFO werkzeug Thread-9 : 127.0.0.1 - - [27/Apr/2022 16:47:21] "[36mGET /top?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:47:21,986 INFO werkzeug Thread-10 : 127.0.0.1 - - [27/Apr/2022 16:47:21] "[36mGET /top?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:47:25,052 INFO werkzeug Thread-11 : 127.0.0.1 - - [27/Apr/2022 16:47:25] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:25,098 INFO werkzeug Thread-11 : 127.0.0.1 - - [27/Apr/2022 16:47:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:25,852 INFO werkzeug Thread-12 : 127.0.0.1 - - [27/Apr/2022 16:47:25] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:25,873 INFO werkzeug Thread-12 : 127.0.0.1 - - [27/Apr/2022 16:47:25] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:25,926 INFO werkzeug Thread-12 : 127.0.0.1 - - [27/Apr/2022 16:47:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:28,035 INFO werkzeug Thread-13 : 127.0.0.1 - - [27/Apr/2022 16:47:28] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:28,061 INFO werkzeug Thread-13 : 127.0.0.1 - - [27/Apr/2022 16:47:28] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:28,111 INFO werkzeug Thread-13 : 127.0.0.1 - - [27/Apr/2022 16:47:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:28,528 INFO werkzeug Thread-14 : 127.0.0.1 - - [27/Apr/2022 16:47:28] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:28,551 INFO werkzeug Thread-14 : 127.0.0.1 - - [27/Apr/2022 16:47:28] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:28,591 INFO werkzeug Thread-14 : 127.0.0.1 - - [27/Apr/2022 16:47:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:29,018 INFO werkzeug Thread-15 : 127.0.0.1 - - [27/Apr/2022 16:47:29] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:29,040 INFO werkzeug Thread-15 : 127.0.0.1 - - [27/Apr/2022 16:47:29] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:29,081 INFO werkzeug Thread-15 : 127.0.0.1 - - [27/Apr/2022 16:47:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:29,498 INFO werkzeug Thread-16 : 127.0.0.1 - - [27/Apr/2022 16:47:29] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:29,519 INFO werkzeug Thread-16 : 127.0.0.1 - - [27/Apr/2022 16:47:29] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:29,561 INFO werkzeug Thread-16 : 127.0.0.1 - - [27/Apr/2022 16:47:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:29,945 INFO werkzeug Thread-17 : 127.0.0.1 - - [27/Apr/2022 16:47:29] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:29,966 INFO werkzeug Thread-17 : 127.0.0.1 - - [27/Apr/2022 16:47:29] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:30,008 INFO werkzeug Thread-17 : 127.0.0.1 - - [27/Apr/2022 16:47:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:30,369 INFO werkzeug Thread-18 : 127.0.0.1 - - [27/Apr/2022 16:47:30] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:30,392 INFO werkzeug Thread-18 : 127.0.0.1 - - [27/Apr/2022 16:47:30] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:30,434 INFO werkzeug Thread-18 : 127.0.0.1 - - [27/Apr/2022 16:47:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:30,791 INFO werkzeug Thread-19 : 127.0.0.1 - - [27/Apr/2022 16:47:30] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:30,813 INFO werkzeug Thread-19 : 127.0.0.1 - - [27/Apr/2022 16:47:30] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:30,857 INFO werkzeug Thread-19 : 127.0.0.1 - - [27/Apr/2022 16:47:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:31,184 INFO werkzeug Thread-20 : 127.0.0.1 - - [27/Apr/2022 16:47:31] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:47:31,207 INFO werkzeug Thread-20 : 127.0.0.1 - - [27/Apr/2022 16:47:31] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:31,247 INFO werkzeug Thread-20 : 127.0.0.1 - - [27/Apr/2022 16:47:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:34,655 INFO werkzeug Thread-21 : 127.0.0.1 - - [27/Apr/2022 16:47:34] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:47:34,700 INFO werkzeug Thread-21 : 127.0.0.1 - - [27/Apr/2022 16:47:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:35,374 INFO werkzeug Thread-22 : 127.0.0.1 - - [27/Apr/2022 16:47:35] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:47:35,416 INFO werkzeug Thread-22 : 127.0.0.1 - - [27/Apr/2022 16:47:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:53,189 INFO werkzeug Thread-23 : 127.0.0.1 - - [27/Apr/2022 16:47:53] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:47:53,228 INFO werkzeug Thread-23 : 127.0.0.1 - - [27/Apr/2022 16:47:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:54,645 INFO werkzeug Thread-24 : 127.0.0.1 - - [27/Apr/2022 16:47:54] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:47:54,704 INFO werkzeug Thread-24 : 127.0.0.1 - - [27/Apr/2022 16:47:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:58,998 INFO werkzeug Thread-25 : 127.0.0.1 - - [27/Apr/2022 16:47:58] "GET / HTTP/1.1" 200 -
+2022-04-27 16:47:59,044 INFO werkzeug Thread-25 : 127.0.0.1 - - [27/Apr/2022 16:47:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:47:59,945 INFO werkzeug Thread-26 : 127.0.0.1 - - [27/Apr/2022 16:47:59] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:47:59,995 INFO werkzeug Thread-26 : 127.0.0.1 - - [27/Apr/2022 16:47:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:01,322 INFO werkzeug Thread-27 : 127.0.0.1 - - [27/Apr/2022 16:48:01] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:48:01,366 INFO werkzeug Thread-27 : 127.0.0.1 - - [27/Apr/2022 16:48:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:06,095 INFO werkzeug Thread-28 : 127.0.0.1 - - [27/Apr/2022 16:48:06] "[32mPOST /create-recipe HTTP/1.1[0m" 302 -
+2022-04-27 16:48:06,117 INFO werkzeug Thread-28 : 127.0.0.1 - - [27/Apr/2022 16:48:06] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:48:06,164 INFO werkzeug Thread-28 : 127.0.0.1 - - [27/Apr/2022 16:48:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:29,413 INFO werkzeug Thread-29 : 127.0.0.1 - - [27/Apr/2022 16:48:29] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:48:29,454 INFO werkzeug Thread-29 : 127.0.0.1 - - [27/Apr/2022 16:48:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:32,195 INFO werkzeug Thread-30 : 127.0.0.1 - - [27/Apr/2022 16:48:32] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:48:32,250 INFO werkzeug Thread-30 : 127.0.0.1 - - [27/Apr/2022 16:48:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:36,548 INFO werkzeug Thread-31 : 127.0.0.1 - - [27/Apr/2022 16:48:36] "[32mPOST /create-recipe HTTP/1.1[0m" 302 -
+2022-04-27 16:48:36,570 INFO werkzeug Thread-31 : 127.0.0.1 - - [27/Apr/2022 16:48:36] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:48:36,621 INFO werkzeug Thread-31 : 127.0.0.1 - - [27/Apr/2022 16:48:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:38,597 INFO werkzeug Thread-32 : 127.0.0.1 - - [27/Apr/2022 16:48:38] "GET /create-recipe HTTP/1.1" 200 -
+2022-04-27 16:48:38,657 INFO werkzeug Thread-32 : 127.0.0.1 - - [27/Apr/2022 16:48:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:42,891 INFO werkzeug Thread-33 : 127.0.0.1 - - [27/Apr/2022 16:48:42] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-04-27 16:48:42,932 INFO werkzeug Thread-33 : 127.0.0.1 - - [27/Apr/2022 16:48:42] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:42,934 INFO werkzeug Thread-34 : 127.0.0.1 - - [27/Apr/2022 16:48:42] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:48:42,960 INFO werkzeug Thread-35 : 127.0.0.1 - - [27/Apr/2022 16:48:42] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:48:43,029 INFO werkzeug Thread-36 : 127.0.0.1 - - [27/Apr/2022 16:48:43] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:48:49,056 INFO werkzeug Thread-37 : 127.0.0.1 - - [27/Apr/2022 16:48:49] "[32mPOST /create-recipe HTTP/1.1[0m" 302 -
+2022-04-27 16:48:49,084 INFO werkzeug Thread-37 : 127.0.0.1 - - [27/Apr/2022 16:48:49] "GET /recipes HTTP/1.1" 200 -
+2022-04-27 16:48:49,135 INFO werkzeug Thread-37 : 127.0.0.1 - - [27/Apr/2022 16:48:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:52,539 INFO werkzeug Thread-38 : 127.0.0.1 - - [27/Apr/2022 16:48:52] "GET /history HTTP/1.1" 200 -
+2022-04-27 16:48:52,588 INFO werkzeug Thread-38 : 127.0.0.1 - - [27/Apr/2022 16:48:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:54,328 INFO werkzeug Thread-39 : 127.0.0.1 - - [27/Apr/2022 16:48:54] "[35m[1mGET /top HTTP/1.1[0m" 500 -
+2022-04-27 16:48:54,383 INFO werkzeug Thread-39 : 127.0.0.1 - - [27/Apr/2022 16:48:54] "[36mGET /top?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:48:54,386 INFO werkzeug Thread-40 : 127.0.0.1 - - [27/Apr/2022 16:48:54] "[36mGET /top?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 16:48:54,431 INFO werkzeug Thread-41 : 127.0.0.1 - - [27/Apr/2022 16:48:54] "[36mGET /top?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 16:49:06,827 INFO werkzeug Thread-42 : 127.0.0.1 - - [27/Apr/2022 16:49:06] "GET / HTTP/1.1" 200 -
+2022-04-27 16:49:06,878 INFO werkzeug Thread-42 : 127.0.0.1 - - [27/Apr/2022 16:49:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-27 16:49:07,645 INFO werkzeug Thread-43 : 127.0.0.1 - - [27/Apr/2022 16:49:07] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-04-27 16:49:07,669 INFO werkzeug Thread-43 : 127.0.0.1 - - [27/Apr/2022 16:49:07] "GET / HTTP/1.1" 200 -
+2022-04-27 16:49:07,709 INFO werkzeug Thread-43 : 127.0.0.1 - - [27/Apr/2022 16:49:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

@@ -14,6 +14,7 @@ class Recipes(Base):
     draw = Column(Integer(), default=0)
     created_time = Column(DateTime(), nullable=False)
     modified_time = Column(DateTime(), nullable=False)
+    # site_visits = Column(Integer(), default=0)
     histories = relationship(
         'Histories',
         backref='recipes',
@@ -27,6 +28,8 @@ class Recipes(Base):
         self.site_url = site_url
         self.created_time = datetime.datetime.now()
         self.modified_time = datetime.datetime.now()
+        # self.site_visits = 0
+      
 
     def __repr__(self):
         return '<Recipe %r>' % (self.name)
