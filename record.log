@@ -1796,3 +1796,89 @@ FROM histories ORDER BY histories.created_time DESC
 2022-04-29 17:31:12,277 INFO werkzeug Thread-307 : 127.0.0.1 - - [29/Apr/2022 17:31:12] "GET / HTTP/1.1" 200 -
 2022-04-29 17:31:12,322 INFO werkzeug Thread-307 : 127.0.0.1 - - [29/Apr/2022 17:31:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2022-04-29 17:31:12,368 INFO werkzeug Thread-308 : 127.0.0.1 - - [29/Apr/2022 17:31:12] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:39:21,878 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-29 18:39:21,879 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-29 18:39:22,147 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-29 18:39:22,147 INFO werkzeug MainThread :  * Debugger PIN: 181-410-182
+2022-04-29 18:39:24,232 INFO werkzeug Thread-2 : 127.0.0.1 - - [29/Apr/2022 18:39:24] "GET / HTTP/1.1" 200 -
+2022-04-29 18:39:24,313 INFO werkzeug Thread-2 : 127.0.0.1 - - [29/Apr/2022 18:39:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:39:24,356 INFO werkzeug Thread-3 : 127.0.0.1 - - [29/Apr/2022 18:39:24] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:39:24,577 INFO werkzeug Thread-4 : 127.0.0.1 - - [29/Apr/2022 18:39:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-29 18:39:29,834 INFO app Thread-4 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-29 18:39:29,841 INFO werkzeug Thread-4 : 127.0.0.1 - - [29/Apr/2022 18:39:29] "GET /history HTTP/1.1" 200 -
+2022-04-29 18:39:29,896 INFO werkzeug Thread-4 : 127.0.0.1 - - [29/Apr/2022 18:39:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:39:29,936 INFO werkzeug Thread-5 : 127.0.0.1 - - [29/Apr/2022 18:39:29] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:39:30,622 INFO werkzeug Thread-6 : 127.0.0.1 - - [29/Apr/2022 18:39:30] "GET /recipes HTTP/1.1" 200 -
+2022-04-29 18:39:30,675 INFO werkzeug Thread-6 : 127.0.0.1 - - [29/Apr/2022 18:39:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:39:30,729 INFO werkzeug Thread-7 : 127.0.0.1 - - [29/Apr/2022 18:39:30] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:39:31,581 INFO werkzeug Thread-8 : 127.0.0.1 - - [29/Apr/2022 18:39:31] "GET / HTTP/1.1" 200 -
+2022-04-29 18:39:31,627 INFO werkzeug Thread-8 : 127.0.0.1 - - [29/Apr/2022 18:39:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:39:31,668 INFO werkzeug Thread-9 : 127.0.0.1 - - [29/Apr/2022 18:39:31] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:39:33,004 INFO werkzeug Thread-10 : 127.0.0.1 - - [29/Apr/2022 18:39:33] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:39:33,049 INFO werkzeug Thread-10 : 127.0.0.1 - - [29/Apr/2022 18:39:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:39:33,098 INFO werkzeug Thread-11 : 127.0.0.1 - - [29/Apr/2022 18:39:33] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:46:00,445 INFO werkzeug Thread-12 : 127.0.0.1 - - [29/Apr/2022 18:46:00] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:46:00,547 INFO werkzeug Thread-12 : 127.0.0.1 - - [29/Apr/2022 18:46:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:46:00,588 INFO werkzeug Thread-13 : 127.0.0.1 - - [29/Apr/2022 18:46:00] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:46:12,715 INFO werkzeug Thread-14 : 127.0.0.1 - - [29/Apr/2022 18:46:12] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:46:12,804 INFO werkzeug Thread-14 : 127.0.0.1 - - [29/Apr/2022 18:46:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:46:12,892 INFO werkzeug Thread-15 : 127.0.0.1 - - [29/Apr/2022 18:46:12] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:46:42,777 INFO werkzeug Thread-16 : 127.0.0.1 - - [29/Apr/2022 18:46:42] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:46:42,818 INFO werkzeug Thread-16 : 127.0.0.1 - - [29/Apr/2022 18:46:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:46:42,861 INFO werkzeug Thread-17 : 127.0.0.1 - - [29/Apr/2022 18:46:42] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:47:11,123 INFO werkzeug Thread-18 : 127.0.0.1 - - [29/Apr/2022 18:47:11] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:47:11,165 INFO werkzeug Thread-18 : 127.0.0.1 - - [29/Apr/2022 18:47:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:47:11,209 INFO werkzeug Thread-19 : 127.0.0.1 - - [29/Apr/2022 18:47:11] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:47:12,018 INFO werkzeug Thread-20 : 127.0.0.1 - - [29/Apr/2022 18:47:12] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:47:12,059 INFO werkzeug Thread-20 : 127.0.0.1 - - [29/Apr/2022 18:47:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:47:12,098 INFO werkzeug Thread-21 : 127.0.0.1 - - [29/Apr/2022 18:47:12] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:47:13,080 INFO werkzeug Thread-22 : 127.0.0.1 - - [29/Apr/2022 18:47:13] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:47:13,124 INFO werkzeug Thread-22 : 127.0.0.1 - - [29/Apr/2022 18:47:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:47:13,164 INFO werkzeug Thread-23 : 127.0.0.1 - - [29/Apr/2022 18:47:13] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:47:37,886 INFO werkzeug Thread-24 : 127.0.0.1 - - [29/Apr/2022 18:47:37] "GET /recipes HTTP/1.1" 200 -
+2022-04-29 18:47:37,990 INFO werkzeug Thread-24 : 127.0.0.1 - - [29/Apr/2022 18:47:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:47:38,038 INFO werkzeug Thread-25 : 127.0.0.1 - - [29/Apr/2022 18:47:38] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:47:39,512 INFO werkzeug Thread-26 : 127.0.0.1 - - [29/Apr/2022 18:47:39] "GET / HTTP/1.1" 200 -
+2022-04-29 18:47:39,575 INFO werkzeug Thread-26 : 127.0.0.1 - - [29/Apr/2022 18:47:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:47:39,615 INFO werkzeug Thread-27 : 127.0.0.1 - - [29/Apr/2022 18:47:39] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:47:40,731 INFO app Thread-28 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-29 18:47:40,733 INFO werkzeug Thread-28 : 127.0.0.1 - - [29/Apr/2022 18:47:40] "GET /history HTTP/1.1" 200 -
+2022-04-29 18:47:40,795 INFO werkzeug Thread-28 : 127.0.0.1 - - [29/Apr/2022 18:47:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:47:40,836 INFO werkzeug Thread-29 : 127.0.0.1 - - [29/Apr/2022 18:47:40] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:47:43,616 INFO werkzeug Thread-30 : 127.0.0.1 - - [29/Apr/2022 18:47:43] "GET / HTTP/1.1" 200 -
+2022-04-29 18:47:43,667 INFO werkzeug Thread-30 : 127.0.0.1 - - [29/Apr/2022 18:47:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:47:43,713 INFO werkzeug Thread-31 : 127.0.0.1 - - [29/Apr/2022 18:47:43] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:47:45,144 INFO werkzeug Thread-32 : 127.0.0.1 - - [29/Apr/2022 18:47:45] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:47:45,197 INFO werkzeug Thread-32 : 127.0.0.1 - - [29/Apr/2022 18:47:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:47:45,240 INFO werkzeug Thread-33 : 127.0.0.1 - - [29/Apr/2022 18:47:45] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:49:01,371 INFO werkzeug Thread-34 : 127.0.0.1 - - [29/Apr/2022 18:49:01] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:49:01,422 INFO werkzeug Thread-34 : 127.0.0.1 - - [29/Apr/2022 18:49:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:49:01,463 INFO werkzeug Thread-35 : 127.0.0.1 - - [29/Apr/2022 18:49:01] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:49:55,909 INFO werkzeug Thread-36 : 127.0.0.1 - - [29/Apr/2022 18:49:55] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:49:55,949 INFO werkzeug Thread-36 : 127.0.0.1 - - [29/Apr/2022 18:49:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:49:55,991 INFO werkzeug Thread-37 : 127.0.0.1 - - [29/Apr/2022 18:49:55] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:50:10,765 INFO werkzeug Thread-38 : 127.0.0.1 - - [29/Apr/2022 18:50:10] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:50:10,807 INFO werkzeug Thread-38 : 127.0.0.1 - - [29/Apr/2022 18:50:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:50:10,846 INFO werkzeug Thread-39 : 127.0.0.1 - - [29/Apr/2022 18:50:10] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:50:59,941 INFO werkzeug Thread-40 : 127.0.0.1 - - [29/Apr/2022 18:50:59] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:50:59,981 INFO werkzeug Thread-40 : 127.0.0.1 - - [29/Apr/2022 18:50:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:51:00,021 INFO werkzeug Thread-41 : 127.0.0.1 - - [29/Apr/2022 18:51:00] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:51:39,347 INFO werkzeug Thread-42 : 127.0.0.1 - - [29/Apr/2022 18:51:39] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:51:39,536 INFO werkzeug Thread-42 : 127.0.0.1 - - [29/Apr/2022 18:51:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:51:39,576 INFO werkzeug Thread-43 : 127.0.0.1 - - [29/Apr/2022 18:51:39] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:55:15,022 INFO werkzeug Thread-44 : 127.0.0.1 - - [29/Apr/2022 18:55:15] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:55:15,066 INFO werkzeug Thread-44 : 127.0.0.1 - - [29/Apr/2022 18:55:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:55:15,104 INFO werkzeug Thread-45 : 127.0.0.1 - - [29/Apr/2022 18:55:15] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:55:36,219 INFO werkzeug Thread-46 : 127.0.0.1 - - [29/Apr/2022 18:55:36] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:55:36,258 INFO werkzeug Thread-46 : 127.0.0.1 - - [29/Apr/2022 18:55:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:55:36,302 INFO werkzeug Thread-47 : 127.0.0.1 - - [29/Apr/2022 18:55:36] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:55:38,369 INFO werkzeug Thread-48 : 127.0.0.1 - - [29/Apr/2022 18:55:38] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:55:38,410 INFO werkzeug Thread-48 : 127.0.0.1 - - [29/Apr/2022 18:55:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:55:38,449 INFO werkzeug Thread-49 : 127.0.0.1 - - [29/Apr/2022 18:55:38] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
+2022-04-29 18:55:54,008 INFO werkzeug Thread-50 : 127.0.0.1 - - [29/Apr/2022 18:55:54] "GET /draw HTTP/1.1" 200 -
+2022-04-29 18:55:54,054 INFO werkzeug Thread-50 : 127.0.0.1 - - [29/Apr/2022 18:55:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 18:55:54,095 INFO werkzeug Thread-51 : 127.0.0.1 - - [29/Apr/2022 18:55:54] "[36mGET /static/css/images/whattoCook.jpg HTTP/1.1[0m" 304 -
