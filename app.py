@@ -10,7 +10,10 @@ from random import choice
 
 app = Flask(__name__)
 
+# for  debuging 
+
 logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
 
 @app.before_first_request
 def init():
@@ -109,6 +112,7 @@ def delete_recipe():
 def history():
 
     histories = Histories.query.order_by(desc(Histories.created_time)).limit(20)
+    app.logger.info('histories are %s', histories)
 
     return render_template('history.html', nav=history, histories=histories)
 
