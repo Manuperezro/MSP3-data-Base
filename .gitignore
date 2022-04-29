@@ -6,4 +6,6 @@ __pycache__/
 *.py[cod]
 node_modules/
 .github/
+record.log
+MSP3-DATA-BASE.db
 cloudinary_python.txt
