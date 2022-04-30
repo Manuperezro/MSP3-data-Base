@@ -68,12 +68,14 @@ def create_recipe():
 
         return redirect('/recipes')
 
+
     return render_template('create_recipe.html')
 
 
 @app.route('/recipes')
 def recipe_list():
     recipes = Recipes.query.all()
+
     return render_template("recipe.html", nav=recipes, recipes=recipes)
 
 
@@ -117,10 +119,11 @@ def delete_recipe():
 @app.route('/history')
 def history():
 
-    histories = Histories.query.order_by(desc(Histories.created_time)).limit(20)
+    histories = Recipes.query.all()
+    # histories = Recipes.query.order_by(desc(Recipes.created_time)).limit(20)
     app.logger.info('histories are %s', histories)
 
-    return render_template('history.html', nav=history, histories=histories)
+    return render_template('history.html', nav=history, recipes=histories)
 
 
 # @app.route('/top')

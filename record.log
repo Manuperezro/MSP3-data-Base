@@ -2386,3 +2386,318 @@ FROM histories ORDER BY histories.created_time DESC
 2022-04-30 11:48:10,567 INFO werkzeug Thread-10 : 10.20.2.135 - - [30/Apr/2022 11:48:10] "GET / HTTP/1.1" 200 -
 2022-04-30 11:48:10,614 INFO werkzeug Thread-10 : 10.20.2.135 - - [30/Apr/2022 11:48:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2022-04-30 11:48:10,674 INFO werkzeug Thread-11 : 10.20.2.135 - - [30/Apr/2022 11:48:10] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 12:45:49,825 INFO werkzeug Thread-12 : 10.20.2.135 - - [30/Apr/2022 12:45:49] "GET / HTTP/1.1" 200 -
+2022-04-30 12:45:49,942 INFO werkzeug Thread-12 : 10.20.2.135 - - [30/Apr/2022 12:45:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 12:45:49,989 INFO werkzeug Thread-13 : 10.20.2.135 - - [30/Apr/2022 12:45:49] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 14:57:02,745 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-04-30 14:57:02,747 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 14:57:03,098 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 14:57:03,099 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 14:57:11,126 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 14:57:11] "GET / HTTP/1.1" 200 -
+2022-04-30 14:57:11,195 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 14:57:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 14:57:11,296 INFO werkzeug Thread-3 : 10.20.2.135 - - [30/Apr/2022 14:57:11] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 14:57:13,242 INFO app Thread-4 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 14:57:13,249 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 14:57:13] "GET /history HTTP/1.1" 200 -
+2022-04-30 14:57:13,307 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 14:57:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 14:57:13,392 INFO werkzeug Thread-5 : 10.20.2.135 - - [30/Apr/2022 14:57:13] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 14:57:14,060 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 14:57:14] "GET /recipes HTTP/1.1" 200 -
+2022-04-30 14:57:14,128 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 14:57:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 14:57:14,245 INFO werkzeug Thread-7 : 10.20.2.135 - - [30/Apr/2022 14:57:14] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 14:57:17,462 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 14:57:17] "GET / HTTP/1.1" 200 -
+2022-04-30 14:57:17,512 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 14:57:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 14:57:17,561 INFO werkzeug Thread-9 : 10.20.2.135 - - [30/Apr/2022 14:57:17] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 14:57:55,698 INFO werkzeug Thread-10 : 10.20.2.135 - - [30/Apr/2022 14:57:55] "GET / HTTP/1.1" 200 -
+2022-04-30 14:57:55,737 INFO werkzeug Thread-10 : 10.20.2.135 - - [30/Apr/2022 14:57:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 14:57:55,783 INFO werkzeug Thread-11 : 10.20.2.135 - - [30/Apr/2022 14:57:55] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:06:40,601 INFO werkzeug Thread-12 : 10.20.2.135 - - [30/Apr/2022 15:06:40] "GET /draw HTTP/1.1" 200 -
+2022-04-30 15:06:40,762 INFO werkzeug Thread-12 : 10.20.2.135 - - [30/Apr/2022 15:06:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:06:40,831 INFO werkzeug Thread-13 : 10.20.2.135 - - [30/Apr/2022 15:06:40] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:06:41,162 INFO werkzeug Thread-14 : 10.20.2.135 - - [30/Apr/2022 15:06:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-30 15:06:42,743 INFO werkzeug Thread-14 : 10.20.2.135 - - [30/Apr/2022 15:06:42] "GET /recipes HTTP/1.1" 200 -
+2022-04-30 15:06:42,851 INFO werkzeug Thread-14 : 10.20.2.135 - - [30/Apr/2022 15:06:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:06:42,912 INFO werkzeug Thread-15 : 10.20.2.135 - - [30/Apr/2022 15:06:42] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:06:45,806 INFO werkzeug Thread-16 : 10.20.2.135 - - [30/Apr/2022 15:06:45] "GET / HTTP/1.1" 200 -
+2022-04-30 15:06:45,895 INFO werkzeug Thread-16 : 10.20.2.135 - - [30/Apr/2022 15:06:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:06:45,899 INFO werkzeug Thread-17 : 10.20.2.135 - - [30/Apr/2022 15:06:45] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:06:47,815 INFO werkzeug Thread-18 : 10.20.2.135 - - [30/Apr/2022 15:06:47] "GET /draw HTTP/1.1" 200 -
+2022-04-30 15:06:47,871 INFO werkzeug Thread-18 : 10.20.2.135 - - [30/Apr/2022 15:06:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:06:47,938 INFO werkzeug Thread-19 : 10.20.2.135 - - [30/Apr/2022 15:06:47] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:06:51,875 INFO werkzeug Thread-20 : 10.20.2.135 - - [30/Apr/2022 15:06:51] "GET /draw HTTP/1.1" 200 -
+2022-04-30 15:06:51,918 INFO werkzeug Thread-20 : 10.20.2.135 - - [30/Apr/2022 15:06:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:06:51,975 INFO werkzeug Thread-21 : 10.20.2.135 - - [30/Apr/2022 15:06:51] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:06:54,751 INFO werkzeug Thread-22 : 10.20.2.135 - - [30/Apr/2022 15:06:54] "GET /draw HTTP/1.1" 200 -
+2022-04-30 15:06:54,791 INFO werkzeug Thread-22 : 10.20.2.135 - - [30/Apr/2022 15:06:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:06:54,848 INFO werkzeug Thread-23 : 10.20.2.135 - - [30/Apr/2022 15:06:54] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:06:58,029 INFO app Thread-24 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:06:58,032 INFO werkzeug Thread-24 : 10.20.2.135 - - [30/Apr/2022 15:06:58] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:06:58,200 INFO werkzeug Thread-24 : 10.20.2.135 - - [30/Apr/2022 15:06:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:06:58,285 INFO werkzeug Thread-25 : 10.20.2.135 - - [30/Apr/2022 15:06:58] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:08:04,108 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:08:04,160 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:08:04,475 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:08:04,475 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:08:52,334 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:08:52] "[33mGET /signup HTTP/1.1[0m" 404 -
+2022-04-30 15:08:56,858 INFO app Thread-2 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:08:56,874 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:08:56] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:08:56,921 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:08:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:08:56,986 INFO werkzeug Thread-3 : 10.20.2.135 - - [30/Apr/2022 15:08:56] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:08:57,398 INFO app Thread-4 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:08:57,400 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:08:57] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:08:57,448 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:08:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:08:57,507 INFO werkzeug Thread-5 : 10.20.2.135 - - [30/Apr/2022 15:08:57] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:09:15,111 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:09:15] "GET /recipes HTTP/1.1" 200 -
+2022-04-30 15:09:15,175 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:09:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:09:15,234 INFO werkzeug Thread-7 : 10.20.2.135 - - [30/Apr/2022 15:09:15] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:09:17,652 INFO app Thread-8 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:09:17,654 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:09:17] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:09:17,722 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:09:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:09:17,724 INFO werkzeug Thread-9 : 10.20.2.135 - - [30/Apr/2022 15:09:17] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:11:55,264 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:11:55,321 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:11:55,788 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:11:55,789 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:12:26,588 INFO app Thread-2 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:12:26,602 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:12:26] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:12:26,704 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:12:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:12:26,774 INFO werkzeug Thread-3 : 10.20.2.135 - - [30/Apr/2022 15:12:26] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:12:28,111 INFO app Thread-4 : recipes are [<Recipe 'patatas a  lo pobre'>, <Recipe 'Orange, fennel and pea shoot salad with walnuts'>, <Recipe 'lentils soup '>, <Recipe 'broccoli cream'>, <Recipe 'Classic gumbo'>]
+2022-04-30 15:12:28,116 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:12:28] "GET /recipes HTTP/1.1" 200 -
+2022-04-30 15:12:28,186 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:12:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:12:28,282 INFO werkzeug Thread-5 : 10.20.2.135 - - [30/Apr/2022 15:12:28] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:12:29,201 INFO app Thread-6 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:12:29,203 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:12:29] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:12:29,268 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:12:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:12:29,335 INFO werkzeug Thread-7 : 10.20.2.135 - - [30/Apr/2022 15:12:29] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:12:31,263 INFO app Thread-8 : recipes are [<Recipe 'patatas a  lo pobre'>, <Recipe 'Orange, fennel and pea shoot salad with walnuts'>, <Recipe 'lentils soup '>, <Recipe 'broccoli cream'>, <Recipe 'Classic gumbo'>]
+2022-04-30 15:12:31,264 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:12:31] "GET /recipes HTTP/1.1" 200 -
+2022-04-30 15:12:31,328 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:12:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:12:31,397 INFO werkzeug Thread-9 : 10.20.2.135 - - [30/Apr/2022 15:12:31] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:13:54,647 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:13:54,691 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:13:54,971 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:13:54,971 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:15:38,668 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:15:38,706 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:15:38,990 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:15:38,990 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:15:48,065 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:15:48,107 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:15:48,384 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:15:48,384 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:15:56,239 INFO app Thread-2 : histories are []
+2022-04-30 15:15:56,248 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:15:56] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:15:56,309 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:15:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:15:56,403 INFO werkzeug Thread-3 : 10.20.2.135 - - [30/Apr/2022 15:15:56] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:20:29,330 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:20:29,371 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:20:29,654 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:20:29,654 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:20:35,702 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:20:35,741 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:20:36,014 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:20:36,014 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:20:38,555 INFO app Thread-2 : Histories are <class 'models.histories.Histories'>
+2022-04-30 15:20:38,563 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:20:38] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:20:38,653 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:20:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:20:38,712 INFO werkzeug Thread-3 : 10.20.2.135 - - [30/Apr/2022 15:20:38] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:21:24,337 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:21:24,373 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:21:24,673 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:21:24,673 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:21:33,747 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:21:33,790 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:21:34,131 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:21:34,131 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:22:35,539 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:22:35,575 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:23:24,318 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-04-30 15:23:24,319 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:23:24,605 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:23:24,605 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:23:24,886 INFO app Thread-2 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:23:24,898 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:23:24] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:23:24,938 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:23:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:23:24,988 INFO werkzeug Thread-3 : 10.20.2.135 - - [30/Apr/2022 15:23:24] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:23:27,144 INFO app Thread-4 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:23:27,146 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:23:27] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:23:27,190 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:23:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:23:27,241 INFO werkzeug Thread-5 : 10.20.2.135 - - [30/Apr/2022 15:23:27] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:23:28,429 INFO app Thread-6 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:23:28,431 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:23:28] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:23:28,506 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:23:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:23:28,582 INFO werkzeug Thread-7 : 10.20.2.135 - - [30/Apr/2022 15:23:28] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:23:29,284 INFO app Thread-8 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:23:29,285 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:23:29] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:23:29,363 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:23:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:23:29,454 INFO werkzeug Thread-9 : 10.20.2.135 - - [30/Apr/2022 15:23:29] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:24:02,861 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:24:02,917 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:24:03,215 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:24:03,216 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:24:23,208 INFO app Thread-2 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:24:23,220 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:24:23] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:24:23,259 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:24:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:24:23,310 INFO werkzeug Thread-3 : 10.20.2.135 - - [30/Apr/2022 15:24:23] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:24:24,418 INFO app Thread-4 : recipes are SELECT recipes.id AS recipes_id, recipes.name AS recipes_name, recipes.description AS recipes_description, recipes.site_url AS recipes_site_url, recipes.draw AS recipes_draw, recipes.created_time AS recipes_created_time, recipes.modified_time AS recipes_modified_time 
+FROM recipes ORDER BY recipes.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:24:24,422 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:24:24] "GET /recipes HTTP/1.1" 200 -
+2022-04-30 15:24:24,532 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:24:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:24:24,583 INFO werkzeug Thread-5 : 10.20.2.135 - - [30/Apr/2022 15:24:24] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:24:25,636 INFO app Thread-6 : histories are SELECT histories.id AS histories_id, histories.created_time AS histories_created_time, histories.recipe_id AS histories_recipe_id 
+FROM histories ORDER BY histories.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:24:25,638 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:24:25] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:24:25,704 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:24:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:24:25,753 INFO werkzeug Thread-7 : 10.20.2.135 - - [30/Apr/2022 15:24:25] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:25:21,312 INFO app Thread-8 : recipes are SELECT recipes.id AS recipes_id, recipes.name AS recipes_name, recipes.description AS recipes_description, recipes.site_url AS recipes_site_url, recipes.draw AS recipes_draw, recipes.created_time AS recipes_created_time, recipes.modified_time AS recipes_modified_time 
+FROM recipes ORDER BY recipes.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:25:21,313 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:25:21] "GET /recipes HTTP/1.1" 200 -
+2022-04-30 15:25:21,375 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:25:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:25:21,425 INFO werkzeug Thread-9 : 10.20.2.135 - - [30/Apr/2022 15:25:21] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:28:58,199 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:28:58,244 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:28:58,543 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:28:58,543 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:29:01,244 INFO app Thread-2 : histories are SELECT recipes.id AS recipes_id, recipes.name AS recipes_name, recipes.description AS recipes_description, recipes.site_url AS recipes_site_url, recipes.draw AS recipes_draw, recipes.created_time AS recipes_created_time, recipes.modified_time AS recipes_modified_time 
+FROM recipes ORDER BY recipes.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:29:01,264 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:29:01] "[35m[1mGET /history HTTP/1.1[0m" 500 -
+2022-04-30 15:29:01,368 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:29:01] "GET /history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-30 15:29:01,370 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:29:01] "GET /history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-30 15:29:01,443 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:29:01] "GET /history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-30 15:29:01,525 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:29:01] "[36mGET /history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-30 15:34:31,097 INFO app Thread-4 : histories are SELECT recipes.id AS recipes_id, recipes.name AS recipes_name, recipes.description AS recipes_description, recipes.site_url AS recipes_site_url, recipes.draw AS recipes_draw, recipes.created_time AS recipes_created_time, recipes.modified_time AS recipes_modified_time 
+FROM recipes ORDER BY recipes.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:34:31,101 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:34:31] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:34:31,201 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:34:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:34:31,247 INFO werkzeug Thread-5 : 10.20.2.135 - - [30/Apr/2022 15:34:31] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:34:33,090 INFO app Thread-6 : histories are SELECT recipes.id AS recipes_id, recipes.name AS recipes_name, recipes.description AS recipes_description, recipes.site_url AS recipes_site_url, recipes.draw AS recipes_draw, recipes.created_time AS recipes_created_time, recipes.modified_time AS recipes_modified_time 
+FROM recipes ORDER BY recipes.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:34:33,091 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:34:33] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:34:33,137 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:34:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:34:33,182 INFO werkzeug Thread-7 : 10.20.2.135 - - [30/Apr/2022 15:34:33] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:34:34,337 INFO app Thread-8 : histories are SELECT recipes.id AS recipes_id, recipes.name AS recipes_name, recipes.description AS recipes_description, recipes.site_url AS recipes_site_url, recipes.draw AS recipes_draw, recipes.created_time AS recipes_created_time, recipes.modified_time AS recipes_modified_time 
+FROM recipes ORDER BY recipes.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:34:34,338 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:34:34] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:34:34,376 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:34:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:34:34,420 INFO werkzeug Thread-9 : 10.20.2.135 - - [30/Apr/2022 15:34:34] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:34:35,209 INFO app Thread-10 : recipes are SELECT recipes.id AS recipes_id, recipes.name AS recipes_name, recipes.description AS recipes_description, recipes.site_url AS recipes_site_url, recipes.draw AS recipes_draw, recipes.created_time AS recipes_created_time, recipes.modified_time AS recipes_modified_time 
+FROM recipes ORDER BY recipes.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:34:35,214 INFO werkzeug Thread-10 : 10.20.2.135 - - [30/Apr/2022 15:34:35] "GET /recipes HTTP/1.1" 200 -
+2022-04-30 15:34:35,278 INFO werkzeug Thread-10 : 10.20.2.135 - - [30/Apr/2022 15:34:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:34:35,333 INFO werkzeug Thread-11 : 10.20.2.135 - - [30/Apr/2022 15:34:35] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:34:36,921 INFO app Thread-12 : histories are SELECT recipes.id AS recipes_id, recipes.name AS recipes_name, recipes.description AS recipes_description, recipes.site_url AS recipes_site_url, recipes.draw AS recipes_draw, recipes.created_time AS recipes_created_time, recipes.modified_time AS recipes_modified_time 
+FROM recipes ORDER BY recipes.created_time DESC
+ LIMIT ? OFFSET ?
+2022-04-30 15:34:36,922 INFO werkzeug Thread-12 : 10.20.2.135 - - [30/Apr/2022 15:34:36] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:34:36,983 INFO werkzeug Thread-12 : 10.20.2.135 - - [30/Apr/2022 15:34:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:34:36,990 INFO werkzeug Thread-13 : 10.20.2.135 - - [30/Apr/2022 15:34:36] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:35:30,245 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:35:30,293 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:35:30,607 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:35:30,607 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:35:40,704 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:35:40,768 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:35:41,087 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:35:41,087 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:35:43,030 INFO app Thread-2 : histories are [<Recipe 'patatas a  lo pobre'>, <Recipe 'Orange, fennel and pea shoot salad with walnuts'>, <Recipe 'lentils soup '>, <Recipe 'broccoli cream'>, <Recipe 'Classic gumbo'>]
+2022-04-30 15:35:43,039 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:35:43] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:35:43,113 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:35:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:35:43,191 INFO werkzeug Thread-3 : 10.20.2.135 - - [30/Apr/2022 15:35:43] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:35:44,337 INFO app Thread-4 : histories are [<Recipe 'patatas a  lo pobre'>, <Recipe 'Orange, fennel and pea shoot salad with walnuts'>, <Recipe 'lentils soup '>, <Recipe 'broccoli cream'>, <Recipe 'Classic gumbo'>]
+2022-04-30 15:35:44,337 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:35:44] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:35:44,384 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:35:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:35:44,434 INFO werkzeug Thread-5 : 10.20.2.135 - - [30/Apr/2022 15:35:44] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:37:06,679 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:37:06,720 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:37:07,013 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:37:07,013 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:38:56,766 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:38:56,809 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:38:57,107 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:38:57,107 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:39:01,146 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-04-30 15:39:01,189 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 15:39:01,491 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 15:39:01,492 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 15:39:48,702 INFO app Thread-2 : histories are [<Recipe 'patatas a  lo pobre'>, <Recipe 'Orange, fennel and pea shoot salad with walnuts'>, <Recipe 'lentils soup '>, <Recipe 'broccoli cream'>, <Recipe 'Classic gumbo'>]
+2022-04-30 15:39:48,718 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:39:48] "[35m[1mGET /history HTTP/1.1[0m" 500 -
+2022-04-30 15:39:48,905 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:39:48] "[36mGET /history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:39:48,907 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 15:39:48] "[36mGET /history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-30 15:39:48,995 INFO werkzeug Thread-3 : 10.20.2.135 - - [30/Apr/2022 15:39:48] "[36mGET /history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-30 15:47:18,702 INFO app Thread-4 : histories are [<Recipe 'patatas a  lo pobre'>, <Recipe 'Orange, fennel and pea shoot salad with walnuts'>, <Recipe 'lentils soup '>, <Recipe 'broccoli cream'>, <Recipe 'Classic gumbo'>]
+2022-04-30 15:47:18,705 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:47:18] "GET /history HTTP/1.1" 200 -
+2022-04-30 15:47:18,817 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 15:47:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:47:18,870 INFO werkzeug Thread-5 : 10.20.2.135 - - [30/Apr/2022 15:47:18] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:48:42,398 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:48:42] "GET / HTTP/1.1" 200 -
+2022-04-30 15:48:42,492 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 15:48:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:48:42,549 INFO werkzeug Thread-7 : 10.20.2.135 - - [30/Apr/2022 15:48:42] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:48:44,205 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:48:44] "GET /recipes HTTP/1.1" 200 -
+2022-04-30 15:48:44,268 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 15:48:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:48:44,316 INFO werkzeug Thread-9 : 10.20.2.135 - - [30/Apr/2022 15:48:44] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:48:46,285 INFO werkzeug Thread-10 : 10.20.2.135 - - [30/Apr/2022 15:48:46] "GET / HTTP/1.1" 200 -
+2022-04-30 15:48:46,333 INFO werkzeug Thread-10 : 10.20.2.135 - - [30/Apr/2022 15:48:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 15:48:46,388 INFO werkzeug Thread-11 : 10.20.2.135 - - [30/Apr/2022 15:48:46] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 15:55:22,151 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139759102007040 and this is thread id 139759151583872.
+2022-04-30 15:55:22,153 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f1c3448d5d0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139759102007040 and this is thread id 139759151583872.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139759102007040 and this is thread id 139759151583872.

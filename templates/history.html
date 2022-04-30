@@ -24,13 +24,13 @@ History
                         </tr>
                         </thead>
                         <tbody>
-                            {% for history in histories %}
+                            {% for item in recipes %}
                             <tr>
                                 <td scope="row">{{ loop.index}}</td>
-                                <td>{{ history['recipes']['name'] }}</td>
-                                <td><span class="badge badge-primary">{{ history['recipes']['description'] }}</span></td>
-                                <td>{{ history['created_time']|meal }}</td>
-                                <td>{{ history['created_time']|datetime}}</td>
+                                <td>{{ item ['name'] }}</td>
+                                <td><span class="badge badge-primary">{{ item['description'] }}</span></td>
+                                <td>{{ item['created_time']|meal }}</td>
+                                <td>{{ item['created_time']|datetime}}</td>
                             </tr>
                             {% endfor %}
                         </tbody>
