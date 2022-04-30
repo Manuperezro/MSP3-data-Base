@@ -4,6 +4,7 @@ from database import db_session, init_db
 from sqlalchemy import desc
 from models.recipes import Recipes
 from models.histories import Histories 
+from werkzeug.security import generate_password_hash, check_password_hash
 import datetime
 from random import choice
 
@@ -29,6 +30,11 @@ def shutdown_session(exception=None):
 def start():
     now = datetime.datetime.now
     return render_template('start.html', nav='start', now=now)
+
+
+@app.route("/register", methods=["GET", "POST"])
+def register():
+    return render_template("register.html")
 
 
 @app.route('/draw')
