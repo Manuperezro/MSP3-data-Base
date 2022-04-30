@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, redirect
+import os 
 import logging
 from database import db_session, init_db
 from sqlalchemy import desc
 from models.recipes import Recipes
 from models.histories import Histories 
-from werkzeug.security import generate_password_hash, check_password_hash
 import datetime
 from random import choice
 
@@ -150,4 +150,6 @@ app.jinja_env.filters['datetime'] = datetimeformat
 
 if __name__ == '__main__':
     app.jinja_env.auto_reload = True
-    app.run(debug=True)
+    app.run(host=os.environ.get("IP"),
+            port=int(os.environ.get("PORT")),
+            debug=True)
