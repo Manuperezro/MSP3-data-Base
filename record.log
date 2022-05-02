@@ -2701,3 +2701,38 @@ Traceback (most recent call last):
   File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
     dbapi_connection.close()
 sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139759102007040 and this is thread id 139759151583872.
+2022-04-30 16:10:57,456 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-04-30 16:10:57,457 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-30 16:10:57,782 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-30 16:10:57,783 INFO werkzeug MainThread :  * Debugger PIN: 893-345-253
+2022-04-30 16:10:59,938 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 16:10:59] "GET / HTTP/1.1" 200 -
+2022-04-30 16:11:00,026 INFO werkzeug Thread-2 : 10.20.2.135 - - [30/Apr/2022 16:11:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 16:11:00,068 INFO werkzeug Thread-3 : 10.20.2.135 - - [30/Apr/2022 16:11:00] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 16:11:00,898 INFO app Thread-4 : histories are [<Recipe 'patatas a  lo pobre'>, <Recipe 'Orange, fennel and pea shoot salad with walnuts'>, <Recipe 'lentils soup '>, <Recipe 'broccoli cream'>, <Recipe 'Classic gumbo'>]
+2022-04-30 16:11:00,902 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 16:11:00] "GET /history HTTP/1.1" 200 -
+2022-04-30 16:11:00,943 INFO werkzeug Thread-4 : 10.20.2.135 - - [30/Apr/2022 16:11:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 16:11:00,998 INFO werkzeug Thread-5 : 10.20.2.135 - - [30/Apr/2022 16:11:00] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 16:11:01,211 INFO app Thread-6 : histories are [<Recipe 'patatas a  lo pobre'>, <Recipe 'Orange, fennel and pea shoot salad with walnuts'>, <Recipe 'lentils soup '>, <Recipe 'broccoli cream'>, <Recipe 'Classic gumbo'>]
+2022-04-30 16:11:01,212 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 16:11:01] "GET /history HTTP/1.1" 200 -
+2022-04-30 16:11:01,259 INFO werkzeug Thread-6 : 10.20.2.135 - - [30/Apr/2022 16:11:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 16:11:01,299 INFO werkzeug Thread-7 : 10.20.2.135 - - [30/Apr/2022 16:11:01] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 16:50:30,855 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 16:50:30] "GET / HTTP/1.1" 200 -
+2022-04-30 16:50:30,980 INFO werkzeug Thread-8 : 10.20.2.135 - - [30/Apr/2022 16:50:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 16:50:31,019 INFO werkzeug Thread-9 : 10.20.2.135 - - [30/Apr/2022 16:50:31] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 16:50:31,292 INFO werkzeug Thread-10 : 10.20.2.135 - - [30/Apr/2022 16:50:31] "GET / HTTP/1.1" 200 -
+2022-04-30 16:50:31,330 INFO werkzeug Thread-10 : 10.20.2.135 - - [30/Apr/2022 16:50:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 16:50:31,376 INFO werkzeug Thread-11 : 10.20.2.135 - - [30/Apr/2022 16:50:31] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 16:50:31,641 INFO werkzeug Thread-12 : 10.20.2.135 - - [30/Apr/2022 16:50:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-30 16:50:32,298 INFO werkzeug Thread-12 : 10.20.2.135 - - [30/Apr/2022 16:50:32] "GET /recipes HTTP/1.1" 200 -
+2022-04-30 16:50:32,363 INFO werkzeug Thread-12 : 10.20.2.135 - - [30/Apr/2022 16:50:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 16:50:32,403 INFO werkzeug Thread-13 : 10.20.2.135 - - [30/Apr/2022 16:50:32] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 16:50:33,446 INFO app Thread-14 : histories are [<Recipe 'patatas a  lo pobre'>, <Recipe 'Orange, fennel and pea shoot salad with walnuts'>, <Recipe 'lentils soup '>, <Recipe 'broccoli cream'>, <Recipe 'Classic gumbo'>]
+2022-04-30 16:50:33,447 INFO werkzeug Thread-14 : 10.20.2.135 - - [30/Apr/2022 16:50:33] "GET /history HTTP/1.1" 200 -
+2022-04-30 16:50:33,513 INFO werkzeug Thread-14 : 10.20.2.135 - - [30/Apr/2022 16:50:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 16:50:33,551 INFO werkzeug Thread-15 : 10.20.2.135 - - [30/Apr/2022 16:50:33] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-04-30 16:50:34,393 INFO werkzeug Thread-16 : 10.20.2.135 - - [30/Apr/2022 16:50:34] "GET / HTTP/1.1" 200 -
+2022-04-30 16:50:34,443 INFO werkzeug Thread-16 : 10.20.2.135 - - [30/Apr/2022 16:50:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-30 16:50:34,483 INFO werkzeug Thread-17 : 10.20.2.135 - - [30/Apr/2022 16:50:34] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
