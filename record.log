@@ -3340,3 +3340,13 @@ sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in
 2022-05-03 19:07:27,525 INFO werkzeug Thread-174 : 10.20.2.135 - - [03/May/2022 19:07:27] "GET / HTTP/1.1" 200 -
 2022-05-03 19:07:27,644 INFO werkzeug Thread-174 : 10.20.2.135 - - [03/May/2022 19:07:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2022-05-03 19:07:27,692 INFO werkzeug Thread-175 : 10.20.2.135 - - [03/May/2022 19:07:27] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-03 19:09:24,951 INFO werkzeug Thread-176 : 10.20.2.135 - - [03/May/2022 19:09:24] "GET / HTTP/1.1" 200 -
+2022-05-03 19:09:24,985 INFO werkzeug Thread-176 : 10.20.2.135 - - [03/May/2022 19:09:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-03 19:09:25,028 INFO werkzeug Thread-177 : 10.20.2.135 - - [03/May/2022 19:09:25] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-03 19:09:26,355 INFO werkzeug Thread-178 : 10.20.2.135 - - [03/May/2022 19:09:26] "GET /recipes HTTP/1.1" 200 -
+2022-05-03 19:09:26,479 INFO werkzeug Thread-178 : 10.20.2.135 - - [03/May/2022 19:09:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-03 19:09:26,521 INFO werkzeug Thread-179 : 10.20.2.135 - - [03/May/2022 19:09:26] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-03 19:09:27,929 INFO app Thread-180 : histories are [<Recipe 'Patatas con chorizo '>, <Recipe 'lentils soup '>, <Recipe 'Classic gumbo'>]
+2022-05-03 19:09:27,930 INFO werkzeug Thread-180 : 10.20.2.135 - - [03/May/2022 19:09:27] "GET /history HTTP/1.1" 200 -
+2022-05-03 19:09:27,986 INFO werkzeug Thread-180 : 10.20.2.135 - - [03/May/2022 19:09:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-03 19:09:28,038 INFO werkzeug Thread-181 : 10.20.2.135 - - [03/May/2022 19:09:28] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
