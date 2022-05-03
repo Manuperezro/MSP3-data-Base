@@ -189,6 +189,18 @@ Here some images of the proccess( to see full wireframe click PDF) :
 
 - [SQAlchemy](https://www.sqlalchemy.org/)
 
+## Database Schema:
+
+### Schema: 
+
+- To check if my schema was ok, and tables I was creating were matching the requirements of the tasks I used DB Browser desktop app:
+
+
+- ![Database in SQlite](static/css/images/database1.png "DB browser")
+
+- ![Database in SQlite](static/css/images/db2.png "DB browser")
+
+
 ## Testing: 
 
 ### Testing results:

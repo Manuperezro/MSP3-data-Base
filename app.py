@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect
 import os 
 import logging
 from database import db_session, init_db
+# from werkzeug.security import generate_password_hash, check_password_hash
 from sqlalchemy import desc
 from models.recipes import Recipes
 from models.histories import Histories 
@@ -10,6 +11,22 @@ from random import choice
 
 
 app = Flask(__name__)
+
+
+# app.config['QALCHEMY_DATABASE_URI'] = 'postgres://lramhkohykcaye:0eed78136c46bd8d79c9993b71777e2cd632ece76217a5da0368ce664fc8c712@ec2-63-32-248-14.eu-west-1.compute.amazonaws.com:5432/d3ber8773smjfi'
+
+
+# @app.route("/register", methods=["GET", "POST"])
+# def register():
+
+#     reg_form  = RegistrationForm()
+
+#     if reg_form.validate_onsubmit():
+#         username = reg_form.username.data
+#         password = reg_form.password.data
+
+#     return render_template('start.html', nav='start', now=now)
+
 
 # for  debuging 
 
@@ -30,11 +47,6 @@ def shutdown_session(exception=None):
 def start():
     now = datetime.datetime.now
     return render_template('start.html', nav='start', now=now)
-
-
-@app.route("/register", methods=["GET", "POST"])
-def register():
-    return render_template("register.html")
 
 
 @app.route('/draw')
