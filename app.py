@@ -13,9 +13,6 @@ from random import choice
 app = Flask(__name__)
 
 
-# app.config['QALCHEMY_DATABASE_URI'] = 'postgres://lramhkohykcaye:0eed78136c46bd8d79c9993b71777e2cd632ece76217a5da0368ce664fc8c712@ec2-63-32-248-14.eu-west-1.compute.amazonaws.com:5432/d3ber8773smjfi'
-
-
 # @app.route("/register", methods=["GET", "POST"])
 # def register():
 

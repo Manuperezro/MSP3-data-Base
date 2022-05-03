@@ -3350,3 +3350,19 @@ sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in
 2022-05-03 19:09:27,930 INFO werkzeug Thread-180 : 10.20.2.135 - - [03/May/2022 19:09:27] "GET /history HTTP/1.1" 200 -
 2022-05-03 19:09:27,986 INFO werkzeug Thread-180 : 10.20.2.135 - - [03/May/2022 19:09:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2022-05-03 19:09:28,038 INFO werkzeug Thread-181 : 10.20.2.135 - - [03/May/2022 19:09:28] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-03 19:20:44,959 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-03 19:20:45,022 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-03 19:20:45,452 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-03 19:20:45,453 INFO werkzeug MainThread :  * Debugger PIN: 869-964-899
+2022-05-03 19:21:15,681 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-03 19:21:15,740 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-03 19:21:16,040 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-03 19:21:16,040 INFO werkzeug MainThread :  * Debugger PIN: 869-964-899
+2022-05-03 19:21:28,139 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/env.py', reloading
+2022-05-03 19:21:28,181 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-03 19:21:28,473 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-03 19:21:28,473 INFO werkzeug MainThread :  * Debugger PIN: 869-964-899
+2022-05-03 19:21:31,507 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/env.py', reloading
+2022-05-03 19:21:31,543 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-03 19:21:31,827 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-03 19:21:31,828 INFO werkzeug MainThread :  * Debugger PIN: 869-964-899
