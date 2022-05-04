@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect
 import os 
 import logging
 from database import db_session, init_db
-# from werkzeug.security import generate_password_hash, check_password_hash
 from sqlalchemy import desc
 from models.recipes import Recipes
 from models.histories import Histories 
@@ -134,14 +133,7 @@ def history():
 
     return render_template('history.html', nav=history, recipes=histories)
 
-
-# @app.route('/top')
-# def top():
-#     recipes = Recipes.query.order_by('-draw').limit(5)
-
-#     return render_template('top.html', nav='top', recipes=recipes)
-
-
+    
 def mealformat(value):
     if value.hour in [4, 5, 6, 7, 8, 9]:
         return 'Breakfast'

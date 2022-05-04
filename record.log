@@ -3366,3 +3366,16 @@ sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in
 2022-05-03 19:21:31,543 INFO werkzeug MainThread :  * Restarting with stat
 2022-05-03 19:21:31,827 WARNING werkzeug MainThread :  * Debugger is active!
 2022-05-03 19:21:31,828 INFO werkzeug MainThread :  * Debugger PIN: 869-964-899
+2022-05-03 19:38:23,636 INFO werkzeug Thread-2 : 10.20.2.135 - - [03/May/2022 19:38:23] "GET / HTTP/1.1" 200 -
+2022-05-03 19:38:23,811 INFO werkzeug Thread-2 : 10.20.2.135 - - [03/May/2022 19:38:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-03 19:38:23,863 INFO werkzeug Thread-3 : 10.20.2.135 - - [03/May/2022 19:38:23] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-03 19:38:25,500 INFO werkzeug Thread-4 : 10.20.2.135 - - [03/May/2022 19:38:25] "GET /recipes HTTP/1.1" 200 -
+2022-05-03 19:38:25,549 INFO werkzeug Thread-4 : 10.20.2.135 - - [03/May/2022 19:38:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-03 19:38:25,589 INFO werkzeug Thread-5 : 10.20.2.135 - - [03/May/2022 19:38:25] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-03 19:38:27,339 INFO app Thread-6 : histories are [<Recipe 'Patatas con chorizo '>, <Recipe 'lentils soup '>, <Recipe 'Classic gumbo'>]
+2022-05-03 19:38:27,343 INFO werkzeug Thread-6 : 10.20.2.135 - - [03/May/2022 19:38:27] "GET /history HTTP/1.1" 200 -
+2022-05-03 19:38:27,403 INFO werkzeug Thread-6 : 10.20.2.135 - - [03/May/2022 19:38:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-03 19:38:27,446 INFO werkzeug Thread-7 : 10.20.2.135 - - [03/May/2022 19:38:27] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-03 19:38:29,074 INFO werkzeug Thread-8 : 10.20.2.135 - - [03/May/2022 19:38:29] "GET / HTTP/1.1" 200 -
+2022-05-03 19:38:29,117 INFO werkzeug Thread-8 : 10.20.2.135 - - [03/May/2022 19:38:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-03 19:38:29,163 INFO werkzeug Thread-9 : 10.20.2.135 - - [03/May/2022 19:38:29] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
