@@ -38,3 +38,108 @@
 2022-05-04 17:49:55,080 INFO werkzeug MainThread :  * Restarting with stat
 2022-05-04 17:49:55,411 WARNING werkzeug MainThread :  * Debugger is active!
 2022-05-04 17:49:55,411 INFO werkzeug MainThread :  * Debugger PIN: 710-507-146
+2022-05-04 17:56:04,451 INFO app Thread-2 : register-route
+2022-05-04 17:56:04,460 INFO werkzeug Thread-2 : 10.20.240.2 - - [04/May/2022 17:56:04] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:56:04,554 INFO werkzeug Thread-2 : 10.20.240.2 - - [04/May/2022 17:56:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-05-04 17:56:04,602 INFO werkzeug Thread-2 : 10.20.240.2 - - [04/May/2022 17:56:04] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:56:07,102 INFO app Thread-3 : register-route
+2022-05-04 17:56:07,103 INFO werkzeug Thread-3 : 10.20.240.2 - - [04/May/2022 17:56:07] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:56:07,141 INFO werkzeug Thread-3 : 10.20.240.2 - - [04/May/2022 17:56:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 17:56:07,183 INFO werkzeug Thread-4 : 10.20.240.2 - - [04/May/2022 17:56:07] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:56:30,878 INFO app Thread-5 : register-route
+2022-05-04 17:56:30,883 INFO werkzeug Thread-5 : 10.20.240.2 - - [04/May/2022 17:56:30] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:56:30,926 INFO werkzeug Thread-5 : 10.20.240.2 - - [04/May/2022 17:56:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-05-04 17:56:31,380 INFO werkzeug Thread-5 : 10.20.240.2 - - [04/May/2022 17:56:31] "GET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1" 200 -
+2022-05-04 17:56:32,077 INFO app Thread-6 : register-route
+2022-05-04 17:56:32,078 INFO werkzeug Thread-6 : 10.20.240.2 - - [04/May/2022 17:56:32] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:56:32,346 INFO werkzeug Thread-5 : 10.20.240.2 - - [04/May/2022 17:56:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-05-04 17:56:32,484 INFO werkzeug Thread-5 : 10.20.240.2 - - [04/May/2022 17:56:32] "GET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1" 200 -
+2022-05-04 17:56:33,482 INFO werkzeug Thread-5 : 10.20.240.2 - - [04/May/2022 17:56:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-04 17:56:58,334 INFO app Thread-5 : register-route
+2022-05-04 17:56:58,341 INFO werkzeug Thread-5 : 10.20.240.2 - - [04/May/2022 17:56:58] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:56:58,406 INFO werkzeug Thread-5 : 10.20.240.2 - - [04/May/2022 17:56:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 17:56:58,454 INFO werkzeug Thread-6 : 10.20.240.2 - - [04/May/2022 17:56:58] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:56:59,032 INFO app Thread-7 : register-route
+2022-05-04 17:56:59,033 INFO werkzeug Thread-7 : 10.20.240.2 - - [04/May/2022 17:56:59] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:56:59,071 INFO werkzeug Thread-7 : 10.20.240.2 - - [04/May/2022 17:56:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 17:56:59,113 INFO werkzeug Thread-8 : 10.20.240.2 - - [04/May/2022 17:56:59] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:57:00,230 INFO app Thread-9 : register-route
+2022-05-04 17:57:00,230 INFO werkzeug Thread-9 : 10.20.240.2 - - [04/May/2022 17:57:00] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:57:00,273 INFO werkzeug Thread-9 : 10.20.240.2 - - [04/May/2022 17:57:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-05-04 17:57:00,326 INFO werkzeug Thread-9 : 10.20.240.2 - - [04/May/2022 17:57:00] "GET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1" 200 -
+2022-05-04 17:57:01,359 INFO werkzeug Thread-9 : 10.20.240.2 - - [04/May/2022 17:57:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-04 17:57:25,543 INFO app Thread-9 : register-route
+2022-05-04 17:57:25,548 INFO werkzeug Thread-9 : 10.20.240.2 - - [04/May/2022 17:57:25] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:57:25,583 INFO werkzeug Thread-9 : 10.20.240.2 - - [04/May/2022 17:57:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 17:57:25,647 INFO werkzeug Thread-10 : 10.20.240.2 - - [04/May/2022 17:57:25] "GET /static/css/images/Notebook.jpg HTTP/1.1" 200 -
+2022-05-04 17:57:25,648 INFO werkzeug Thread-11 : 10.20.240.2 - - [04/May/2022 17:57:25] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:57:47,373 INFO app Thread-10 : register-route
+2022-05-04 17:57:47,374 INFO werkzeug Thread-10 : 10.20.240.2 - - [04/May/2022 17:57:47] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:57:47,409 INFO werkzeug Thread-10 : 10.20.240.2 - - [04/May/2022 17:57:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 17:57:47,473 INFO werkzeug Thread-12 : 10.20.240.2 - - [04/May/2022 17:57:47] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:57:47,474 INFO werkzeug Thread-13 : 10.20.240.2 - - [04/May/2022 17:57:47] "[36mGET /static/css/images/Notebook.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:58:07,625 INFO app Thread-14 : register-route
+2022-05-04 17:58:07,630 INFO werkzeug Thread-14 : 10.20.240.2 - - [04/May/2022 17:58:07] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:58:07,671 INFO werkzeug Thread-14 : 10.20.240.2 - - [04/May/2022 17:58:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 17:58:07,714 INFO werkzeug Thread-15 : 10.20.240.2 - - [04/May/2022 17:58:07] "[36mGET /static/css/images/Notebook.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:58:07,716 INFO werkzeug Thread-16 : 10.20.240.2 - - [04/May/2022 17:58:07] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:58:22,209 INFO app Thread-17 : register-route
+2022-05-04 17:58:22,214 INFO werkzeug Thread-17 : 10.20.240.2 - - [04/May/2022 17:58:22] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:58:22,250 INFO werkzeug Thread-17 : 10.20.240.2 - - [04/May/2022 17:58:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 17:58:22,290 INFO werkzeug Thread-18 : 10.20.240.2 - - [04/May/2022 17:58:22] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:58:22,292 INFO werkzeug Thread-19 : 10.20.240.2 - - [04/May/2022 17:58:22] "[36mGET /static/css/images/Notebook.jpg HTTP/1.1[0m" 304 -
+2022-05-04 17:59:30,441 INFO app Thread-20 : register-route
+2022-05-04 17:59:30,446 INFO werkzeug Thread-20 : 10.20.240.2 - - [04/May/2022 17:59:30] "GET /register HTTP/1.1" 200 -
+2022-05-04 17:59:30,482 INFO werkzeug Thread-20 : 10.20.240.2 - - [04/May/2022 17:59:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 17:59:30,524 INFO werkzeug Thread-21 : 10.20.240.2 - - [04/May/2022 17:59:30] "GET /static/css/images/notebook2.jpg HTTP/1.1" 200 -
+2022-05-04 17:59:30,526 INFO werkzeug Thread-22 : 10.20.240.2 - - [04/May/2022 17:59:30] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:00:34,771 INFO app Thread-23 : register-route
+2022-05-04 18:00:34,773 INFO werkzeug Thread-23 : 10.20.240.2 - - [04/May/2022 18:00:34] "GET /register HTTP/1.1" 200 -
+2022-05-04 18:00:34,811 INFO werkzeug Thread-23 : 10.20.240.2 - - [04/May/2022 18:00:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 18:00:34,854 INFO werkzeug Thread-24 : 10.20.240.2 - - [04/May/2022 18:00:34] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:00:34,856 INFO werkzeug Thread-25 : 10.20.240.2 - - [04/May/2022 18:00:34] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:00,919 INFO app Thread-26 : register-route
+2022-05-04 18:01:00,921 INFO werkzeug Thread-26 : 10.20.240.2 - - [04/May/2022 18:01:00] "GET /register HTTP/1.1" 200 -
+2022-05-04 18:01:00,958 INFO werkzeug Thread-26 : 10.20.240.2 - - [04/May/2022 18:01:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 18:01:01,001 INFO werkzeug Thread-27 : 10.20.240.2 - - [04/May/2022 18:01:01] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:01,002 INFO werkzeug Thread-28 : 10.20.240.2 - - [04/May/2022 18:01:01] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:01,812 INFO app Thread-29 : register-route
+2022-05-04 18:01:01,813 INFO werkzeug Thread-29 : 10.20.240.2 - - [04/May/2022 18:01:01] "GET /register HTTP/1.1" 200 -
+2022-05-04 18:01:01,849 INFO werkzeug Thread-29 : 10.20.240.2 - - [04/May/2022 18:01:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 18:01:01,894 INFO werkzeug Thread-31 : 10.20.240.2 - - [04/May/2022 18:01:01] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:01,895 INFO werkzeug Thread-30 : 10.20.240.2 - - [04/May/2022 18:01:01] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:14,029 INFO app Thread-32 : register-route
+2022-05-04 18:01:14,031 INFO werkzeug Thread-32 : 10.20.240.2 - - [04/May/2022 18:01:14] "GET /register HTTP/1.1" 200 -
+2022-05-04 18:01:14,140 INFO werkzeug Thread-32 : 10.20.240.2 - - [04/May/2022 18:01:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 18:01:14,184 INFO werkzeug Thread-33 : 10.20.240.2 - - [04/May/2022 18:01:14] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:14,184 INFO werkzeug Thread-34 : 10.20.240.2 - - [04/May/2022 18:01:14] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:27,681 INFO app Thread-35 : register-route
+2022-05-04 18:01:27,683 INFO werkzeug Thread-35 : 10.20.240.2 - - [04/May/2022 18:01:27] "GET /register HTTP/1.1" 200 -
+2022-05-04 18:01:27,719 INFO werkzeug Thread-35 : 10.20.240.2 - - [04/May/2022 18:01:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 18:01:27,760 INFO werkzeug Thread-36 : 10.20.240.2 - - [04/May/2022 18:01:27] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:27,761 INFO werkzeug Thread-37 : 10.20.240.2 - - [04/May/2022 18:01:27] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:37,765 INFO app Thread-38 : register-route
+2022-05-04 18:01:37,769 INFO werkzeug Thread-38 : 10.20.240.2 - - [04/May/2022 18:01:37] "GET /register HTTP/1.1" 200 -
+2022-05-04 18:01:37,819 INFO werkzeug Thread-38 : 10.20.240.2 - - [04/May/2022 18:01:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 18:01:37,863 INFO werkzeug Thread-40 : 10.20.240.2 - - [04/May/2022 18:01:37] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:37,864 INFO werkzeug Thread-39 : 10.20.240.2 - - [04/May/2022 18:01:37] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:46,313 INFO app Thread-41 : register-route
+2022-05-04 18:01:46,314 INFO werkzeug Thread-41 : 10.20.240.2 - - [04/May/2022 18:01:46] "GET /register HTTP/1.1" 200 -
+2022-05-04 18:01:46,352 INFO werkzeug Thread-41 : 10.20.240.2 - - [04/May/2022 18:01:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 18:01:46,399 INFO werkzeug Thread-42 : 10.20.240.2 - - [04/May/2022 18:01:46] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:46,401 INFO werkzeug Thread-43 : 10.20.240.2 - - [04/May/2022 18:01:46] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:48,488 INFO app Thread-44 : register-route
+2022-05-04 18:01:48,489 INFO werkzeug Thread-44 : 10.20.240.2 - - [04/May/2022 18:01:48] "GET /register HTTP/1.1" 200 -
+2022-05-04 18:01:48,526 INFO werkzeug Thread-44 : 10.20.240.2 - - [04/May/2022 18:01:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 18:01:48,571 INFO werkzeug Thread-45 : 10.20.240.2 - - [04/May/2022 18:01:48] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:48,572 INFO werkzeug Thread-45 : 10.20.240.2 - - [04/May/2022 18:01:48] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:56,002 INFO app Thread-46 : register-route
+2022-05-04 18:01:56,004 INFO werkzeug Thread-46 : 10.20.240.2 - - [04/May/2022 18:01:56] "GET /register HTTP/1.1" 200 -
+2022-05-04 18:01:56,041 INFO werkzeug Thread-46 : 10.20.240.2 - - [04/May/2022 18:01:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 18:01:56,086 INFO werkzeug Thread-47 : 10.20.240.2 - - [04/May/2022 18:01:56] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:01:56,086 INFO werkzeug Thread-48 : 10.20.240.2 - - [04/May/2022 18:01:56] "GET /static/css/images/notebook2.jpg HTTP/1.1" 200 -
+2022-05-04 18:02:12,136 INFO app Thread-48 : register-route
+2022-05-04 18:02:12,138 INFO werkzeug Thread-48 : 10.20.240.2 - - [04/May/2022 18:02:12] "GET /register HTTP/1.1" 200 -
+2022-05-04 18:02:12,180 INFO werkzeug Thread-48 : 10.20.240.2 - - [04/May/2022 18:02:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-04 18:02:12,223 INFO werkzeug Thread-49 : 10.20.240.2 - - [04/May/2022 18:02:12] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-04 18:02:12,224 INFO werkzeug Thread-50 : 10.20.240.2 - - [04/May/2022 18:02:12] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
