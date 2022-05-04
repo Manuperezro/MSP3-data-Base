@@ -28,7 +28,6 @@ class Recipes(Base):
         self.site_url = site_url
         self.created_time = datetime.datetime.now()
         self.modified_time = datetime.datetime.now()
-        # self.site_visits = 0
       
 
     def __repr__(self):

@@ -5,24 +5,12 @@ from database import db_session, init_db
 from sqlalchemy import desc
 from models.recipes import Recipes
 from models.histories import Histories 
+from models.register import Users
 import datetime
 from random import choice
 
 
 app = Flask(__name__)
-
-
-# @app.route("/register", methods=["GET", "POST"])
-# def register():
-
-#     reg_form  = RegistrationForm()
-
-#     if reg_form.validate_onsubmit():
-#         username = reg_form.username.data
-#         password = reg_form.password.data
-
-#     return render_template('start.html', nav='start', now=now)
-
 
 # for  debuging 
 
@@ -44,6 +32,29 @@ def start():
     now = datetime.datetime.now
     return render_template('start.html', nav='start', now=now)
 
+
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+
+    app.logger.info('register-route')
+    
+    if request.method == 'POST':
+        app.logger.info('impost request')
+        username = request.form.get('username')
+        password = request.form.get('password')
+
+        app.logger.info('username are %s', username)
+        app.logger.info('password are %s', password)
+
+        user = Users(username=username, password=password)
+        db_session.add(user)
+        db_session.commit()
+
+        return redirect('/register')
+
+
+    return render_template('register.html')
+    
 
 @app.route('/draw')
 def draw():
@@ -133,7 +144,7 @@ def history():
 
     return render_template('history.html', nav=history, recipes=histories)
 
-    
+
 def mealformat(value):
     if value.hour in [4, 5, 6, 7, 8, 9]:
         return 'Breakfast'

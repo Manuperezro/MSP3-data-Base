@@ -200,8 +200,11 @@ Here some images of the proccess( to see full wireframe click PDF) :
 
 - ![Database in SQlite](static/css/images/db2.png "DB browser")
 
+- ![Recipes](static/css/images/recipiesDBSchema.jpeg "Recipes table")
+
 
 ## Testing: 
+
 
 ### Testing results:
 
@@ -258,11 +261,25 @@ Here some images of the proccess( to see full wireframe click PDF) :
 
 ### Bugs and Errors during development:
 
+- Recipes History Not loading.
+
+The issue :
+
+When I first tryed to create a history page with all the existing recipes in the Recipes page, the template was render ok, but the list was empty, it wasen't passing the data from the History model.
+
+The solution : 
+
+I tried to simplify the code, and to used what was already working and retieving data, So made the following changes (Check images below for more details), and try collect the data from the Recipes model, as the results was the same. The user was able to see a list with all the created recipes.
+
+- ![History ](static/css/images/bugs/HistoryBug.png "History List Bug")
 
 
 ## Deployment:
 
+
+
 ### Inception:
+
 
  + this project was created using Code Institute template from GitHub:
 
@@ -278,6 +295,8 @@ Here some images of the proccess( to see full wireframe click PDF) :
 
 - git push  - Pushes all committed versions to GitHub.
 
+
+
 #### Deployment to GitHub Pages:
 
 + The project was deployed to GitHub Pages using the following steps:
@@ -291,6 +310,7 @@ Here some images of the proccess( to see full wireframe click PDF) :
 - Under "Source", click the dropdown called "None" and select "Master Branch".
 
 - After the page automatically refresh scroll down again on "GitHub Pages" and I will  see live link to the published site.
+
 
 
 ### Cloning repository:
@@ -319,6 +339,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## Credits:
 
+
 ## Tutorials:
 
 - CodeLab tutorials (Youtube tutorials).
@@ -332,6 +353,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 - Google Map Api Guides.
 
 - Bootstrapt Documentations Guides.
+
 
 ## Aknowledgements:
 
