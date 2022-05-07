@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, redirect
 import os 
 import logging
-import flask_login
 from database import db_session, init_db
 from sqlalchemy import desc
 from models.recipes import Recipes

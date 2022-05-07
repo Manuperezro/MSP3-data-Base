@@ -636,3 +636,11 @@ sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in
 2022-05-07 15:23:09,548 INFO werkzeug Thread-198 : 10.20.58.74 - - [07/May/2022 15:23:09] "GET /static/css/style.css HTTP/1.1" 200 -
 2022-05-07 15:23:09,598 INFO werkzeug Thread-198 : 10.20.58.74 - - [07/May/2022 15:23:09] "GET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1" 200 -
 2022-05-07 15:23:10,614 INFO werkzeug Thread-198 : 10.20.58.74 - - [07/May/2022 15:23:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-07 15:31:26,998 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-07 15:31:27,047 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-07 15:31:27,853 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-07 15:31:27,853 INFO werkzeug MainThread :  * Debugger PIN: 144-906-976
+2022-05-07 15:31:31,897 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-07 15:31:31,959 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-07 15:31:32,559 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-07 15:31:32,559 INFO werkzeug MainThread :  * Debugger PIN: 144-906-976
