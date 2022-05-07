@@ -868,3 +868,6 @@
 2022-05-07 06:42:47,540 INFO werkzeug Thread-95 : 10.20.58.74 - - [07/May/2022 06:42:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2022-05-07 06:42:47,584 INFO werkzeug Thread-96 : 10.20.58.74 - - [07/May/2022 06:42:47] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
 2022-05-07 06:42:47,585 INFO werkzeug Thread-97 : 10.20.58.74 - - [07/May/2022 06:42:47] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-07 06:50:30,376 INFO werkzeug Thread-98 : 10.20.58.74 - - [07/May/2022 06:50:30] "GET / HTTP/1.1" 200 -
+2022-05-07 06:50:30,441 INFO werkzeug Thread-98 : 10.20.58.74 - - [07/May/2022 06:50:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-07 06:50:30,486 INFO werkzeug Thread-99 : 10.20.58.74 - - [07/May/2022 06:50:30] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
