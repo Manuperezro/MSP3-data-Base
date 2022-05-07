@@ -65,38 +65,45 @@ Users will be able to use the draw service (What do i cook today??) with the min
      - To be able to enjoy the service the app offers wihtout errors.
      - To save a big number of receipes.
      - To be able to open he link of the receipes with a few clicks.
+
+
     
     ## Design:
 
+   ### Theme and Colour Scheme
+
+The theme is inspired by a chopping borad and the elemts a chef used to prepare a pleasent meal and is intended to appeal a minimalism and clean chopping board. A clean and modern colour scheme with contrasting and complementary colours was chosen to reflect a sense of simple energy. Coolors was used to generate two colour palettes which were incorporated as utility classes in the CSS file, to be easily called upon directly from the HTML files.
 
 
 ### Design Brief:
 
 + Colour:
 
+![Color](static/css/images/Coloe-Scheme1.png "Color Scheme")
 
-
-- 
-
-- 
-
-- 
-
+![Color](static/css/images/Color-scheme.png "Color Scheme")
 
 - Links : 
 
 + Typography:
 
-- 
 
 + Images:
 
--
+The Backgorund image and the image in the register form was unload from n[Pexels](https://www.pexels.com/es-es/).
 
-- Icons
- 
+- background image:
 
-- Background image land page : 
+the goal was to inspire a clean, simple choping board in a bright, clean and minimalis kitchen wich inspire peace and invite to cook. 
+
+![BG](static/css/images/wireframes/pexels-lukas-349609.jpg "Background image")
+
+- Register and login image:
+
+In this image the goal was to emulate a paper notebook with some elements to create the effect that when you are login into the app, you are opening your paper recipes notebook.
+
+![Register](static/css/images/notebook2.jpg "Register image")
+
 
 
 ## Wireframes
@@ -105,7 +112,7 @@ The Basic structure of My receipes Notebook was skectched using
 
   [balsamiq](https://balsamiq.com/).
 
-Here some images of the proccess( to see full wireframe click PDF) : 
+Here some images of the proccess(to see full wireframe click PDF) : 
 
 - PC Mac screen: 
 
@@ -127,19 +134,47 @@ Here some images of the proccess( to see full wireframe click PDF) :
      
    + Navigation bar 
 
-   - Navigation Menu:
-     
-   - big screen :
-   
-   ![features](assets/css/images/navbar0.png "Navigation bar")
+   - Navigation Menu: I decided to go wiht a simple and clean navigation bar to keep the feeling of a clean empty chopping board    wich invite to Cook.
+      
+   ![features](static/css/images/features/navbar.png "Navigation bar")
 
-   - Small screen : 
-   
-   ![features](assets/css/images/navbar2.png "Navigation bar")
+   + What to it,  Draw Box.
 
-   - Small screen : 
+   - One of the main features of the app, is that users can click in the Try luck buttom, and this will select a random recipe from the users recipe list.
+
+    ![features](static/css/images/features/Drawbox.png "Lucky Box")
+
+   + Create Recipes
+
+   - The useres are able to click on the create new recipe buttom, and this will open a form wich allow users to create new recipes items and storage in the database.
+
+    ![features](static/css/images/features/createbuttom.png "Create recipe")
+
+    ![features](static/css/images/features/createreceipe.png "Create recipe")
+
+   + Edit and deleted Recipes
    
-   ![features](assets/css/images/navbar3.png "Navigation bar")
+   - Once the recipes are created they will be able to acces the recipes item and edit, and delete them
+
+    ![features](static/css/images/features/create.recipes.png "Recipes created")
+
+   + Recipes History 
+
+   - I decided to create a list where the users can see every created recipe organize from the lates creation till the oldest, it also can see wich type of meal is, and date and time of creation. 
+
+    ![features](static/css/images/features/history.png "Recipes History")
+
+   + Registration and Login Form.
+
+   - I also addded a registration and Loging Form, where useres can Sign up and register to be able to see their one data.
+
+   ![features](static/css/images/features/registration.png "Registration")
+
+   ![features](static/css/images/features/login.png "Login")
+
+
+
+
 
 
    
@@ -311,6 +346,36 @@ I tried to simplify the code, and to used what was already working and retieving
 
 - After the page automatically refresh scroll down again on "GitHub Pages" and I will  see live link to the published site.
 
+
+#### Deployment to Heroku Pages:
+
++ The project was deployed on Heroku from the master branch. To do this, the following steps were taken:
+
+- from your terminal (CLI), create a requirements.txt and Procfile using these commands:#
+
+  -- pip3 freeze --local > requirements.txt
+  -- echo web: python app.py > Procfile
+
+- Sign up and login to Heroku, create a new app
+
+- Go to the Deploy tab and then Deployment Method and select Github
+
+- Under Connect to Github enter your details and connect your repository
+
+- Next, go to settings and select Config Vars and then Reveal Config Vars
+
+- You need to enter the following variables to match what you have stored in your env.py file
+
+  -- IP : 0.0.0.0
+  -- PORT : 5000
+  -- DATABASE_URI : DATABASE_URI",
+  -- SECRET_KEY : <app secret key>
+
+- Under the Deploy tab go to Automatic Deploys and enable
+
+- Under Manual Deploy, choose Master and click Deploy Branch
+
+- Heroku will begin building the app. When it is ready, you can click Open app to launch it.
 
 
 ### Cloning repository:

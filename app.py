@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect
 import os 
 import logging
+import flask_login
 from database import db_session, init_db
 from sqlalchemy import desc
 from models.recipes import Recipes
@@ -8,6 +9,7 @@ from models.histories import Histories
 from models.register import Users
 import datetime
 from random import choice
+from flask import session
 
 
 app = Flask(__name__)
@@ -41,12 +43,13 @@ def register():
     if request.method == 'POST':
         app.logger.info('impost request')
         username = request.form.get('username')
+        email = request.form.get('email')
         password = request.form.get('password')
 
         app.logger.info('username are %s', username)
         app.logger.info('password are %s', password)
 
-        user = Users(username=username, password=password)
+        user = Users(username=username, email=email, password=password)
         db_session.add(user)
         db_session.commit()
 
@@ -54,7 +57,26 @@ def register():
 
 
     return render_template('register.html')
-    
+
+
+@app.route('/userslog')
+def userslog():
+    userslog = Users.query.all()
+    return render_template('users.html', userslog=userslog)
+
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    email = request.form.get('email')
+    password = request.form.get('password')
+    # check if username exist in db (Look for an single user in Users table)
+    return render_template('login.html')
+
+
+# @app.route('logout')
+# def logout():
+#     return redirect('/login')
+
 
 @app.route('/draw')
 def draw():
