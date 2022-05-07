@@ -139,7 +139,6 @@ def delete_recipe():
 def history():
 
     histories = Recipes.query.all()
-    # histories = Recipes.query.order_by(desc(Recipes.created_time)).limit(20)
     app.logger.info('histories are %s', histories)
 
     return render_template('history.html', nav=history, recipes=histories)
