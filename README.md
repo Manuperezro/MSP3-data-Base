@@ -1,6 +1,6 @@
 # My Receipes Note Book
 
-# A responsive web apllication where the  users can store recipes and also use th draw buttom to help then to make decision of what to cook.
+# A responsive web apllication where the  users can store recipes and also use the draw buttom to help then with the decision of what to cook.
 
 ## Code Institute - Milestone Project 3
 
@@ -9,12 +9,10 @@
 ### By Manuel Perez
 
 ![Mockup](/ "Mockup")
-![Mockup](/ "Mockup")
-![Mockup](/ "Mockup")
-![Mockup](/ "Mockup")
-![Mockup](/"Mockup")
 
-[View Repository in GitHub Pages] ()
+[View Repository in GitHub Pages](https://github.com/Manuperezro/MSP3-data-Base)
+
+[View Deployment link Heroku](https://receipes-notebook.herokuapp.com/)
 
 
 [view Website Link ] ()
@@ -25,12 +23,12 @@
 
 ## The Why
 
-Help the users to keep al the online recipes that the find in the web in an orgaize app, where the users can comeback easyly to find links and notes about their favourites receipes.
+Help the users to keep online recipes that they find in the web in an orgaize app, where the users can comeback easyly to find links and notes about their favourites receipes.
 
 ## The Bussines Goal
 
 + Increase the number of users.  
-+ Increase the number od useres paying the pro quote (Future feature).
++ Increase the number od users paying the pro quote (Future feature).
 
 ## (UX) User Experience: 
 
@@ -57,6 +55,7 @@ Users will be able to use the draw service (What do i cook today??) with the min
      - To be able to deleted the recipes they are not using anymore.
      - To be able to clean the recipes history
 
+
   - #### Website Owner Goals:
 
   - ### I want users to:
@@ -66,8 +65,6 @@ Users will be able to use the draw service (What do i cook today??) with the min
      - To save a big number of receipes.
      - To be able to open he link of the receipes with a few clicks.
 
-
-    
     ## Design:
 
    ### Theme and Colour Scheme
@@ -84,9 +81,6 @@ The theme is inspired by a chopping borad and the elemts a chef used to prepare 
 ![Color](static/css/images/Color-scheme.png "Color Scheme")
 
 - Links : 
-
-+ Typography:
-
 
 + Images:
 
@@ -171,22 +165,6 @@ Here some images of the proccess(to see full wireframe click PDF) :
    ![features](static/css/images/features/registration.png "Registration")
 
    ![features](static/css/images/features/login.png "Login")
-
-
-
-
-
-
-   
-
-  - ##### Receips()
-
-
- 
-   ![wireframe](assets/css/images/retreats.Map.png "Retreat Map")
-
-   - ##### History()
-
   
 ## Technologies: 
 
@@ -198,10 +176,10 @@ Here some images of the proccess(to see full wireframe click PDF) :
 
 - [PYTHON3](https://en.wikipedia.org/wiki/Python_(programming_language))
 
-### Frameworks Libraries and programmes used: 
+### Frameworks Libraries and programm used: 
 
 - [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
-  
+
 - [Google Fonts](https://en.wikipedia.org/wiki/Google_Fonts)
 
 - [Font awesome](https://fontawesome.com/v4.7/icons/)
@@ -222,21 +200,35 @@ Here some images of the proccess(to see full wireframe click PDF) :
 
 - [SQLite](https://sqlite.org/index.html)
 
+- [SQAlchemy](https://sqlitebrowser.org/)
+
 - [SQAlchemy](https://www.sqlalchemy.org/)
 
 ## Database Schema:
 
 ### Schema: 
 
-- To check if my schema was ok, and tables I was creating were matching the requirements of the tasks I used DB Browser desktop app:
+- To check if my schema was valid, I check if tables I were achiving to solve the requirements of the tasks I used DB Browser desktop app:
 
+This image is the databases in DB browser app.
 
-- ![Database in SQlite](static/css/images/database1.png "DB browser")
+- ![Database in SQlite](static/css/images/dbimg.png "DB browser")
 
-- ![Database in SQlite](static/css/images/db2.png "DB browser")
+This is are the 3 tables I used when start the app.
+
+- ![Tables](static/css/images/3databases.png "DB browser")
+
+Recipes table
 
 - ![Recipes](static/css/images/recipiesDBSchema.jpeg "Recipes table")
 
+- ![Database in SQlite](static/css/images/db2.png "DB browser")
+
+Users table
+
+ - ![Users]( "Users table")
+
+ - ![Users in SQlite](static/css/images/useresdb.png "DB browser")
 
 ## Testing: 
 
@@ -254,44 +246,7 @@ Here some images of the proccess(to see full wireframe click PDF) :
  # Validators Results :
 
 
-
-
 # light House
-
-
-
-### Testing User Stories from User Experience (UX) Section
-
- #### First Time Visitor Goals: 
-
-  ######  As a First Time Visitor, I want to easily see what the products offers is, be able to find how to contact the organization and to navigate easyly throught the site:
-     
-    
-
-
-  #####  As a First Time Visitor, I want to be able to navigate easyly and intuitive throughout the site to find content related the products that the company offer and tools to decided / plan holidays:
-
-
-
-  ##### As a first time visitor I want to see some stories and reviews from other ussers to get to know the organization. I also Want to find the links to the social media to find more information about the organization and users thoughts and reviews and be able to determine how trasted and known the studio is:
-
-
-  #### Returning Visitor Goals: 
-
-  ##### As a returning Visitor, I want to find the products that I already seen and relevant information about them :
-   
-
-  
-  ##### As a returning Visitor, I want to be abel to send an enquery in simple steps:
-
-
-
-
-  ##### As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have:
-
- #### Frequent Users Goals:
-
-##### As a Frequent User, I want to be able to book a class easyly:
 
 
 ### Bugs and Errors during development:
@@ -300,17 +255,31 @@ Here some images of the proccess(to see full wireframe click PDF) :
 
 The issue :
 
-When I first tryed to create a history page with all the existing recipes in the Recipes page, the template was render ok, but the list was empty, it wasen't passing the data from the History model.
+When I first tryed to create a history page with all the existing recipes in the Recipes page, the template was render ok, but the list was empty, it wasn't receiving the data from the History model.
 
 The solution : 
 
 I tried to simplify the code, and to used what was already working and retieving data, So made the following changes (Check images below for more details), and try collect the data from the Recipes model, as the results was the same. The user was able to see a list with all the created recipes.
 
+
 - ![History ](static/css/images/bugs/HistoryBug.png "History List Bug")
 
 
-## Deployment:
+- Users Login not accesing to the Users Table. 
 
+The issue : 
+
+The route for Users registration , was collecting the data into the user table corretly but the route I created for loggin it wasent collecting any data.
+
+The solution : 
+
+On proccess......
+
+
+- ![Login]("Loging bug")
+
+
+## Deployment:
 
 
 ### Inception:
@@ -331,8 +300,8 @@ I tried to simplify the code, and to used what was already working and retieving
 - git push  - Pushes all committed versions to GitHub.
 
 
-
 #### Deployment to GitHub Pages:
+
 
 + The project was deployed to GitHub Pages using the following steps:
 
@@ -348,6 +317,7 @@ I tried to simplify the code, and to used what was already working and retieving
 
 
 #### Deployment to Heroku Pages:
+
 
 + The project was deployed on Heroku from the master branch. To do this, the following steps were taken:
 
@@ -380,6 +350,7 @@ I tried to simplify the code, and to used what was already working and retieving
 
 ### Cloning repository:
 
+
 + Local Clone
 
 - Log in to GitHub and locate GitHub Repository
@@ -395,6 +366,7 @@ I tried to simplify the code, and to used what was already working and retieving
 
 ### Forking repository:
 
+
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
 - Log in to GitHub and locate the GitHub Repository
@@ -405,19 +377,34 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 ## Credits:
 
 
-## Tutorials:
+## Turorials, guides and courses recources:
 
-- CodeLab tutorials (Youtube tutorials).
+- Main Code structure, Flask, Python, Html, Css:
 
-- Owl carousel (Youtube tutorials).
+  [HTML and CSS](https://www.w3schools.com/howto/howto_js_todolist.asp)
 
-- openweather API guides.
+  [HTML and CSS](https://medium.com/claruswaymaking-a-todo-list-with-html-css-and-javascript-154839b770b6)
 
-- Shanji Rajai,  2 Steve Griffin  Profesor youtube tutorials OpenWeather Api.
+  [Python and Flask](https://www.youtube.com/watch?v=6L3HNyXEais&ab_channel=TheProgrammerinYou)
 
-- Google Map Api Guides.
+  [Python and flask](https://www.youtube.com/watch?v=dam0GPOAvVI&t=198s&ab_channel=TechWithTim)
+
+
+- SQlite doumentation Guides
 
 - Bootstrapt Documentations Guides.
+
+- Database: 
+
+ Coding with Mosh, MySQL course.
+
+  [loging tutorial](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=6472s)
+
+- Login form with flask.
+
+  [loging tutorial](https://www.youtube.com/watch?v=8aTnmsDMldY&t=1040s)
+
+  [loging tutorial](https://www.youtube.com/watch?v=71EU8gnZqZQ&t=1107s&ab_channel=ArpanNeupane)
 
 
 ## Aknowledgements:

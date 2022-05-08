@@ -10,6 +10,8 @@ import datetime
 from random import choice
 from flask import session
 
+# Code isnpire with a few tutorials: 
+# CRUD udemy, Walktrhought project Code Institute, CRUD with Python codecademy.
 
 app = Flask(__name__)
 
@@ -66,9 +68,10 @@ def userslog():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    userslog = Users.query.all()
     email = request.form.get('email')
     password = request.form.get('password')
-    # check if username exist in db (Look for an single user in Users table)
+    # check if username exist in Users (Look for an single user in Users table)
     return render_template('login.html')
 
 
@@ -76,6 +79,9 @@ def login():
 # def logout():
 #     return redirect('/login')
 
+
+
+# Try luck Buttom
 
 @app.route('/draw')
 def draw():
@@ -164,6 +170,9 @@ def history():
 
     return render_template('history.html', nav=history, recipes=histories)
 
+
+
+# Code inspire by a udemy flask video-tutorial, To format the text depending on time. 
 
 def mealformat(value):
     if value.hour in [4, 5, 6, 7, 8, 9]:
