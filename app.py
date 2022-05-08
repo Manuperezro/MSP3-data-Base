@@ -11,7 +11,7 @@ from random import choice
 from flask import session
 
 # Code isnpire with a few tutorials: 
-# CRUD udemy, Walktrhought project Code Institute, CRUD with Python codecademy.
+# python CRUD udemy, Walktrhought project Code Institute, CRUD with Python codecademy.
 
 app = Flask(__name__)
 
@@ -71,6 +71,14 @@ def login():
     userslog = Users.query.all()
     email = request.form.get('email')
     password = request.form.get('password')
+    
+    msg = ""
+    if request.method=='POST':
+        email = request.form.get('email')
+        password = request.form('password')
+        cursor.execute('SELECT * FROM Users WHERE email=%s AND password=%s',email, password)
+
+
     # check if username exist in Users (Look for an single user in Users table)
     return render_template('login.html')
 

@@ -235,13 +235,12 @@ Users table
 
 ### Testing results:
 
+
 - [W3C Markup Validation Service](https://validator.w3.org/)
+
 
  + To validate HTML and CSS code.
 
- - [Js Hint Validation Service](https://jshint.com/)
-
- + To validate JavaScript code.
 
  # Validators Results :
 
