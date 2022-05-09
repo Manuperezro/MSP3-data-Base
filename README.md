@@ -1,6 +1,6 @@
 # My Receipes Note Book
 
-# A responsive web apllication where the  users can store recipes and also use the draw buttom to help then with the decision of what to cook.
+# A responsive web apllication where the  users can store recipes and also use the draw buttom to see one ramdom recipe from their list.
 
 ## Code Institute - Milestone Project 3
 
