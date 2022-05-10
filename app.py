@@ -6,7 +6,9 @@ from sqlalchemy import desc
 from models.recipes import Recipes
 from models.histories import Histories 
 from models.register import Users
+import MySQLdb.cursors
 import datetime
+
 from random import choice
 from flask import session
 
@@ -41,7 +43,7 @@ def register():
 
     app.logger.info('register-route')
     
-    if request.method == 'POST':
+    if request.method == "POST" and "username" in request.form and "email" in request.form and "password" in request.form:
         app.logger.info('impost request')
         username = request.form.get('username')
         email = request.form.get('email')
@@ -68,19 +70,32 @@ def userslog():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    userslog = Users.query.all()
-    email = request.form.get('email')
-    password = request.form.get('password')
-    
-    msg = ""
-    if request.method=='POST':
-        email = request.form.get('email')
-        password = request.form('password')
-        cursor.execute('SELECT * FROM Users WHERE email=%s AND password=%s',email, password)
+      if request.method == "POST" and "username" in request.form and "password" in request.form:
+        #   account exists
+        app.logger.info('in login function')
+        userslog = Users.query.all()
+        app.logger.info('userlist is %s', userslog)
 
+        username = request.form.get('username')
+        app.logger.info('username ok %s', username)
 
-    # check if username exist in Users (Look for an single user in Users table)
-    return render_template('login.html')
+        password = request.form.get('password')
+        app.logger.info('password ok %s', password)
+
+        # cursor.execute('SELECT * FROM Users WHERE username = %s AND password = %s', (username, password))
+        # user = cursor.fetchOne()
+        user = Users.query.filter(Users.username == username and Users.password == password).first()
+        app.logger.info('user in  ok %s', user)
+
+        session['username'] = user.username
+        # When users favourite recipes store into users database. add this to the others routes.
+
+      else:
+          # account dosn't exist
+          return '<h3>Inavalid Username or Password</h3>'
+          
+
+      return render_template('login.html')
 
 
 # @app.route('logout')
@@ -159,6 +174,7 @@ def edit_recipe():
 
 @app.route('/delete-recipe')
 def delete_recipe():
+
     id = request.args.get('id')
 
     recipe = Recipes.query.filter(Recipes.id == id).first()
