@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy import Column, Integer, String, DateTime, JSON
 from database import Base
 from sqlalchemy.orm import relationship
 import uuid
@@ -12,6 +12,7 @@ class Users(Base):
     email = Column(String(50), nullable=False)
     password = Column(String(20), nullable=False)
     created_time = Column(DateTime(), nullable=False)
+    # recipe_ids = Column()
 
 
     def __init__(self, username, password, email):

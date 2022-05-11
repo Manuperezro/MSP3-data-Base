@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, session
+from flask_session import Session
 import os 
 import logging
 from database import db_session, init_db
@@ -8,14 +9,31 @@ from models.histories import Histories
 from models.register import Users
 import MySQLdb.cursors
 import datetime
-
 from random import choice
-from flask import session
+
 
 # Code isnpire with a few tutorials: 
 # python CRUD udemy, Walktrhought project Code Institute, CRUD with Python codecademy.
 
 app = Flask(__name__)
+
+app.config['SECRET_KEY'] = "lalalalala"
+# os.environ.get("SECRET_KEY")
+
+
+# To dont storage any data 
+app.config["SESSION_PERMANENT"] = False
+
+
+# To store from the cookies. 
+app.config["SESSION_TYPE"] = "filesystem"
+
+
+Session(app)
+
+
+app.logger.info('IN app.py')
+app.logger.info('app.config', app.config)
 
 # for  debuging 
 
@@ -34,7 +52,12 @@ def shutdown_session(exception=None):
 
 @app.route('/')
 def start():
+    app.logger.info('IN START')
+    if not session.get('username'):
+        return render_template('login.html')     
     now = datetime.datetime.now
+    app.logger.info('Session username', session.get('username'))
+    app.logger.info('Leged In', session.get('loggedIn'))
     return render_template('start.html', nav='start', now=now)
 
 
@@ -70,9 +93,12 @@ def userslog():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-      if request.method == "POST" and "username" in request.form and "password" in request.form:
+    errorMessage = " "
+    app.logger.info('in login function')
+    app.logger.info('request ok', request.method)
+    app.logger.info('request form,', request.form)
+    if request.method == "POST" and "username" in request.form and "password" in request.form:
         #   account exists
-        app.logger.info('in login function')
         userslog = Users.query.all()
         app.logger.info('userlist is %s', userslog)
 
@@ -84,23 +110,35 @@ def login():
 
         # cursor.execute('SELECT * FROM Users WHERE username = %s AND password = %s', (username, password))
         # user = cursor.fetchOne()
-        user = Users.query.filter(Users.username == username and Users.password == password).first()
-        app.logger.info('user in  ok %s', user)
+        # check if user exists in register database
+        userExists = bool(Users.query.filter_by(username=username).first())
+        app.logger.info('user in  ok %s', userExists)
+        if userExists is True:
+            # get the user from the database
+            user = Users.query.filter(Users.username == username and Users.password == password).first()
+            session['username'] = user.username
+            session['id'] = user.id
+            session['loggedIn'] = True
 
-        session['username'] = user.username
+            return redirect('/') 
+            return render_template('start.html')
+        else:
+            # account dosn't exist
+            errorMessage = "Invalid Username or Password "
+
         # When users favourite recipes store into users database. add this to the others routes.
 
-      else:
-          # account dosn't exist
-          return '<h3>Inavalid Username or Password</h3>'
-          
 
-      return render_template('login.html')
+    return render_template('login.html', errorMessage=errorMessage)
 
 
-# @app.route('logout')
-# def logout():
-#     return redirect('/login')
+@app.route('/logout')
+def logout():
+    session.pop('username', None)
+    session.pop('id', None)
+    session.pop('loggedIn', None)
+
+    return redirect('/login')
 
 
 
@@ -126,15 +164,31 @@ def draw():
 
 @app.route('/create-recipe', methods=['GET', 'POST'])
 def create_recipe():
+    app.logger.info('CREATE RECIPE %s')
     if request.method == 'POST':
         name = request.form.get('name')
         description = request.form.get('description')
         site_url = request.form.get('site_url')
+        username = request.form.get('username')
+
+        user = Users.query.filter(Users.username == username).first()
+        app.logger.info('user in create %s', user)
+
 
         recipe = Recipes(name=name, description=description, site_url=site_url)
+
+        # app.logger.info('recipe ==  %s', recipe.id)
+
+        # user.recipe_ids.append(recipe.id)
+
+        # addRecipe = user.recipe_ids.append(recipe.id)
+
+        # db_session.add(addRecipe)
+
         db_session.add(recipe)
         db_session.commit()
 
+        # app.logger.info('is recipe addded to user ?  %s', user.recipe_ids)
         return redirect('/recipes')
 
 

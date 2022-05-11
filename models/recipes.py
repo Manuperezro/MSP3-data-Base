@@ -8,13 +8,12 @@ import datetime
 class Recipes(Base):
     __tablename__ = 'recipes'
     id = Column(String(50), primary_key=True)
-    name = Column(String(50), unique=True)
+    name = Column(String(50))
     description = Column(String(100), nullable=True)
     site_url = Column(String(200), nullable=True)
     draw = Column(Integer(), default=0)
     created_time = Column(DateTime(), nullable=False)
     modified_time = Column(DateTime(), nullable=False)
-    # site_visits = Column(Integer(), default=0)
     histories = relationship(
         'Histories',
         backref='recipes',

@@ -1886,3 +1886,1793 @@ sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in
 2022-05-10 16:44:30,245 INFO werkzeug MainThread :  * Restarting with stat
 2022-05-10 16:44:30,606 WARNING werkzeug MainThread :  * Debugger is active!
 2022-05-10 16:44:30,606 INFO werkzeug MainThread :  * Debugger PIN: 496-111-780
+2022-05-11 14:47:46,633 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 14:47:46,634 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 14:47:46,955 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 14:47:46,955 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 14:47:49,672 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 14:47:49] "GET / HTTP/1.1" 200 -
+2022-05-11 14:47:49,917 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 14:47:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-05-11 14:47:49,992 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 14:47:49] "GET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1" 200 -
+2022-05-11 14:47:51,045 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 14:47:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-11 14:47:51,911 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 14:47:51] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:48:43,296 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 14:48:43,334 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 14:48:43,627 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 14:48:43,628 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 14:48:47,150 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 14:48:47] "GET / HTTP/1.1" 200 -
+2022-05-11 14:48:47,202 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 14:48:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 14:48:47,271 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 14:48:47] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 14:48:49,677 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 14:48:49,720 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 14:48:50,053 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 14:48:50,054 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 14:48:54,729 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 14:48:54] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:49:04,486 INFO app Thread-3 : register-route
+2022-05-11 14:49:04,496 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 14:49:04] "GET /register HTTP/1.1" 200 -
+2022-05-11 14:49:04,602 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 14:49:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 14:49:04,663 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 14:49:04] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 14:49:04,665 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 14:49:04] "GET /static/css/images/notebook2.jpg HTTP/1.1" 200 -
+2022-05-11 14:49:08,723 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 14:49:08] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:49:48,237 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 14:49:48] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:49:48,898 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 14:49:48] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:49:49,134 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 14:49:49] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:49:49,302 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 14:49:49] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:50:37,471 INFO app Thread-12 : register-route
+2022-05-11 14:50:37,472 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 14:50:37] "GET /register HTTP/1.1" 200 -
+2022-05-11 14:50:37,521 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 14:50:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 14:50:37,585 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 14:50:37] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 14:50:37,585 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 14:50:37] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 14:50:40,187 INFO werkzeug Thread-16 : 10.20.17.199 - - [11/May/2022 14:50:40] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:50:42,687 INFO werkzeug Thread-17 : 10.20.17.199 - - [11/May/2022 14:50:42] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:50:44,711 INFO werkzeug Thread-18 : 10.20.17.199 - - [11/May/2022 14:50:44] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:50:44,814 INFO werkzeug Thread-19 : 10.20.17.199 - - [11/May/2022 14:50:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-11 14:50:45,135 INFO werkzeug Thread-20 : 10.20.17.199 - - [11/May/2022 14:50:45] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:50:45,251 INFO werkzeug Thread-21 : 10.20.17.199 - - [11/May/2022 14:50:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-11 14:50:45,352 INFO werkzeug Thread-22 : 10.20.17.199 - - [11/May/2022 14:50:45] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:50:45,477 INFO werkzeug Thread-23 : 10.20.17.199 - - [11/May/2022 14:50:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-11 14:50:45,509 INFO werkzeug Thread-24 : 10.20.17.199 - - [11/May/2022 14:50:45] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:50:45,650 INFO werkzeug Thread-25 : 10.20.17.199 - - [11/May/2022 14:50:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-11 14:51:09,994 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 14:51:10,053 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 14:54:45,243 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 14:54:45,244 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 14:54:45,545 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 14:54:45,545 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 14:54:47,364 INFO app Thread-2 : in login function
+2022-05-11 14:54:47,369 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 14:54:47] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-05-11 14:54:47,416 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 14:54:47] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-11 14:54:47,417 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 14:54:47] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-11 14:54:47,531 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 14:54:47] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-11 14:54:47,640 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 14:54:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 14:54:48,460 INFO app Thread-7 : in login function
+2022-05-11 14:54:48,463 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 14:54:48] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-05-11 14:54:48,515 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 14:54:48] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-11 14:54:48,516 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 14:54:48] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-11 14:54:48,585 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 14:54:48] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-11 14:54:48,624 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 14:54:48] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-11 14:54:52,007 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 14:54:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-11 14:56:01,054 INFO app Thread-13 : in login function
+2022-05-11 14:56:01,057 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 14:56:01] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-05-11 14:56:01,121 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 14:56:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 14:56:01,122 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 14:56:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 14:56:01,183 INFO werkzeug Thread-16 : 10.20.17.199 - - [11/May/2022 14:56:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 14:56:01,250 INFO werkzeug Thread-17 : 10.20.17.199 - - [11/May/2022 14:56:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 14:56:03,694 INFO app Thread-18 : in login function
+2022-05-11 14:56:03,697 INFO werkzeug Thread-18 : 10.20.17.199 - - [11/May/2022 14:56:03] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-05-11 14:56:03,755 INFO werkzeug Thread-19 : 10.20.17.199 - - [11/May/2022 14:56:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 14:56:03,757 INFO werkzeug Thread-20 : 10.20.17.199 - - [11/May/2022 14:56:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 14:56:03,857 INFO werkzeug Thread-21 : 10.20.17.199 - - [11/May/2022 14:56:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 14:56:30,206 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 14:56:30,266 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 14:56:30,589 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 14:56:30,589 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 14:56:32,292 INFO app Thread-2 : in login function
+2022-05-11 14:56:32,298 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 14:56:32] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:56:36,320 INFO app Thread-3 : in login function
+2022-05-11 14:56:36,322 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 14:56:36] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:59:16,613 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 14:59:16,654 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 14:59:16,964 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 14:59:16,964 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 14:59:21,564 INFO app Thread-2 : in login function
+2022-05-11 14:59:21,572 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 14:59:21] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-05-11 14:59:21,672 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 14:59:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 14:59:21,673 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 14:59:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 14:59:21,739 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 14:59:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 14:59:21,804 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 14:59:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 14:59:34,096 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 14:59:34,135 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 14:59:34,457 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 14:59:34,457 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 14:59:35,067 INFO app Thread-2 : in login function
+2022-05-11 14:59:35,087 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 14:59:35] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:59:35,129 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 14:59:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 14:59:35,196 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 14:59:35] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 14:59:35,198 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 14:59:35] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 14:59:37,944 INFO app Thread-6 : in login function
+2022-05-11 14:59:37,946 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 14:59:37] "GET /login HTTP/1.1" 200 -
+2022-05-11 14:59:37,988 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 14:59:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 14:59:38,060 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 14:59:38] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 14:59:38,061 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 14:59:38] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 14:59:49,956 INFO app Thread-10 : in login function
+2022-05-11 14:59:49,957 INFO app Thread-10 : request form,
+2022-05-11 14:59:49,963 INFO app Thread-10 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 14:59:49,963 INFO app Thread-10 : username ok Hola
+2022-05-11 14:59:49,963 INFO app Thread-10 : password ok hi
+2022-05-11 14:59:49,967 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 14:59:49] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 14:59:50,008 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 14:59:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 14:59:50,008 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 14:59:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 14:59:50,078 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 14:59:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 14:59:50,145 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 14:59:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:00:06,663 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:00:06,678 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140608260126464 and this is thread id 140608319869568.
+2022-05-11 15:00:06,678 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7fe1eaa8a990>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140608260126464 and this is thread id 140608319869568.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140608260126464 and this is thread id 140608319869568.
+2022-05-11 15:00:06,709 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:00:07,016 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:00:07,016 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:00:17,094 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:00:17,135 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:00:17,456 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:00:17,457 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:00:20,754 INFO app Thread-2 : in login function
+2022-05-11 15:00:20,756 INFO app Thread-2 : request form,
+2022-05-11 15:00:20,763 INFO app Thread-2 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:00:20,763 INFO app Thread-2 : username ok Hola
+2022-05-11 15:00:20,763 INFO app Thread-2 : password ok hi
+2022-05-11 15:00:20,764 INFO app Thread-2 : user in  ok True
+2022-05-11 15:00:20,773 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:00:20] "POST /login HTTP/1.1" 200 -
+2022-05-11 15:00:20,816 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:00:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:00:20,887 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:00:20] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:00:20,888 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:00:20] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:00:23,769 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 15:00:23] "GET /userslog HTTP/1.1" 200 -
+2022-05-11 15:00:37,205 INFO app Thread-7 : in login function
+2022-05-11 15:00:37,206 INFO app Thread-7 : request form,
+2022-05-11 15:00:37,207 INFO app Thread-7 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:00:37,208 INFO app Thread-7 : username ok Hola
+2022-05-11 15:00:37,208 INFO app Thread-7 : password ok HI
+2022-05-11 15:00:37,208 INFO app Thread-7 : user in  ok True
+2022-05-11 15:00:37,209 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 15:00:37] "POST /login HTTP/1.1" 200 -
+2022-05-11 15:00:37,250 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 15:00:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:00:37,315 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 15:00:37] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:00:37,315 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 15:00:37] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:04:59,296 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:04:59,341 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:13:06,234 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 15:13:06,235 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:13:06,533 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:13:06,533 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:13:06,878 INFO app Thread-2 : in login function
+2022-05-11 15:13:06,880 INFO app Thread-2 : request form,
+2022-05-11 15:13:06,887 INFO app Thread-2 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:13:06,888 INFO app Thread-2 : username ok s
+2022-05-11 15:13:06,888 INFO app Thread-2 : password ok sss
+2022-05-11 15:13:06,889 INFO app Thread-2 : user in  ok False
+2022-05-11 15:13:06,898 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:13:06] "POST /login HTTP/1.1" 200 -
+2022-05-11 15:13:06,978 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:13:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:13:07,072 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:13:07] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:13:07,073 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:13:07] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:13:08,911 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 15:13:08] "GET / HTTP/1.1" 200 -
+2022-05-11 15:13:09,066 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 15:13:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:13:09,140 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 15:13:09] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:13:11,673 INFO app Thread-9 : in login function
+2022-05-11 15:13:11,675 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 15:13:11] "GET /login HTTP/1.1" 200 -
+2022-05-11 15:13:11,728 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 15:13:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:13:11,803 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 15:13:11] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:13:11,807 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 15:13:11] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:13:18,092 INFO app Thread-13 : in login function
+2022-05-11 15:13:18,092 INFO app Thread-13 : request form,
+2022-05-11 15:13:18,093 INFO app Thread-13 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:13:18,094 INFO app Thread-13 : username ok kkkk
+2022-05-11 15:13:18,094 INFO app Thread-13 : password ok bbbb
+2022-05-11 15:13:18,094 INFO app Thread-13 : user in  ok False
+2022-05-11 15:13:18,095 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 15:13:18] "POST /login HTTP/1.1" 200 -
+2022-05-11 15:13:18,145 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 15:13:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:13:18,210 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 15:13:18] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:13:18,211 INFO werkzeug Thread-16 : 10.20.17.199 - - [11/May/2022 15:13:18] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:13:18,858 INFO app Thread-17 : in login function
+2022-05-11 15:13:18,859 INFO app Thread-17 : request form,
+2022-05-11 15:13:18,860 INFO app Thread-17 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:13:18,860 INFO app Thread-17 : username ok 
+2022-05-11 15:13:18,860 INFO app Thread-17 : password ok 
+2022-05-11 15:13:18,860 INFO app Thread-17 : user in  ok False
+2022-05-11 15:13:18,861 INFO werkzeug Thread-17 : 10.20.17.199 - - [11/May/2022 15:13:18] "POST /login HTTP/1.1" 200 -
+2022-05-11 15:13:18,931 INFO werkzeug Thread-18 : 10.20.17.199 - - [11/May/2022 15:13:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:13:19,007 INFO werkzeug Thread-19 : 10.20.17.199 - - [11/May/2022 15:13:19] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:13:19,009 INFO werkzeug Thread-20 : 10.20.17.199 - - [11/May/2022 15:13:19] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:14:16,775 INFO app Thread-21 : in login function
+2022-05-11 15:14:16,776 INFO app Thread-21 : request form,
+2022-05-11 15:14:16,777 INFO app Thread-21 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:14:16,777 INFO app Thread-21 : username ok 
+2022-05-11 15:14:16,777 INFO app Thread-21 : password ok 
+2022-05-11 15:14:16,778 INFO app Thread-21 : user in  ok False
+2022-05-11 15:14:16,780 INFO werkzeug Thread-21 : 10.20.17.199 - - [11/May/2022 15:14:16] "POST /login HTTP/1.1" 200 -
+2022-05-11 15:14:16,827 INFO werkzeug Thread-22 : 10.20.17.199 - - [11/May/2022 15:14:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:14:16,901 INFO werkzeug Thread-23 : 10.20.17.199 - - [11/May/2022 15:14:16] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:14:16,902 INFO werkzeug Thread-24 : 10.20.17.199 - - [11/May/2022 15:14:16] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:15:46,539 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:15:46,579 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:15:46,882 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:15:46,882 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:16:31,174 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:16:31,219 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:16:31,528 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:16:31,528 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:17:01,045 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:17:01] "GET / HTTP/1.1" 200 -
+2022-05-11 15:17:01,087 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:17:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:17:01,154 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:17:01] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:17:58,073 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:17:58,110 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:17:58,413 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:17:58,414 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:18:17,578 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:18:17] "GET / HTTP/1.1" 200 -
+2022-05-11 15:18:17,678 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:18:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:18:17,751 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:18:17] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:18:21,170 INFO app Thread-5 : in login function
+2022-05-11 15:18:21,175 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:18:21] "GET /login HTTP/1.1" 200 -
+2022-05-11 15:18:21,255 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 15:18:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:18:21,331 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 15:18:21] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:18:21,333 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 15:18:21] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:18:30,792 INFO app Thread-9 : in login function
+2022-05-11 15:18:30,794 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 15:18:30] "GET /login HTTP/1.1" 200 -
+2022-05-11 15:18:30,847 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 15:18:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:18:30,980 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 15:18:30] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:18:30,981 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 15:18:30] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:18:35,694 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 15:18:35] "GET /userslog HTTP/1.1" 200 -
+2022-05-11 15:18:43,529 INFO app Thread-14 : in login function
+2022-05-11 15:18:43,530 INFO app Thread-14 : request form,
+2022-05-11 15:18:43,531 INFO app Thread-14 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:18:43,531 INFO app Thread-14 : username ok Hola
+2022-05-11 15:18:43,532 INFO app Thread-14 : password ok HI
+2022-05-11 15:18:43,533 INFO app Thread-14 : user in  ok True
+2022-05-11 15:18:43,538 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 15:18:43] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 15:18:43,596 ERROR sqlalchemy.pool.impl.NullPool Thread-16 : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140209911760640 and this is thread id 140209902057216.
+2022-05-11 15:18:43,597 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 15:18:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:18:43,598 ERROR sqlalchemy.pool.impl.NullPool Thread-16 : Exception closing connection <sqlite3.Connection object at 0x7f852b3f08a0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140209911760640 and this is thread id 140209902057216.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140209911760640 and this is thread id 140209902057216.
+2022-05-11 15:18:43,599 INFO werkzeug Thread-16 : 10.20.17.199 - - [11/May/2022 15:18:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 15:18:43,704 INFO werkzeug Thread-17 : 10.20.17.199 - - [11/May/2022 15:18:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:18:43,785 INFO werkzeug Thread-18 : 10.20.17.199 - - [11/May/2022 15:18:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:23:49,632 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/env.py', reloading
+2022-05-11 15:23:49,673 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:23:50,023 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:23:50,023 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:24:17,206 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/env.py', reloading
+2022-05-11 15:24:17,246 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:24:17,552 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:24:17,552 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:24:39,702 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/env.py', reloading
+2022-05-11 15:24:39,743 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:24:40,058 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:24:40,058 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:24:41,080 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/env.py', reloading
+2022-05-11 15:24:41,121 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:24:41,415 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:24:41,415 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:25:51,870 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/env.py', reloading
+2022-05-11 15:25:51,908 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:25:52,214 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:25:52,215 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:25:54,893 INFO app Thread-2 : in login function
+2022-05-11 15:25:54,896 INFO app Thread-2 : request form,
+2022-05-11 15:25:54,903 INFO app Thread-2 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:25:54,903 INFO app Thread-2 : username ok Hola
+2022-05-11 15:25:54,903 INFO app Thread-2 : password ok HI
+2022-05-11 15:25:54,904 INFO app Thread-2 : user in  ok True
+2022-05-11 15:25:54,910 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:25:54] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 15:25:55,117 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:25:55] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:25:55,117 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:25:55] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 15:25:55,167 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:25:55] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:25:55,240 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 15:25:55] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:26:01,199 INFO app Thread-7 : in login function
+2022-05-11 15:26:01,200 INFO app Thread-7 : request form,
+2022-05-11 15:26:01,202 INFO app Thread-7 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:26:01,202 INFO app Thread-7 : username ok Hola
+2022-05-11 15:26:01,202 INFO app Thread-7 : password ok HI
+2022-05-11 15:26:01,202 INFO app Thread-7 : user in  ok True
+2022-05-11 15:26:01,207 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 15:26:01] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 15:26:01,250 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 15:26:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:26:01,250 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 15:26:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 15:26:01,304 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 15:26:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:26:01,375 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 15:26:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:27:40,585 ERROR sqlalchemy.pool.impl.NullPool Thread-12 : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140553782163200 and this is thread id 140553792128768.
+2022-05-11 15:27:40,585 ERROR sqlalchemy.pool.impl.NullPool Thread-12 : Exception closing connection <sqlite3.Connection object at 0x7fd53c168a80>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140553782163200 and this is thread id 140553792128768.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140553782163200 and this is thread id 140553792128768.
+2022-05-11 15:27:40,598 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 15:27:40] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 15:27:40,816 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 15:27:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:27:40,913 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 15:27:40] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:30:48,020 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:30:48,035 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140553792128768 and this is thread id 140553851871872.
+2022-05-11 15:30:48,035 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7fd53c1684e0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140553792128768 and this is thread id 140553851871872.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140553792128768 and this is thread id 140553851871872.
+2022-05-11 15:30:48,067 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:33:00,749 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 15:33:00,750 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:33:01,050 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:33:01,051 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:33:03,993 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:33:03] "GET / HTTP/1.1" 200 -
+2022-05-11 15:33:04,077 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:33:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:33:04,137 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:33:04] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:33:04,898 INFO app Thread-5 : in login function
+2022-05-11 15:33:04,903 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:33:04] "GET /login HTTP/1.1" 200 -
+2022-05-11 15:33:05,002 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 15:33:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:33:05,199 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 15:33:05] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:33:05,203 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 15:33:05] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:33:41,319 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:33:41,358 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:34:15,601 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 15:34:15,602 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:34:15,932 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:34:15,932 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:34:15,942 INFO app Thread-2 : in login function
+2022-05-11 15:34:15,962 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:34:15] "GET /login HTTP/1.1" 200 -
+2022-05-11 15:34:16,006 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:34:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:34:16,080 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:34:16] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:34:16,082 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:34:16] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:34:18,930 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 15:34:18] "GET / HTTP/1.1" 200 -
+2022-05-11 15:34:18,980 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 15:34:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:34:19,066 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 15:34:19] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:34:21,129 INFO app Thread-9 : in login function
+2022-05-11 15:34:21,132 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 15:34:21] "GET /login HTTP/1.1" 200 -
+2022-05-11 15:34:21,188 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 15:34:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:34:21,291 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 15:34:21] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:34:21,292 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 15:34:21] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:34:29,478 INFO app Thread-13 : in login function
+2022-05-11 15:34:29,480 INFO app Thread-13 : request form,
+2022-05-11 15:34:29,486 INFO app Thread-13 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:34:29,487 INFO app Thread-13 : username ok Hola
+2022-05-11 15:34:29,487 INFO app Thread-13 : password ok HI
+2022-05-11 15:34:29,488 INFO app Thread-13 : user in  ok True
+2022-05-11 15:34:29,494 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 15:34:29] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 15:34:29,540 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 15:34:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:34:29,545 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 15:34:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 15:34:29,614 INFO werkzeug Thread-16 : 10.20.17.199 - - [11/May/2022 15:34:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:34:29,688 INFO werkzeug Thread-17 : 10.20.17.199 - - [11/May/2022 15:34:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:35:41,517 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:35:41,531 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468910286592 and this is thread id 140469053633152.
+2022-05-11 15:35:41,532 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7fc17db828a0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468910286592 and this is thread id 140469053633152.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140468910286592 and this is thread id 140469053633152.
+2022-05-11 15:35:41,558 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:35:41,864 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:35:41,865 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:35:45,478 INFO app Thread-2 : in login function
+2022-05-11 15:35:45,482 INFO app Thread-2 : request form,
+2022-05-11 15:35:45,489 INFO app Thread-2 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:35:45,489 INFO app Thread-2 : username ok Hola
+2022-05-11 15:35:45,489 INFO app Thread-2 : password ok HI
+2022-05-11 15:35:45,491 INFO app Thread-2 : user in  ok True
+2022-05-11 15:35:45,496 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:35:45] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 15:35:45,536 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:35:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:35:45,537 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:35:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 15:35:45,586 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:35:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:35:45,726 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 15:35:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:35:48,796 INFO app Thread-7 : in login function
+2022-05-11 15:35:48,806 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 15:35:48] "GET /login HTTP/1.1" 200 -
+2022-05-11 15:35:48,854 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 15:35:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:35:48,905 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 15:35:48] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:35:48,905 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 15:35:48] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:35:59,460 INFO app Thread-11 : in login function
+2022-05-11 15:35:59,461 INFO app Thread-11 : request form,
+2022-05-11 15:35:59,463 INFO app Thread-11 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:35:59,463 INFO app Thread-11 : username ok Hola
+2022-05-11 15:35:59,463 INFO app Thread-11 : password ok HI
+2022-05-11 15:35:59,463 INFO app Thread-11 : user in  ok True
+2022-05-11 15:35:59,467 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 15:35:59] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 15:35:59,520 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 15:35:59] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:35:59,522 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 15:35:59] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 15:35:59,587 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 15:35:59] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:35:59,651 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 15:35:59] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:37:16,440 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:37:16,458 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139865499956992 and this is thread id 139865559700096.
+2022-05-11 15:37:16,459 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f34faad8b70>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139865499956992 and this is thread id 139865559700096.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139865499956992 and this is thread id 139865559700096.
+2022-05-11 15:37:16,459 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139865499956992 and this is thread id 139865559700096.
+2022-05-11 15:37:16,459 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f34faad84e0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139865499956992 and this is thread id 139865559700096.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139865499956992 and this is thread id 139865559700096.
+2022-05-11 15:37:16,495 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:37:16,797 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:37:16,797 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:37:51,013 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:37:51,064 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:37:51,368 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:37:51,369 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:37:54,963 INFO app Thread-2 : in login function
+2022-05-11 15:37:54,980 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:37:54] "GET /login HTTP/1.1" 200 -
+2022-05-11 15:37:55,028 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:37:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:37:55,081 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:37:55] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:37:55,082 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:37:55] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:37:57,240 INFO app Thread-6 : in login function
+2022-05-11 15:37:57,242 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 15:37:57] "GET /login HTTP/1.1" 200 -
+2022-05-11 15:37:57,291 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 15:37:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:37:57,362 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 15:37:57] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:37:57,363 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 15:37:57] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:38:05,464 INFO app Thread-10 : in login function
+2022-05-11 15:38:05,465 INFO app Thread-10 : request form,
+2022-05-11 15:38:05,471 INFO app Thread-10 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:38:05,472 INFO app Thread-10 : username ok Hola
+2022-05-11 15:38:05,472 INFO app Thread-10 : password ok HI
+2022-05-11 15:38:05,473 INFO app Thread-10 : user in  ok True
+2022-05-11 15:38:05,478 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 15:38:05] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 15:38:05,531 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 15:38:05] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:38:05,531 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 15:38:05] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 15:38:05,582 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 15:38:05] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:38:05,633 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 15:38:05] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:39:04,810 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:39:04,829 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140053624571648 and this is thread id 140053684314752.
+2022-05-11 15:39:04,830 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f60c7c758a0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140053624571648 and this is thread id 140053684314752.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140053624571648 and this is thread id 140053684314752.
+2022-05-11 15:39:04,869 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:39:05,175 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:39:05,175 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:39:11,026 INFO app Thread-2 : in login function
+2022-05-11 15:39:11,030 INFO app Thread-2 : request form,
+2022-05-11 15:39:11,037 INFO app Thread-2 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:39:11,037 INFO app Thread-2 : username ok Hola
+2022-05-11 15:39:11,037 INFO app Thread-2 : password ok HI
+2022-05-11 15:39:11,039 INFO app Thread-2 : user in  ok True
+2022-05-11 15:39:11,049 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:39:11] "POST /login HTTP/1.1" 200 -
+2022-05-11 15:39:11,098 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:39:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:39:11,154 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:39:11] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:39:13,264 INFO app Thread-5 : in login function
+2022-05-11 15:39:13,268 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:39:13] "GET /login HTTP/1.1" 200 -
+2022-05-11 15:39:13,339 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 15:39:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:39:13,385 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 15:39:13] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:39:13,387 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 15:39:13] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:39:23,991 INFO app Thread-9 : in login function
+2022-05-11 15:39:23,993 INFO app Thread-9 : request form,
+2022-05-11 15:39:23,994 INFO app Thread-9 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:39:23,994 INFO app Thread-9 : username ok Hola
+2022-05-11 15:39:23,994 INFO app Thread-9 : password ok HI
+2022-05-11 15:39:23,995 INFO app Thread-9 : user in  ok True
+2022-05-11 15:39:23,996 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 15:39:23] "POST /login HTTP/1.1" 200 -
+2022-05-11 15:39:24,042 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 15:39:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:39:24,099 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 15:39:24] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:44:00,034 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:44:00,083 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:44:00,408 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:44:00,408 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:45:25,939 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:45:25,989 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:45:26,310 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:45:26,311 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:46:09,586 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:46:09,626 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:57:37,570 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 15:57:37,571 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:57:37,858 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:57:37,858 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:57:38,893 INFO app Thread-2 : in login function
+2022-05-11 15:57:38,897 INFO app Thread-2 : request form,
+2022-05-11 15:57:38,903 INFO app Thread-2 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 15:57:38,903 INFO app Thread-2 : username ok Hola
+2022-05-11 15:57:38,903 INFO app Thread-2 : password ok HI
+2022-05-11 15:57:38,904 INFO app Thread-2 : user in  ok True
+2022-05-11 15:57:38,909 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:57:38] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 15:57:38,989 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:57:38] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:57:38,989 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:57:38] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 15:57:39,027 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:57:39] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:57:39,114 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 15:57:39] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 15:57:44,368 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 15:57:44] "GET / HTTP/1.1" 200 -
+2022-05-11 15:57:44,484 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 15:57:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:57:44,562 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 15:57:44] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:57:44,564 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 15:57:44] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:58:22,153 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 15:58:22,164 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140368563623680 and this is thread id 140368623366784.
+2022-05-11 15:58:22,165 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7faa1b9b37b0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140368563623680 and this is thread id 140368623366784.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140368563623680 and this is thread id 140368623366784.
+2022-05-11 15:58:22,195 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:58:22,474 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:58:22,474 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:58:37,422 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 15:58:37,424 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 15:58:37,936 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 15:58:37,936 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 15:58:41,363 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 15:58:41] "GET / HTTP/1.1" 200 -
+2022-05-11 15:58:41,422 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 15:58:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 15:58:41,521 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 15:58:41] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 15:58:41,524 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 15:58:41] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:00:05,567 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:00:05,621 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:00:05,928 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:00:05,928 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:00:11,977 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:00:12,019 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:00:12,324 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:00:12,324 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:00:46,550 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:00:46,586 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:00:46,898 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:00:46,898 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:01:04,015 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:01:04,064 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:01:04,376 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:01:04,376 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:01:16,462 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:01:16,503 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:01:16,805 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:01:16,805 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:01:42,996 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:01:43,052 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:01:43,362 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:01:43,363 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:01:45,163 INFO app Thread-2 : in login function
+2022-05-11 16:01:45,166 INFO app Thread-2 : request form,
+2022-05-11 16:01:45,171 INFO app Thread-2 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:01:45,171 INFO app Thread-2 : username ok Hola
+2022-05-11 16:01:45,172 INFO app Thread-2 : password ok HI
+2022-05-11 16:01:45,173 INFO app Thread-2 : user in  ok True
+2022-05-11 16:01:45,178 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:01:45] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 16:01:45,281 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:01:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:01:45,282 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:01:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:01:45,366 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:01:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:01:53,435 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:01:53,448 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140308498970368 and this is thread id 140308558713472.
+2022-05-11 16:01:53,449 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f9c1f7967b0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140308498970368 and this is thread id 140308558713472.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140308498970368 and this is thread id 140308558713472.
+2022-05-11 16:01:53,475 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:01:53,786 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:01:53,786 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:02:01,597 INFO app Thread-2 : in login function
+2022-05-11 16:02:01,600 INFO app Thread-2 : request form,
+2022-05-11 16:02:01,606 INFO app Thread-2 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:02:01,606 INFO app Thread-2 : username ok Hola
+2022-05-11 16:02:01,606 INFO app Thread-2 : password ok HI
+2022-05-11 16:02:01,608 INFO app Thread-2 : user in  ok True
+2022-05-11 16:02:01,613 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:02:01] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 16:02:01,670 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:02:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:02:01,672 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:02:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:02:01,718 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:02:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:02:21,976 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:02:21,993 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139808493614848 and this is thread id 139808553357952.
+2022-05-11 16:02:21,993 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f27b4d527b0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139808493614848 and this is thread id 139808553357952.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139808493614848 and this is thread id 139808553357952.
+2022-05-11 16:02:22,026 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:02:53,820 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 16:02:53,821 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:02:54,111 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:02:54,111 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:02:54,121 INFO app Thread-2 : in login function
+2022-05-11 16:02:54,129 INFO app Thread-2 : request form,
+2022-05-11 16:02:54,135 INFO app Thread-2 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:02:54,135 INFO app Thread-2 : username ok Hola
+2022-05-11 16:02:54,135 INFO app Thread-2 : password ok HI
+2022-05-11 16:02:54,137 INFO app Thread-2 : user in  ok True
+2022-05-11 16:02:54,147 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:02:54] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 16:02:54,189 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:02:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:02:54,189 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:02:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:02:54,228 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:02:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:02:54,336 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:02:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:02:57,260 INFO app Thread-7 : IN START
+2022-05-11 16:02:57,268 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:02:57] "GET / HTTP/1.1" 200 -
+2022-05-11 16:02:57,396 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:02:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:02:57,480 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:02:57] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:02:57,482 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:02:57] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:02:59,765 INFO app Thread-11 : in login function
+2022-05-11 16:02:59,769 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:02:59] "GET /login HTTP/1.1" 200 -
+2022-05-11 16:02:59,826 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 16:02:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:02:59,879 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 16:02:59] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:02:59,881 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 16:02:59] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:03:04,005 INFO app Thread-15 : in login function
+2022-05-11 16:03:04,006 INFO app Thread-15 : request form,
+2022-05-11 16:03:04,007 INFO app Thread-15 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:03:04,008 INFO app Thread-15 : username ok 
+2022-05-11 16:03:04,008 INFO app Thread-15 : password ok 
+2022-05-11 16:03:04,008 INFO app Thread-15 : user in  ok False
+2022-05-11 16:03:04,009 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 16:03:04] "POST /login HTTP/1.1" 200 -
+2022-05-11 16:03:04,053 INFO werkzeug Thread-16 : 10.20.17.199 - - [11/May/2022 16:03:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:03:04,105 INFO werkzeug Thread-17 : 10.20.17.199 - - [11/May/2022 16:03:04] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:03:04,106 INFO werkzeug Thread-18 : 10.20.17.199 - - [11/May/2022 16:03:04] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:03:12,452 INFO app Thread-19 : in login function
+2022-05-11 16:03:12,454 INFO app Thread-19 : request form,
+2022-05-11 16:03:12,455 INFO app Thread-19 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:03:12,455 INFO app Thread-19 : username ok Hola
+2022-05-11 16:03:12,455 INFO app Thread-19 : password ok HI
+2022-05-11 16:03:12,456 INFO app Thread-19 : user in  ok True
+2022-05-11 16:03:12,460 INFO werkzeug Thread-19 : 10.20.17.199 - - [11/May/2022 16:03:12] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-11 16:03:12,513 INFO werkzeug Thread-20 : 10.20.17.199 - - [11/May/2022 16:03:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:03:12,514 INFO werkzeug Thread-21 : 10.20.17.199 - - [11/May/2022 16:03:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:03:12,585 INFO werkzeug Thread-22 : 10.20.17.199 - - [11/May/2022 16:03:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:03:12,630 INFO werkzeug Thread-23 : 10.20.17.199 - - [11/May/2022 16:03:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:03:44,475 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:03:44,490 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140192107624192 and this is thread id 140192167367296.
+2022-05-11 16:03:44,491 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f8106026e40>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140192107624192 and this is thread id 140192167367296.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140192107624192 and this is thread id 140192167367296.
+2022-05-11 16:03:44,491 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140192107624192 and this is thread id 140192167367296.
+2022-05-11 16:03:44,491 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f81060267b0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140192107624192 and this is thread id 140192167367296.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140192107624192 and this is thread id 140192167367296.
+2022-05-11 16:03:44,524 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:03:44,819 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:03:44,820 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:04:01,947 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:04:02,002 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:04:02,285 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:04:02,285 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:04:06,328 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:04:06,395 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:04:06,711 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:04:06,711 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:04:08,677 INFO app Thread-2 : in login function
+2022-05-11 16:04:08,680 INFO app Thread-2 : request form,
+2022-05-11 16:04:08,686 INFO app Thread-2 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:04:08,687 INFO app Thread-2 : username ok Hola
+2022-05-11 16:04:08,687 INFO app Thread-2 : password ok HI
+2022-05-11 16:04:08,688 INFO app Thread-2 : user in  ok True
+2022-05-11 16:04:08,698 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:04:08] "POST /login HTTP/1.1" 200 -
+2022-05-11 16:04:08,749 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:04:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:04:08,799 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:04:08] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:04:10,954 INFO app Thread-5 : in login function
+2022-05-11 16:04:10,960 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:04:10] "GET /login HTTP/1.1" 200 -
+2022-05-11 16:04:11,006 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:04:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:04:11,057 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:04:11] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:04:11,059 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:04:11] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:04:22,664 INFO app Thread-9 : in login function
+2022-05-11 16:04:22,666 INFO app Thread-9 : request form,
+2022-05-11 16:04:22,667 INFO app Thread-9 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:04:22,667 INFO app Thread-9 : username ok Hola
+2022-05-11 16:04:22,668 INFO app Thread-9 : password ok HI
+2022-05-11 16:04:22,668 INFO app Thread-9 : user in  ok True
+2022-05-11 16:04:22,671 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:04:22] "POST /login HTTP/1.1" 200 -
+2022-05-11 16:04:22,718 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:04:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:04:22,772 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:04:22] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:04:31,260 INFO app Thread-12 : in login function
+2022-05-11 16:04:31,262 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 16:04:31] "GET /login HTTP/1.1" 200 -
+2022-05-11 16:04:31,301 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 16:04:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:04:31,360 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 16:04:31] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:04:31,362 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 16:04:31] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:06:21,564 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:06:21,606 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:06:21,894 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:06:21,894 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:06:28,948 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:06:28,987 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:06:29,275 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:06:29,275 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:06:31,076 INFO app Thread-2 : in login function
+2022-05-11 16:06:31,089 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:06:31] "GET /login HTTP/1.1" 200 -
+2022-05-11 16:06:31,136 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:06:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:06:31,204 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:06:31] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:06:31,205 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:06:31] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:06:41,204 INFO app Thread-6 : in login function
+2022-05-11 16:06:41,206 INFO app Thread-6 : request form,
+2022-05-11 16:06:41,212 INFO app Thread-6 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:06:41,212 INFO app Thread-6 : username ok Hola
+2022-05-11 16:06:41,212 INFO app Thread-6 : password ok HI
+2022-05-11 16:06:41,213 INFO app Thread-6 : user in  ok True
+2022-05-11 16:06:41,215 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:06:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-11 16:06:41,239 INFO app Thread-7 : IN START
+2022-05-11 16:06:41,243 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:06:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-11 16:06:41,314 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:06:41] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-11 16:06:41,315 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:06:41] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-11 16:06:41,361 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:06:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-11 16:06:41,427 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:06:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:06:53,426 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:06:53,469 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:06:53,793 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:06:53,793 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:07:07,892 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:07:07,928 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:07:08,221 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:07:08,221 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:07:20,318 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:07:20,364 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:07:20,690 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:07:20,690 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:07:37,815 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:07:37,858 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:07:38,177 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:07:38,177 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:07:39,196 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:07:39,240 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:07:39,541 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:07:39,542 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:07:39,877 INFO app Thread-2 : IN START
+2022-05-11 16:07:39,886 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:07:39] "GET / HTTP/1.1" 200 -
+2022-05-11 16:07:39,930 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:07:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:07:39,990 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:07:39] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:07:39,992 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:07:39] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:07:41,828 INFO app Thread-6 : in login function
+2022-05-11 16:07:41,832 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:07:41] "GET /login HTTP/1.1" 200 -
+2022-05-11 16:07:42,045 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:07:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:07:42,108 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:07:42] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:07:42,110 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:07:42] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:07:48,254 INFO app Thread-10 : in login function
+2022-05-11 16:07:48,255 INFO app Thread-10 : request form,
+2022-05-11 16:07:48,261 INFO app Thread-10 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:07:48,262 INFO app Thread-10 : username ok Hola
+2022-05-11 16:07:48,262 INFO app Thread-10 : password ok HI
+2022-05-11 16:07:48,263 INFO app Thread-10 : user in  ok True
+2022-05-11 16:07:48,265 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:07:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-11 16:07:48,287 INFO app Thread-11 : IN START
+2022-05-11 16:07:48,292 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:07:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-11 16:07:48,363 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 16:07:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:07:48,369 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 16:07:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:07:48,426 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 16:07:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:07:48,505 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 16:07:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:07:53,646 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:07:53,696 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:07:53,992 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:07:53,993 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:08:45,978 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 16:08:45,980 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:08:46,294 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:08:46,295 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:08:52,363 INFO app Thread-2 : IN START
+2022-05-11 16:08:52,367 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:08:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-11 16:08:52,471 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:08:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:08:52,482 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:08:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:08:52,593 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:08:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:09:50,748 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:09:50,797 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:09:51,117 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:09:51,117 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:09:59,183 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:09:59,233 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:09:59,557 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:09:59,557 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:10:04,514 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 16:10:04,516 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:10:04,838 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:10:04,838 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:10:06,655 INFO app Thread-2 : IN START
+2022-05-11 16:10:06,669 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:10:06] "GET / HTTP/1.1" 200 -
+2022-05-11 16:10:06,722 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:10:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:10:06,807 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:10:06] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:10:10,189 INFO app Thread-5 : in login function
+2022-05-11 16:10:10,195 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:10:10] "GET /login HTTP/1.1" 200 -
+2022-05-11 16:10:10,269 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:10:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:10:10,328 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:10:10] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:10:10,329 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:10:10] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:10:20,802 INFO app Thread-9 : in login function
+2022-05-11 16:10:20,804 INFO app Thread-9 : request form,
+2022-05-11 16:10:20,810 INFO app Thread-9 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:10:20,810 INFO app Thread-9 : username ok Hola
+2022-05-11 16:10:20,811 INFO app Thread-9 : password ok HI
+2022-05-11 16:10:20,812 INFO app Thread-9 : user in  ok True
+2022-05-11 16:10:20,813 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:10:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-11 16:10:20,835 INFO app Thread-10 : IN START
+2022-05-11 16:10:20,838 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:10:20] "GET / HTTP/1.1" 200 -
+2022-05-11 16:10:20,899 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:10:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:10:20,951 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 16:10:20] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:12:34,814 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:12:34,859 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:15:30,087 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 16:15:30,089 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:15:30,398 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:15:30,398 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:15:32,775 INFO app Thread-2 : IN START
+2022-05-11 16:15:32,787 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:15:32] "GET / HTTP/1.1" 200 -
+2022-05-11 16:15:32,917 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:15:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:15:32,986 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:15:32] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:15:37,128 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:15:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-11 16:15:37,150 INFO app Thread-6 : in login function
+2022-05-11 16:15:37,155 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:15:37] "GET /login HTTP/1.1" 200 -
+2022-05-11 16:15:37,252 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:15:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:15:37,336 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:15:37] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:15:37,339 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:15:37] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:15:48,971 INFO app Thread-10 : in login function
+2022-05-11 16:15:48,973 INFO app Thread-10 : request form,
+2022-05-11 16:15:48,980 INFO app Thread-10 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:15:48,980 INFO app Thread-10 : username ok Hola
+2022-05-11 16:15:48,980 INFO app Thread-10 : password ok HI
+2022-05-11 16:15:48,982 INFO app Thread-10 : user in  ok True
+2022-05-11 16:15:48,984 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:15:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-11 16:15:49,007 INFO app Thread-11 : IN START
+2022-05-11 16:15:49,011 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:15:49] "GET / HTTP/1.1" 200 -
+2022-05-11 16:15:49,077 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 16:15:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:15:49,080 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 16:15:49] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:15:54,774 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 16:15:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-11 16:15:54,795 INFO app Thread-15 : in login function
+2022-05-11 16:15:54,798 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 16:15:54] "GET /login HTTP/1.1" 200 -
+2022-05-11 16:15:54,846 INFO werkzeug Thread-16 : 10.20.17.199 - - [11/May/2022 16:15:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:15:54,900 INFO werkzeug Thread-17 : 10.20.17.199 - - [11/May/2022 16:15:54] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:15:54,900 INFO werkzeug Thread-18 : 10.20.17.199 - - [11/May/2022 16:15:54] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:16:33,066 INFO app Thread-19 : in login function
+2022-05-11 16:16:33,067 INFO app Thread-19 : request form,
+2022-05-11 16:16:33,068 INFO app Thread-19 : userlist is [<Register 'Hola'>, <Register 'f'>, <Register 'fff'>]
+2022-05-11 16:16:33,069 INFO app Thread-19 : username ok Hola
+2022-05-11 16:16:33,069 INFO app Thread-19 : password ok HI
+2022-05-11 16:16:33,070 INFO app Thread-19 : user in  ok True
+2022-05-11 16:16:33,071 INFO werkzeug Thread-19 : 10.20.17.199 - - [11/May/2022 16:16:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-11 16:16:33,097 INFO app Thread-20 : IN START
+2022-05-11 16:16:33,100 INFO werkzeug Thread-20 : 10.20.17.199 - - [11/May/2022 16:16:33] "GET / HTTP/1.1" 200 -
+2022-05-11 16:16:33,169 INFO werkzeug Thread-21 : 10.20.17.199 - - [11/May/2022 16:16:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:16:33,242 INFO werkzeug Thread-22 : 10.20.17.199 - - [11/May/2022 16:16:33] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:16:55,697 INFO werkzeug Thread-23 : 10.20.17.199 - - [11/May/2022 16:16:55] "GET /draw HTTP/1.1" 200 -
+2022-05-11 16:16:55,812 INFO werkzeug Thread-24 : 10.20.17.199 - - [11/May/2022 16:16:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:16:55,867 INFO werkzeug Thread-25 : 10.20.17.199 - - [11/May/2022 16:16:55] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:16:58,000 INFO werkzeug Thread-26 : 10.20.17.199 - - [11/May/2022 16:16:58] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:16:58,060 INFO werkzeug Thread-27 : 10.20.17.199 - - [11/May/2022 16:16:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:16:58,111 INFO werkzeug Thread-28 : 10.20.17.199 - - [11/May/2022 16:16:58] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:16:59,662 INFO werkzeug Thread-29 : 10.20.17.199 - - [11/May/2022 16:16:59] "GET /create-recipe HTTP/1.1" 200 -
+2022-05-11 16:16:59,759 INFO werkzeug Thread-30 : 10.20.17.199 - - [11/May/2022 16:16:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:16:59,821 INFO werkzeug Thread-31 : 10.20.17.199 - - [11/May/2022 16:16:59] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:17:09,086 INFO werkzeug Thread-32 : 10.20.17.199 - - [11/May/2022 16:17:09] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:17:09,143 INFO werkzeug Thread-33 : 10.20.17.199 - - [11/May/2022 16:17:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:17:09,197 INFO werkzeug Thread-34 : 10.20.17.199 - - [11/May/2022 16:17:09] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:17:15,524 INFO app Thread-35 : IN START
+2022-05-11 16:17:15,527 INFO werkzeug Thread-35 : 10.20.17.199 - - [11/May/2022 16:17:15] "GET / HTTP/1.1" 200 -
+2022-05-11 16:17:15,584 INFO werkzeug Thread-36 : 10.20.17.199 - - [11/May/2022 16:17:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:17:15,642 INFO werkzeug Thread-37 : 10.20.17.199 - - [11/May/2022 16:17:15] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:17:18,280 INFO werkzeug Thread-38 : 10.20.17.199 - - [11/May/2022 16:17:18] "GET /draw HTTP/1.1" 200 -
+2022-05-11 16:17:18,337 INFO werkzeug Thread-39 : 10.20.17.199 - - [11/May/2022 16:17:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:17:18,390 INFO werkzeug Thread-40 : 10.20.17.199 - - [11/May/2022 16:17:18] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:17:22,709 INFO werkzeug Thread-41 : 10.20.17.199 - - [11/May/2022 16:17:22] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:17:22,773 INFO werkzeug Thread-42 : 10.20.17.199 - - [11/May/2022 16:17:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:17:22,834 INFO werkzeug Thread-43 : 10.20.17.199 - - [11/May/2022 16:17:22] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:17:33,893 INFO app Thread-44 : IN START
+2022-05-11 16:17:33,896 INFO werkzeug Thread-44 : 10.20.17.199 - - [11/May/2022 16:17:33] "GET / HTTP/1.1" 200 -
+2022-05-11 16:17:33,956 INFO werkzeug Thread-45 : 10.20.17.199 - - [11/May/2022 16:17:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:17:33,961 INFO werkzeug Thread-46 : 10.20.17.199 - - [11/May/2022 16:17:33] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:17:37,338 INFO werkzeug Thread-47 : 10.20.17.199 - - [11/May/2022 16:17:37] "GET /draw HTTP/1.1" 200 -
+2022-05-11 16:17:37,392 INFO werkzeug Thread-48 : 10.20.17.199 - - [11/May/2022 16:17:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:17:37,439 INFO werkzeug Thread-49 : 10.20.17.199 - - [11/May/2022 16:17:37] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:17:45,401 INFO werkzeug Thread-50 : 10.20.17.199 - - [11/May/2022 16:17:45] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:17:45,459 INFO werkzeug Thread-51 : 10.20.17.199 - - [11/May/2022 16:17:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:17:45,553 INFO werkzeug Thread-52 : 10.20.17.199 - - [11/May/2022 16:17:45] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:17:55,073 INFO werkzeug Thread-53 : 10.20.17.199 - - [11/May/2022 16:17:55] "GET /create-recipe HTTP/1.1" 200 -
+2022-05-11 16:17:55,133 INFO werkzeug Thread-54 : 10.20.17.199 - - [11/May/2022 16:17:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:17:55,185 INFO werkzeug Thread-55 : 10.20.17.199 - - [11/May/2022 16:17:55] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:18:00,772 INFO werkzeug Thread-56 : 10.20.17.199 - - [11/May/2022 16:18:00] "[32mPOST /create-recipe HTTP/1.1[0m" 302 -
+2022-05-11 16:18:00,797 INFO werkzeug Thread-57 : 10.20.17.199 - - [11/May/2022 16:18:00] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:18:00,868 INFO werkzeug Thread-58 : 10.20.17.199 - - [11/May/2022 16:18:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:18:00,931 INFO werkzeug Thread-59 : 10.20.17.199 - - [11/May/2022 16:18:00] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:18:05,083 INFO app Thread-60 : histories are [<Recipe 'lentils soup '>, <Recipe 'Classic gumbo'>]
+2022-05-11 16:18:05,088 INFO werkzeug Thread-60 : 10.20.17.199 - - [11/May/2022 16:18:05] "GET /history HTTP/1.1" 200 -
+2022-05-11 16:18:05,214 INFO werkzeug Thread-61 : 10.20.17.199 - - [11/May/2022 16:18:05] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:18:05,215 INFO werkzeug Thread-62 : 10.20.17.199 - - [11/May/2022 16:18:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:18:08,845 INFO werkzeug Thread-63 : 10.20.17.199 - - [11/May/2022 16:18:08] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:18:08,908 INFO werkzeug Thread-64 : 10.20.17.199 - - [11/May/2022 16:18:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:18:08,968 INFO werkzeug Thread-65 : 10.20.17.199 - - [11/May/2022 16:18:08] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:18:29,718 INFO app Thread-66 : IN START
+2022-05-11 16:18:29,721 INFO werkzeug Thread-66 : 10.20.17.199 - - [11/May/2022 16:18:29] "GET / HTTP/1.1" 200 -
+2022-05-11 16:18:29,787 INFO werkzeug Thread-67 : 10.20.17.199 - - [11/May/2022 16:18:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:18:29,838 INFO werkzeug Thread-68 : 10.20.17.199 - - [11/May/2022 16:18:29] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:18:31,162 INFO werkzeug Thread-69 : 10.20.17.199 - - [11/May/2022 16:18:31] "GET /draw HTTP/1.1" 200 -
+2022-05-11 16:18:31,221 INFO werkzeug Thread-70 : 10.20.17.199 - - [11/May/2022 16:18:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:18:31,274 INFO werkzeug Thread-71 : 10.20.17.199 - - [11/May/2022 16:18:31] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:19:01,552 INFO app Thread-72 : IN START
+2022-05-11 16:19:01,554 INFO werkzeug Thread-72 : 10.20.17.199 - - [11/May/2022 16:19:01] "GET / HTTP/1.1" 200 -
+2022-05-11 16:19:01,625 INFO werkzeug Thread-73 : 10.20.17.199 - - [11/May/2022 16:19:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:19:01,680 INFO werkzeug Thread-74 : 10.20.17.199 - - [11/May/2022 16:19:01] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:19:05,073 INFO werkzeug Thread-75 : 10.20.17.199 - - [11/May/2022 16:19:05] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:19:05,129 INFO werkzeug Thread-76 : 10.20.17.199 - - [11/May/2022 16:19:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:19:05,186 INFO werkzeug Thread-77 : 10.20.17.199 - - [11/May/2022 16:19:05] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:19:12,976 INFO werkzeug Thread-78 : 10.20.17.199 - - [11/May/2022 16:19:12] "[32mGET /delete-recipe?id=5fdd9006-748a-4e14-bea5-9a6b9937e209 HTTP/1.1[0m" 302 -
+2022-05-11 16:19:13,007 INFO werkzeug Thread-79 : 10.20.17.199 - - [11/May/2022 16:19:13] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:19:13,072 INFO werkzeug Thread-80 : 10.20.17.199 - - [11/May/2022 16:19:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:19:13,125 INFO werkzeug Thread-81 : 10.20.17.199 - - [11/May/2022 16:19:13] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:19:14,983 INFO werkzeug Thread-82 : 10.20.17.199 - - [11/May/2022 16:19:14] "[32mGET /delete-recipe?id=21e30cfe-8dca-4a6d-89c0-c554d47339cf HTTP/1.1[0m" 302 -
+2022-05-11 16:19:15,008 INFO werkzeug Thread-83 : 10.20.17.199 - - [11/May/2022 16:19:15] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:19:15,065 INFO werkzeug Thread-84 : 10.20.17.199 - - [11/May/2022 16:19:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:19:15,120 INFO werkzeug Thread-85 : 10.20.17.199 - - [11/May/2022 16:19:15] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:19:17,090 INFO app Thread-86 : IN START
+2022-05-11 16:19:17,093 INFO werkzeug Thread-86 : 10.20.17.199 - - [11/May/2022 16:19:17] "GET / HTTP/1.1" 200 -
+2022-05-11 16:19:17,150 INFO werkzeug Thread-87 : 10.20.17.199 - - [11/May/2022 16:19:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:19:17,207 INFO werkzeug Thread-88 : 10.20.17.199 - - [11/May/2022 16:19:17] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:19:18,823 INFO werkzeug Thread-89 : 10.20.17.199 - - [11/May/2022 16:19:18] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-05-11 16:19:18,847 INFO werkzeug Thread-90 : 10.20.17.199 - - [11/May/2022 16:19:18] "GET /create-recipe HTTP/1.1" 200 -
+2022-05-11 16:19:18,902 INFO werkzeug Thread-91 : 10.20.17.199 - - [11/May/2022 16:19:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:19:18,952 INFO werkzeug Thread-92 : 10.20.17.199 - - [11/May/2022 16:19:18] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:19:21,868 INFO werkzeug Thread-93 : 10.20.17.199 - - [11/May/2022 16:19:21] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:19:21,932 INFO werkzeug Thread-94 : 10.20.17.199 - - [11/May/2022 16:19:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:19:21,987 INFO werkzeug Thread-95 : 10.20.17.199 - - [11/May/2022 16:19:21] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:19:25,141 INFO app Thread-96 : IN START
+2022-05-11 16:19:25,144 INFO werkzeug Thread-96 : 10.20.17.199 - - [11/May/2022 16:19:25] "GET / HTTP/1.1" 200 -
+2022-05-11 16:19:25,197 INFO werkzeug Thread-97 : 10.20.17.199 - - [11/May/2022 16:19:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:19:25,253 INFO werkzeug Thread-98 : 10.20.17.199 - - [11/May/2022 16:19:25] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:19:40,915 INFO werkzeug Thread-99 : 10.20.17.199 - - [11/May/2022 16:19:40] "[32mGET /draw HTTP/1.1[0m" 302 -
+2022-05-11 16:19:40,938 INFO werkzeug Thread-100 : 10.20.17.199 - - [11/May/2022 16:19:40] "GET /create-recipe HTTP/1.1" 200 -
+2022-05-11 16:19:40,997 INFO werkzeug Thread-101 : 10.20.17.199 - - [11/May/2022 16:19:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:19:41,046 INFO werkzeug Thread-102 : 10.20.17.199 - - [11/May/2022 16:19:41] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:25:13,054 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/users_recipes.py', reloading
+2022-05-11 16:25:13,101 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:25:13,445 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:25:13,446 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:25:22,516 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/users_recipes.py', reloading
+2022-05-11 16:25:22,559 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:25:22,853 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:25:22,854 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:25:41,983 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/users_recipes.py', reloading
+2022-05-11 16:25:42,023 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:25:42,313 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:25:42,314 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:26:00,432 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/users_recipes.py', reloading
+2022-05-11 16:26:00,474 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:26:00,762 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:26:00,763 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:27:20,270 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/users_recipes.py', reloading
+2022-05-11 16:27:20,346 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:27:20,816 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:27:20,817 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:29:02,462 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 16:29:02,517 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:41:46,121 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 16:41:46,123 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:41:46,443 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:41:46,444 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:41:47,908 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:41:47] "GET /create-recipe HTTP/1.1" 200 -
+2022-05-11 16:41:47,948 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:41:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:41:48,051 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:41:48] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:41:48,762 INFO app Thread-5 : IN START
+2022-05-11 16:41:48,769 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:41:48] "GET / HTTP/1.1" 200 -
+2022-05-11 16:41:48,829 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:41:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:41:48,907 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:41:48] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:41:52,246 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:41:52] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:41:52,305 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:41:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:41:52,427 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:41:52] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:41:53,480 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:41:53] "GET /create-recipe HTTP/1.1" 200 -
+2022-05-11 16:41:53,565 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 16:41:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:41:53,635 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 16:41:53] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:41:58,940 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 16:41:58] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:41:58,995 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 16:41:58] "GET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-11 16:41:58,996 INFO werkzeug Thread-16 : 10.20.17.199 - - [11/May/2022 16:41:58] "GET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-11 16:41:59,092 INFO werkzeug Thread-17 : 10.20.17.199 - - [11/May/2022 16:41:59] "GET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-11 16:41:59,182 INFO werkzeug Thread-18 : 10.20.17.199 - - [11/May/2022 16:41:59] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:42:11,623 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:42:11,676 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:42:11,982 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:42:11,983 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:42:15,364 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:42:15] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:42:15,412 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:42:15] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:42:15,413 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:42:15] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:42:15,493 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:42:15] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:42:15,643 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:42:15] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:42:50,228 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:42:50,279 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:42:50,589 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:42:50,589 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:43:05,696 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:43:05,747 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:43:06,047 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:43:06,048 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:43:10,175 INFO app Thread-2 : CREATE RECIPE %s
+2022-05-11 16:43:10,194 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:43:10] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:43:10,269 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:43:10] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:43:10,269 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:43:10] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:43:10,325 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:43:10] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:43:10,470 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:43:10] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:43:13,877 INFO app Thread-7 : CREATE RECIPE %s
+2022-05-11 16:43:13,886 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:43:13] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:43:13,944 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:43:13] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:43:13,946 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:43:13] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:43:13,995 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:43:13] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:43:14,040 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:43:14] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:43:17,124 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:43:17,166 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:43:17,471 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:43:17,472 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:44:19,880 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 16:44:19,919 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:44:20,220 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:44:20,221 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:44:31,344 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 16:44:31,387 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:44:31,693 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:44:31,693 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:44:37,745 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 16:44:37,783 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:44:38,089 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:44:38,089 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:44:40,972 INFO app Thread-2 : CREATE RECIPE %s
+2022-05-11 16:44:40,991 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:44:40] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:44:41,041 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:44:41] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:44:41,042 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:44:41] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:44:41,107 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:44:41] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:44:41,209 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:44:41] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:44:58,232 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 16:44:58,276 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:44:58,579 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:44:58,579 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:45:04,628 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 16:45:04,670 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:45:04,961 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:45:04,962 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:45:12,583 INFO app Thread-2 : CREATE RECIPE %s
+2022-05-11 16:45:12,600 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:45:12] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:45:12,641 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:45:12] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:45:12,641 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:45:12] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:45:12,699 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:45:12] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:45:12,781 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:45:12] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:45:43,208 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 16:45:43,265 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:45:43,565 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:45:43,565 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:45:54,645 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 16:45:54,701 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:45:55,013 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:45:55,014 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:45:56,948 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-11 16:45:56,950 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:45:57,278 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:45:57,278 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:46:02,771 INFO app Thread-2 : IN START
+2022-05-11 16:46:02,785 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:46:02] "GET / HTTP/1.1" 200 -
+2022-05-11 16:46:02,834 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:46:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:46:02,937 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:46:02] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:46:05,122 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:46:05] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:46:05,182 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:46:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:46:05,240 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:46:05] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:46:06,209 INFO app Thread-8 : CREATE RECIPE %s
+2022-05-11 16:46:06,211 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:46:06] "GET /create-recipe HTTP/1.1" 200 -
+2022-05-11 16:46:06,270 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:46:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:46:06,323 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:46:06] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:46:10,628 INFO app Thread-11 : CREATE RECIPE %s
+2022-05-11 16:46:10,631 INFO app Thread-11 : user in create None
+2022-05-11 16:46:10,632 INFO app Thread-11 : recipe ==  f0484d2e-e8ed-421b-b119-a057731f328b
+2022-05-11 16:46:10,635 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:46:10] "[32mPOST /create-recipe HTTP/1.1[0m" 302 -
+2022-05-11 16:46:10,659 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 16:46:10] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 16:46:10,720 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 16:46:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:46:10,781 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 16:46:10] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:47:12,776 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 16:47:12,826 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:47:13,168 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:47:13,169 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:49:56,382 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:49:56,424 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:49:56,794 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:49:56,795 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:50:36,107 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:50:36,170 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:50:36,468 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:50:36,468 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:50:51,572 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:50:51,612 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:50:51,922 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:50:51,922 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:50:55,960 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:50:56,017 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:50:56,325 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:50:56,326 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:51:44,664 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:51:44,728 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:51:45,052 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:51:45,052 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:51:56,147 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:51:56,191 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:51:56,576 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:51:56,577 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:52:11,705 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:52:11,753 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:52:12,081 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:52:12,082 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:52:25,186 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:52:25,238 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:52:25,605 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:52:25,605 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:52:30,654 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:52:30,709 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:52:31,055 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:52:31,055 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:52:35,097 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:52:35,137 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:52:35,452 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:52:35,452 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:52:35,607 INFO app Thread-2 : CREATE RECIPE %s
+2022-05-11 16:52:35,617 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:52:35] "GET /create-recipe HTTP/1.1" 200 -
+2022-05-11 16:52:35,737 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:52:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:52:35,792 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:52:35] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 16:52:40,058 INFO app Thread-5 : CREATE RECIPE %s
+2022-05-11 16:52:40,068 INFO app Thread-5 : user in create None
+2022-05-11 16:52:40,068 INFO app Thread-5 : recipe ==  8cdc579f-a7fe-486b-9905-0a7946397db6
+2022-05-11 16:52:40,074 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:52:40] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:52:40,125 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:52:40] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:52:40,127 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:52:40] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:52:40,162 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:52:40] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:52:40,255 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:52:40] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:52:46,597 INFO app Thread-10 : CREATE RECIPE %s
+2022-05-11 16:52:46,599 INFO app Thread-10 : user in create None
+2022-05-11 16:52:46,599 INFO app Thread-10 : recipe ==  da35499c-6579-41f8-904d-55d07de7f797
+2022-05-11 16:52:46,602 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:52:46] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:52:46,651 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:52:46] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:52:46,652 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 16:52:46] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:52:46,680 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 16:52:46] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:52:46,752 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 16:52:46] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:53:48,723 INFO app Thread-15 : CREATE RECIPE %s
+2022-05-11 16:53:48,724 INFO app Thread-15 : user in create None
+2022-05-11 16:53:48,725 INFO app Thread-15 : recipe ==  d1e8140f-f39b-4d5c-9ce8-4af281fb8c35
+2022-05-11 16:53:48,728 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 16:53:48] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:53:48,777 INFO werkzeug Thread-16 : 10.20.17.199 - - [11/May/2022 16:53:48] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:53:48,778 ERROR sqlalchemy.pool.impl.NullPool Thread-17 : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139979594110720 and this is thread id 139979584669440.
+2022-05-11 16:53:48,779 ERROR sqlalchemy.pool.impl.NullPool Thread-17 : Exception closing connection <sqlite3.Connection object at 0x7f4f897ae3f0>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139979594110720 and this is thread id 139979584669440.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139979594110720 and this is thread id 139979584669440.
+2022-05-11 16:53:48,779 INFO werkzeug Thread-17 : 10.20.17.199 - - [11/May/2022 16:53:48] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:53:48,832 INFO werkzeug Thread-18 : 10.20.17.199 - - [11/May/2022 16:53:48] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:53:48,873 INFO werkzeug Thread-19 : 10.20.17.199 - - [11/May/2022 16:53:48] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:56:03,792 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:56:03,805 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139979594110720 and this is thread id 139979654115968.
+2022-05-11 16:56:03,805 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f4f897ae120>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139979594110720 and this is thread id 139979654115968.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139979594110720 and this is thread id 139979654115968.
+2022-05-11 16:56:03,832 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:56:04,190 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:56:04,191 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:56:15,286 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:56:15,340 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:56:15,738 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:56:15,739 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:56:21,802 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:56:21,853 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:56:22,164 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:56:22,165 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:56:44,320 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:56:44,369 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:56:44,668 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:56:44,668 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:56:49,389 INFO app Thread-2 : CREATE RECIPE %s
+2022-05-11 16:56:49,396 INFO app Thread-2 : user in create None
+2022-05-11 16:56:49,396 INFO app Thread-2 : recipe ==  fa58b79a-784d-4b17-99b7-b75308b62b34
+2022-05-11 16:56:49,400 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:56:49] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:56:49,453 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:56:49] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:56:49,453 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:56:49] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:56:49,518 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:56:49] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:56:49,560 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:56:49] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:56:55,753 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 16:56:55,767 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140686462113536 and this is thread id 140686522118784.
+2022-05-11 16:56:55,768 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7ff41fd92b70>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140686462113536 and this is thread id 140686522118784.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140686462113536 and this is thread id 140686522118784.
+2022-05-11 16:56:55,795 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 16:56:56,109 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 16:56:56,109 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 16:57:01,719 INFO app Thread-2 : CREATE RECIPE %s
+2022-05-11 16:57:01,726 INFO app Thread-2 : user in create None
+2022-05-11 16:57:01,726 INFO app Thread-2 : recipe ==  907b4f7a-2cf0-4eba-a67f-c882b5204999
+2022-05-11 16:57:01,730 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 16:57:01] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:57:01,770 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 16:57:01] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:57:01,771 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 16:57:01] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:57:01,829 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 16:57:01] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:57:01,888 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 16:57:01] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:57:08,129 INFO app Thread-7 : CREATE RECIPE %s
+2022-05-11 16:57:08,131 INFO app Thread-7 : user in create None
+2022-05-11 16:57:08,131 INFO app Thread-7 : recipe ==  32594d0f-f5d9-4849-bd27-931f4c58b4e3
+2022-05-11 16:57:08,134 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 16:57:08] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 16:57:08,192 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 16:57:08] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 16:57:08,193 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 16:57:08] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 16:57:08,216 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 16:57:08] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 16:57:08,253 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 16:57:08] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 17:09:51,990 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 17:09:52,006 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140226479027968 and this is thread id 140226548212352.
+2022-05-11 17:09:52,006 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f89057b0120>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140226479027968 and this is thread id 140226548212352.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140226479027968 and this is thread id 140226548212352.
+2022-05-11 17:09:52,006 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception during reset or similar
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140226488207104 and this is thread id 140226548212352.
+2022-05-11 17:09:52,007 ERROR sqlalchemy.pool.impl.NullPool MainThread : Exception closing connection <sqlite3.Connection object at 0x7f8907445b70>
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 739, in _finalize_fairy
+    fairy._reset(pool)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 988, in _reset
+    pool._dialect.do_rollback(self)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 682, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140226488207104 and this is thread id 140226548212352.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 247, in _close_connection
+    self._dialect.do_close(connection)
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 688, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140226488207104 and this is thread id 140226548212352.
+2022-05-11 17:09:52,035 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 17:09:52,340 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 17:09:52,340 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 17:11:05,804 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 17:11:05,849 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 17:11:06,181 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 17:11:06,181 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 17:11:07,203 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-11 17:11:07,276 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 17:11:07,617 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 17:11:07,617 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 17:11:35,802 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 17:11:35,846 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 17:11:36,148 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 17:11:36,148 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 17:11:40,728 INFO app Thread-2 : IN START
+2022-05-11 17:11:40,741 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 17:11:40] "GET / HTTP/1.1" 200 -
+2022-05-11 17:11:40,909 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 17:11:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:11:40,952 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 17:11:40] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:11:43,024 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 17:11:43] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 17:11:43,082 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 17:11:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:11:43,086 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 17:11:43] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:11:44,333 INFO app Thread-8 : CREATE RECIPE %s
+2022-05-11 17:11:44,335 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 17:11:44] "GET /create-recipe HTTP/1.1" 200 -
+2022-05-11 17:11:44,393 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 17:11:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:11:44,465 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 17:11:44] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:11:48,422 INFO app Thread-11 : CREATE RECIPE %s
+2022-05-11 17:11:48,426 INFO app Thread-11 : user in create None
+2022-05-11 17:11:48,433 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 17:11:48] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 17:11:48,481 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 17:11:48] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:11:48,482 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 17:11:48] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 17:11:48,506 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 17:11:48] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 17:11:48,556 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 17:11:48] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 17:12:07,356 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-11 17:12:07,401 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 17:12:07,702 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 17:12:07,703 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 17:12:11,899 INFO app Thread-2 : CREATE RECIPE %s
+2022-05-11 17:12:11,907 INFO app Thread-2 : user in create None
+2022-05-11 17:12:11,925 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 17:12:11] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 17:12:11,962 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 17:12:11] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:12:11,962 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 17:12:11] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 17:12:12,009 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 17:12:12] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 17:12:12,122 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 17:12:12] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 17:16:07,248 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-05-11 17:16:07,323 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 17:16:07,655 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 17:16:07,656 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 17:16:21,863 INFO app Thread-2 : CREATE RECIPE %s
+2022-05-11 17:16:21,871 INFO app Thread-2 : user in create None
+2022-05-11 17:16:21,887 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 17:16:21] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 17:16:21,925 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 17:16:21] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:16:21,925 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 17:16:21] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 17:16:21,971 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 17:16:21] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 17:16:22,086 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 17:16:22] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 17:16:25,520 INFO app Thread-7 : CREATE RECIPE %s
+2022-05-11 17:16:25,522 INFO app Thread-7 : user in create None
+2022-05-11 17:16:25,535 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 17:16:25] "[35m[1mPOST /create-recipe HTTP/1.1[0m" 500 -
+2022-05-11 17:16:25,581 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 17:16:25] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-11 17:16:25,582 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 17:16:25] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:16:25,607 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 17:16:25] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 17:16:25,669 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 17:16:25] "[36mGET /create-recipe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-11 17:16:30,668 INFO app Thread-12 : CREATE RECIPE %s
+2022-05-11 17:16:30,669 INFO app Thread-12 : user in create None
+2022-05-11 17:16:30,673 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 17:16:30] "[32mPOST /create-recipe HTTP/1.1[0m" 302 -
+2022-05-11 17:16:30,707 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 17:16:30] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 17:16:30,756 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 17:16:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:16:30,803 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 17:16:30] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:16:46,906 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-05-11 17:16:46,951 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 17:16:47,248 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 17:16:47,248 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 17:16:48,267 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-05-11 17:16:48,326 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 17:16:48,642 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 17:16:48,643 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-11 17:16:51,764 INFO app Thread-2 : in login function
+2022-05-11 17:16:51,777 INFO werkzeug Thread-2 : 10.20.17.199 - - [11/May/2022 17:16:51] "GET /login HTTP/1.1" 200 -
+2022-05-11 17:16:51,892 INFO werkzeug Thread-3 : 10.20.17.199 - - [11/May/2022 17:16:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:16:51,935 INFO werkzeug Thread-4 : 10.20.17.199 - - [11/May/2022 17:16:51] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:16:51,936 INFO werkzeug Thread-5 : 10.20.17.199 - - [11/May/2022 17:16:51] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:00,707 INFO app Thread-6 : in login function
+2022-05-11 17:17:00,709 INFO app Thread-6 : request form,
+2022-05-11 17:17:00,715 INFO app Thread-6 : userlist is []
+2022-05-11 17:17:00,715 INFO app Thread-6 : username ok Hola
+2022-05-11 17:17:00,715 INFO app Thread-6 : password ok HI
+2022-05-11 17:17:00,716 INFO app Thread-6 : user in  ok False
+2022-05-11 17:17:00,718 INFO werkzeug Thread-6 : 10.20.17.199 - - [11/May/2022 17:17:00] "POST /login HTTP/1.1" 200 -
+2022-05-11 17:17:00,758 INFO werkzeug Thread-7 : 10.20.17.199 - - [11/May/2022 17:17:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:17:00,802 INFO werkzeug Thread-9 : 10.20.17.199 - - [11/May/2022 17:17:00] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:00,802 INFO werkzeug Thread-8 : 10.20.17.199 - - [11/May/2022 17:17:00] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:05,074 INFO app Thread-10 : register-route
+2022-05-11 17:17:05,076 INFO werkzeug Thread-10 : 10.20.17.199 - - [11/May/2022 17:17:05] "GET /register HTTP/1.1" 200 -
+2022-05-11 17:17:05,132 INFO werkzeug Thread-11 : 10.20.17.199 - - [11/May/2022 17:17:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:17:05,179 INFO werkzeug Thread-12 : 10.20.17.199 - - [11/May/2022 17:17:05] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:05,179 INFO werkzeug Thread-13 : 10.20.17.199 - - [11/May/2022 17:17:05] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:07,042 INFO werkzeug Thread-14 : 10.20.17.199 - - [11/May/2022 17:17:07] "GET /userslog HTTP/1.1" 200 -
+2022-05-11 17:17:23,719 INFO app Thread-15 : register-route
+2022-05-11 17:17:23,719 INFO app Thread-15 : impost request
+2022-05-11 17:17:23,719 INFO app Thread-15 : username are Manuel 
+2022-05-11 17:17:23,719 INFO app Thread-15 : password are manuell
+2022-05-11 17:17:23,724 INFO werkzeug Thread-15 : 10.20.17.199 - - [11/May/2022 17:17:23] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-11 17:17:23,745 INFO app Thread-16 : register-route
+2022-05-11 17:17:23,746 INFO werkzeug Thread-16 : 10.20.17.199 - - [11/May/2022 17:17:23] "GET /register HTTP/1.1" 200 -
+2022-05-11 17:17:23,781 INFO werkzeug Thread-17 : 10.20.17.199 - - [11/May/2022 17:17:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:17:23,822 INFO werkzeug Thread-18 : 10.20.17.199 - - [11/May/2022 17:17:23] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:23,822 INFO werkzeug Thread-19 : 10.20.17.199 - - [11/May/2022 17:17:23] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:25,547 INFO werkzeug Thread-20 : 10.20.17.199 - - [11/May/2022 17:17:25] "GET /userslog HTTP/1.1" 200 -
+2022-05-11 17:17:36,199 INFO app Thread-21 : in login function
+2022-05-11 17:17:36,202 INFO werkzeug Thread-21 : 10.20.17.199 - - [11/May/2022 17:17:36] "GET /login HTTP/1.1" 200 -
+2022-05-11 17:17:36,248 INFO werkzeug Thread-22 : 10.20.17.199 - - [11/May/2022 17:17:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:17:36,295 INFO werkzeug Thread-23 : 10.20.17.199 - - [11/May/2022 17:17:36] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:36,295 INFO werkzeug Thread-24 : 10.20.17.199 - - [11/May/2022 17:17:36] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:51,901 INFO app Thread-25 : in login function
+2022-05-11 17:17:51,903 INFO app Thread-25 : request form,
+2022-05-11 17:17:51,904 INFO app Thread-25 : userlist is [<Register 'Manuel '>]
+2022-05-11 17:17:51,904 INFO app Thread-25 : username ok Manuel
+2022-05-11 17:17:51,904 INFO app Thread-25 : password ok manuperezroomeroo@gmail.com
+2022-05-11 17:17:51,905 INFO app Thread-25 : user in  ok False
+2022-05-11 17:17:51,906 INFO werkzeug Thread-25 : 10.20.17.199 - - [11/May/2022 17:17:51] "POST /login HTTP/1.1" 200 -
+2022-05-11 17:17:51,946 INFO werkzeug Thread-26 : 10.20.17.199 - - [11/May/2022 17:17:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:17:51,988 INFO werkzeug Thread-27 : 10.20.17.199 - - [11/May/2022 17:17:51] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:51,988 INFO werkzeug Thread-28 : 10.20.17.199 - - [11/May/2022 17:17:51] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:56,165 INFO app Thread-29 : register-route
+2022-05-11 17:17:56,166 INFO werkzeug Thread-29 : 10.20.17.199 - - [11/May/2022 17:17:56] "GET /register HTTP/1.1" 200 -
+2022-05-11 17:17:56,211 INFO werkzeug Thread-30 : 10.20.17.199 - - [11/May/2022 17:17:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:17:56,255 INFO werkzeug Thread-31 : 10.20.17.199 - - [11/May/2022 17:17:56] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:17:56,255 INFO werkzeug Thread-32 : 10.20.17.199 - - [11/May/2022 17:17:56] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:18:04,044 INFO app Thread-33 : register-route
+2022-05-11 17:18:04,045 INFO app Thread-33 : impost request
+2022-05-11 17:18:04,045 INFO app Thread-33 : username are Hola
+2022-05-11 17:18:04,045 INFO app Thread-33 : password are Hi
+2022-05-11 17:18:04,049 INFO werkzeug Thread-33 : 10.20.17.199 - - [11/May/2022 17:18:04] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-11 17:18:04,072 INFO app Thread-34 : register-route
+2022-05-11 17:18:04,073 INFO werkzeug Thread-34 : 10.20.17.199 - - [11/May/2022 17:18:04] "GET /register HTTP/1.1" 200 -
+2022-05-11 17:18:04,112 INFO werkzeug Thread-35 : 10.20.17.199 - - [11/May/2022 17:18:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:18:04,153 INFO werkzeug Thread-36 : 10.20.17.199 - - [11/May/2022 17:18:04] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:18:04,153 INFO werkzeug Thread-37 : 10.20.17.199 - - [11/May/2022 17:18:04] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:18:05,929 INFO werkzeug Thread-38 : 10.20.17.199 - - [11/May/2022 17:18:05] "GET /userslog HTTP/1.1" 200 -
+2022-05-11 17:18:15,610 INFO app Thread-39 : in login function
+2022-05-11 17:18:15,613 INFO werkzeug Thread-39 : 10.20.17.199 - - [11/May/2022 17:18:15] "GET /login HTTP/1.1" 200 -
+2022-05-11 17:18:15,662 INFO werkzeug Thread-40 : 10.20.17.199 - - [11/May/2022 17:18:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:18:15,707 INFO werkzeug Thread-41 : 10.20.17.199 - - [11/May/2022 17:18:15] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:18:15,708 INFO werkzeug Thread-42 : 10.20.17.199 - - [11/May/2022 17:18:15] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:18:21,626 INFO app Thread-43 : in login function
+2022-05-11 17:18:21,627 INFO app Thread-43 : request form,
+2022-05-11 17:18:21,628 INFO app Thread-43 : userlist is [<Register 'Manuel '>, <Register 'Hola'>]
+2022-05-11 17:18:21,629 INFO app Thread-43 : username ok Hola
+2022-05-11 17:18:21,629 INFO app Thread-43 : password ok 
+2022-05-11 17:18:21,629 INFO app Thread-43 : user in  ok True
+2022-05-11 17:18:21,632 INFO werkzeug Thread-43 : 10.20.17.199 - - [11/May/2022 17:18:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-11 17:18:21,656 INFO app Thread-44 : IN START
+2022-05-11 17:18:21,660 INFO werkzeug Thread-44 : 10.20.17.199 - - [11/May/2022 17:18:21] "GET / HTTP/1.1" 200 -
+2022-05-11 17:18:21,760 INFO werkzeug Thread-45 : 10.20.17.199 - - [11/May/2022 17:18:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:18:21,807 INFO werkzeug Thread-46 : 10.20.17.199 - - [11/May/2022 17:18:21] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:18:23,555 INFO werkzeug Thread-47 : 10.20.17.199 - - [11/May/2022 17:18:23] "GET /recipes HTTP/1.1" 200 -
+2022-05-11 17:18:23,621 INFO werkzeug Thread-48 : 10.20.17.199 - - [11/May/2022 17:18:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:18:23,663 INFO werkzeug Thread-49 : 10.20.17.199 - - [11/May/2022 17:18:23] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:18:25,613 INFO app Thread-50 : histories are [<Recipe 'Classic gumbo'>, <Recipe 'l'>]
+2022-05-11 17:18:25,618 INFO werkzeug Thread-50 : 10.20.17.199 - - [11/May/2022 17:18:25] "GET /history HTTP/1.1" 200 -
+2022-05-11 17:18:25,669 INFO werkzeug Thread-51 : 10.20.17.199 - - [11/May/2022 17:18:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:18:25,717 INFO werkzeug Thread-52 : 10.20.17.199 - - [11/May/2022 17:18:25] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:18:27,802 INFO app Thread-53 : IN START
+2022-05-11 17:18:27,804 INFO werkzeug Thread-53 : 10.20.17.199 - - [11/May/2022 17:18:27] "GET / HTTP/1.1" 200 -
+2022-05-11 17:18:27,851 INFO werkzeug Thread-54 : 10.20.17.199 - - [11/May/2022 17:18:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-11 17:18:27,893 INFO werkzeug Thread-55 : 10.20.17.199 - - [11/May/2022 17:18:27] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-11 17:20:11,943 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/recipes.py', reloading
+2022-05-11 17:20:11,993 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-11 17:20:12,297 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-11 17:20:12,297 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
