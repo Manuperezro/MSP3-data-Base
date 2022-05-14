@@ -5,6 +5,15 @@ History
 {% endblock %}
 
 {% block content %}
+
+<div class="mb-5">
+    <form action="" target="_blank" method="POST">
+        <input type="text" autofocus="autofocus"  name="search_string" placeholder="Find a recipe">
+        <input type="submit" formaction="/search" value="Search" class="btn btn-primary">
+    </form>
+</div>
+
+
 <div class="row justify-content-center">
     <div class="col-lg-11">
         <div class="card">

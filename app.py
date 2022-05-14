@@ -134,6 +134,7 @@ def login():
     return render_template('login.html', errorMessage=errorMessage)
 
 
+
 @app.route('/logout')
 def logout():
     session.pop('username', None)
@@ -165,6 +166,7 @@ def draw():
 
 @app.route('/create-recipe', methods=['GET', 'POST'])
 def create_recipe():
+
     app.logger.info('CREATE RECIPE %s')
     if request.method == 'POST':
         name = request.form.get('name')
@@ -249,6 +251,17 @@ def history():
 
     return render_template('history.html', nav=history, recipes=histories)
 
+
+@app.route('/search', methods=['GET', 'POST'])
+def search():
+    if request.method == 'POST':
+        form = request.form
+        search_value = form['search_string']
+        search = "%{}%".format(search_value)
+        results = Recipes.query.filter(Recipes.name.like(search)).all()
+        return render_template('history.html', recipes=results, legend="Search Results")
+    else:
+        return redirect('history.html')
 
 
 # Code inspire by a udemy flask video-tutorial,
