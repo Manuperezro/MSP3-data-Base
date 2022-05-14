@@ -9,6 +9,7 @@
     <title>
 
         {% block title %}
+        MyReceipesNoteBook
         {% endblock %}
 
     </title>
@@ -22,21 +23,23 @@
         <h5 class="my-0 mr-md-auto font-weight-normal">MyReceipesNoteBook
         </h5>
         <nav class="my-2 my-md-0 mr-md-3">
+            {% if session.username %}
             <a class="btn {% if nav == 'start' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
                 href="/">Try luck</a>
-            <!-- <a class="btn {% if nav == 'top' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}" href="/top">Top 5</a> -->
             <a class="btn {% if nav == 'recipes' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
                 href="/recipes">My Recipes List</a>
             <a class="btn {% if nav == 'history' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
                 href="/history">Recipes History</a>
             <a class="btn {% if nav == 'history' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
+                href="/logout">logout</a>
+            {% else %}
+            <a class="btn {% if nav == 'history' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
                 href="/register">Registration</a>
             <a class="btn {% if nav == 'history' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
                 href="/login">login</a>
             <a class="btn {% if nav == 'history' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
-                href="/logout">logout</a>
-            <a class="btn {% if nav == 'history' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
                 href="/userslog">Users</a>
+            {% endif %}
         </nav>
     </div>
 

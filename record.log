@@ -3748,3 +3748,32 @@ sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in
 2022-05-14 07:29:09,604 INFO werkzeug MainThread :  * Restarting with stat
 2022-05-14 07:29:09,973 WARNING werkzeug MainThread :  * Debugger is active!
 2022-05-14 07:29:09,973 INFO werkzeug MainThread :  * Debugger PIN: 847-433-149
+2022-05-14 07:50:42,828 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-14 07:50:42,874 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-14 07:50:43,225 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-14 07:50:43,225 INFO werkzeug MainThread :  * Debugger PIN: 847-433-149
+2022-05-14 07:52:04,751 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-14 07:52:04,836 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-14 07:52:05,192 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-14 07:52:05,192 INFO werkzeug MainThread :  * Debugger PIN: 847-433-149
+2022-05-14 07:59:22,309 INFO app Thread-2 : IN START
+2022-05-14 07:59:22,326 INFO werkzeug Thread-2 : 10.20.127.2 - - [14/May/2022 07:59:22] "GET / HTTP/1.1" 200 -
+2022-05-14 07:59:22,412 INFO werkzeug Thread-3 : 10.20.127.2 - - [14/May/2022 07:59:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:59:22,458 INFO werkzeug Thread-4 : 10.20.127.2 - - [14/May/2022 07:59:22] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:59:37,396 INFO werkzeug Thread-5 : 10.20.127.2 - - [14/May/2022 07:59:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-14 07:59:37,418 INFO app Thread-6 : in login function
+2022-05-14 07:59:37,422 INFO werkzeug Thread-6 : 10.20.127.2 - - [14/May/2022 07:59:37] "GET /login HTTP/1.1" 200 -
+2022-05-14 07:59:37,497 INFO werkzeug Thread-7 : 10.20.127.2 - - [14/May/2022 07:59:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:59:37,546 INFO werkzeug Thread-8 : 10.20.127.2 - - [14/May/2022 07:59:37] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:59:37,547 INFO werkzeug Thread-9 : 10.20.127.2 - - [14/May/2022 07:59:37] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:59:51,097 INFO app Thread-10 : register-route
+2022-05-14 07:59:51,099 INFO werkzeug Thread-10 : 10.20.127.2 - - [14/May/2022 07:59:51] "GET /register HTTP/1.1" 200 -
+2022-05-14 07:59:51,161 INFO werkzeug Thread-11 : 10.20.127.2 - - [14/May/2022 07:59:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:59:51,210 INFO werkzeug Thread-12 : 10.20.127.2 - - [14/May/2022 07:59:51] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:59:51,210 INFO werkzeug Thread-13 : 10.20.127.2 - - [14/May/2022 07:59:51] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:59:52,308 INFO app Thread-14 : in login function
+2022-05-14 07:59:52,312 INFO werkzeug Thread-14 : 10.20.127.2 - - [14/May/2022 07:59:52] "GET /login HTTP/1.1" 200 -
+2022-05-14 07:59:52,361 INFO werkzeug Thread-15 : 10.20.127.2 - - [14/May/2022 07:59:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:59:52,409 INFO werkzeug Thread-16 : 10.20.127.2 - - [14/May/2022 07:59:52] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:59:52,410 INFO werkzeug Thread-17 : 10.20.127.2 - - [14/May/2022 07:59:52] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:59:53,259 INFO werkzeug Thread-18 : 10.20.127.2 - - [14/May/2022 07:59:53] "GET /userslog HTTP/1.1" 200 -

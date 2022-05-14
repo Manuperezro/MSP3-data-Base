@@ -110,9 +110,9 @@ def login():
         password = request.form.get('password')
         app.logger.info('password ok %s', password)
 
-        # cursor.execute('SELECT * FROM Users WHERE username = %s AND password = %s', (username, password))
-        # user = cursor.fetchOne()
+
         # check if user exists in register database
+        
         userExists = bool(Users.query.filter_by(username=username).first())
         app.logger.info('user in  ok %s', userExists)
         if userExists is True:
@@ -145,7 +145,6 @@ def logout():
 
 
 # Try luck Buttom
-
 @app.route('/draw')
 def draw():
     recipes = Recipes.query.all()
@@ -252,7 +251,8 @@ def history():
 
 
 
-# Code inspire by a udemy flask video-tutorial, To format the text depending on time. 
+# Code inspire by a udemy flask video-tutorial,
+# To format the text depending on time. 
 
 def mealformat(value):
     if value.hour in [4, 5, 6, 7, 8, 9]:
