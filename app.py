@@ -81,8 +81,10 @@ def register():
         db_session.add(user)
         db_session.commit()
 
-        return redirect('/register')
+        return redirect('/login')
 
+    else:
+        registerMessage = "Ups try again with a different name or password"
 
     return render_template('register.html')
 
@@ -156,7 +158,7 @@ def draw():
     random_recipe = choice(recipes)
 
     recipe = Recipes.query.get(random_recipe.id)
-    recipe.draw += 1
+    # recipe.draw += 1
     db_session.commit()
 
     now = datetime.datetime.now()

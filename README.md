@@ -224,12 +224,6 @@ Recipes table
 
 - ![Database in SQlite](static/css/images/db2.png "DB browser")
 
-Users table
-
- - ![Users]( "Users table")
-
- - ![Users in SQlite](static/css/images/useresdb.png "DB browser")
-
 ## Testing: 
 
 
@@ -249,6 +243,31 @@ Users table
 
 
 ### Bugs and Errors during development:
+
+#### Debuging procces : 
+
+For debugging and testing I used the following tools and techniques : 
+
++ Manual testing : Where I check manually if the differents features of the project works according the user hstories.
+
++ User testing : Where Myself and others users impersonate the users, this allow me to collect direct feedback from real users, collecting valuables ideas to implement new features and improve the existing ones.
+
++ loggin I used the command a record.log file to collect differents logs during the development procces, this allow me to see where the code stop working and identify bugs.
+
+In the next image you can see the lines of code I used tu log the results in the lrecord.log file.
+
+- ![Logging file](static/css/images/searlogger.png "Loggin file procces")
+
+In the next image you can see how the results are log in the record.log file:
+
+- ![Logging file](static/css/images/Sfilerecordlog.png "Loggin file procces")
+
+This really help me to identify Bugs and fixed during the development procces.
+
+
+To be able to use this it is neccesary to type the following lne or code on your main.py file : 
+
+<logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')>
 
 #### Recipes History Not loading.
 
