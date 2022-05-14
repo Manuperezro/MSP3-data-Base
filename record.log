@@ -4176,3 +4176,94 @@ sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in
 2022-05-14 10:16:34,215 INFO werkzeug Thread-37 : 10.20.201.72 - - [14/May/2022 10:16:34] "POST /search HTTP/1.1" 200 -
 2022-05-14 10:16:34,254 INFO werkzeug Thread-38 : 10.20.201.72 - - [14/May/2022 10:16:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2022-05-14 10:16:34,302 INFO werkzeug Thread-39 : 10.20.201.72 - - [14/May/2022 10:16:34] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 10:19:28,958 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-14 10:19:29,005 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-14 10:19:29,613 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-14 10:19:29,613 INFO werkzeug MainThread :  * Debugger PIN: 847-433-149
+2022-05-14 10:20:24,017 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-14 10:20:24,086 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-14 10:20:24,478 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-14 10:20:24,478 INFO werkzeug MainThread :  * Debugger PIN: 847-433-149
+2022-05-14 10:21:01,759 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-14 10:21:01,815 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-14 10:21:02,209 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-14 10:21:02,210 INFO werkzeug MainThread :  * Debugger PIN: 847-433-149
+2022-05-14 10:21:14,545 INFO app Thread-2 : IN START
+2022-05-14 10:21:14,560 INFO werkzeug Thread-2 : 10.20.201.72 - - [14/May/2022 10:21:14] "GET / HTTP/1.1" 200 -
+2022-05-14 10:21:14,639 INFO werkzeug Thread-3 : 10.20.201.72 - - [14/May/2022 10:21:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 10:21:14,683 INFO werkzeug Thread-4 : 10.20.201.72 - - [14/May/2022 10:21:14] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 10:21:16,733 INFO werkzeug Thread-5 : 10.20.201.72 - - [14/May/2022 10:21:16] "GET /recipes HTTP/1.1" 200 -
+2022-05-14 10:21:16,786 INFO werkzeug Thread-6 : 10.20.201.72 - - [14/May/2022 10:21:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 10:21:16,833 INFO werkzeug Thread-7 : 10.20.201.72 - - [14/May/2022 10:21:16] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 10:21:17,738 INFO app Thread-8 : histories are [<Recipe 'lentils soup '>, <Recipe 'broccoli cream'>]
+2022-05-14 10:21:17,744 INFO werkzeug Thread-8 : 10.20.201.72 - - [14/May/2022 10:21:17] "GET /history HTTP/1.1" 200 -
+2022-05-14 10:21:17,801 INFO werkzeug Thread-9 : 10.20.201.72 - - [14/May/2022 10:21:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 10:21:17,849 INFO werkzeug Thread-10 : 10.20.201.72 - - [14/May/2022 10:21:17] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 10:21:25,548 INFO app Thread-11 : search Value = broccoli
+2022-05-14 10:21:25,551 INFO werkzeug Thread-11 : 10.20.201.72 - - [14/May/2022 10:21:25] "POST /search HTTP/1.1" 200 -
+2022-05-14 10:21:25,688 INFO werkzeug Thread-12 : 10.20.201.72 - - [14/May/2022 10:21:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 10:21:25,725 INFO werkzeug Thread-13 : 10.20.201.72 - - [14/May/2022 10:21:25] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:49:24,879 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-14 12:49:24,881 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-14 12:49:25,247 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-14 12:49:25,248 INFO werkzeug MainThread :  * Debugger PIN: 105-560-851
+2022-05-14 12:49:28,020 INFO app Thread-2 : IN START
+2022-05-14 12:49:28,038 INFO werkzeug Thread-2 : 10.20.201.72 - - [14/May/2022 12:49:28] "GET / HTTP/1.1" 200 -
+2022-05-14 12:49:28,135 INFO werkzeug Thread-3 : 10.20.201.72 - - [14/May/2022 12:49:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:49:28,177 INFO werkzeug Thread-4 : 10.20.201.72 - - [14/May/2022 12:49:28] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:49:36,634 INFO app Thread-5 : histories are [<Recipe 'lentils soup '>, <Recipe 'broccoli cream'>]
+2022-05-14 12:49:36,638 INFO werkzeug Thread-5 : 10.20.201.72 - - [14/May/2022 12:49:36] "GET /history HTTP/1.1" 200 -
+2022-05-14 12:49:36,693 INFO werkzeug Thread-6 : 10.20.201.72 - - [14/May/2022 12:49:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:49:36,737 INFO werkzeug Thread-7 : 10.20.201.72 - - [14/May/2022 12:49:36] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:49:41,322 INFO app Thread-8 : search Value = Lentils
+2022-05-14 12:49:41,325 INFO app Thread-8 : Results = [<Recipe 'lentils soup '>]
+2022-05-14 12:49:41,326 INFO werkzeug Thread-8 : 10.20.201.72 - - [14/May/2022 12:49:41] "POST /search HTTP/1.1" 200 -
+2022-05-14 12:49:41,373 INFO werkzeug Thread-9 : 10.20.201.72 - - [14/May/2022 12:49:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:49:41,419 INFO werkzeug Thread-10 : 10.20.201.72 - - [14/May/2022 12:49:41] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:52:41,279 INFO werkzeug Thread-11 : 10.20.201.72 - - [14/May/2022 12:52:41] "GET /recipes HTTP/1.1" 200 -
+2022-05-14 12:52:41,413 INFO werkzeug Thread-12 : 10.20.201.72 - - [14/May/2022 12:52:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:52:41,464 INFO werkzeug Thread-13 : 10.20.201.72 - - [14/May/2022 12:52:41] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:52:44,826 INFO werkzeug Thread-14 : 10.20.201.72 - - [14/May/2022 12:52:44] "GET /recipes HTTP/1.1" 200 -
+2022-05-14 12:52:44,865 INFO werkzeug Thread-15 : 10.20.201.72 - - [14/May/2022 12:52:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:52:44,910 INFO werkzeug Thread-16 : 10.20.201.72 - - [14/May/2022 12:52:44] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:52:45,677 INFO werkzeug Thread-17 : 10.20.201.72 - - [14/May/2022 12:52:45] "GET /recipes HTTP/1.1" 200 -
+2022-05-14 12:52:45,718 INFO werkzeug Thread-18 : 10.20.201.72 - - [14/May/2022 12:52:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:52:45,762 INFO werkzeug Thread-19 : 10.20.201.72 - - [14/May/2022 12:52:45] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:52:46,479 INFO werkzeug Thread-20 : 10.20.201.72 - - [14/May/2022 12:52:46] "GET /recipes HTTP/1.1" 200 -
+2022-05-14 12:52:46,521 INFO werkzeug Thread-21 : 10.20.201.72 - - [14/May/2022 12:52:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:52:46,567 INFO werkzeug Thread-22 : 10.20.201.72 - - [14/May/2022 12:52:46] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:52:55,849 INFO werkzeug Thread-23 : 10.20.201.72 - - [14/May/2022 12:52:55] "GET /recipes HTTP/1.1" 200 -
+2022-05-14 12:52:55,886 INFO werkzeug Thread-24 : 10.20.201.72 - - [14/May/2022 12:52:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:52:55,931 INFO werkzeug Thread-25 : 10.20.201.72 - - [14/May/2022 12:52:55] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:53:02,698 INFO app Thread-26 : IN START
+2022-05-14 12:53:02,701 INFO werkzeug Thread-26 : 10.20.201.72 - - [14/May/2022 12:53:02] "GET / HTTP/1.1" 200 -
+2022-05-14 12:53:02,744 INFO werkzeug Thread-27 : 10.20.201.72 - - [14/May/2022 12:53:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:53:02,800 INFO werkzeug Thread-28 : 10.20.201.72 - - [14/May/2022 12:53:02] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:53:05,491 INFO werkzeug Thread-29 : 10.20.201.72 - - [14/May/2022 12:53:05] "GET /recipes HTTP/1.1" 200 -
+2022-05-14 12:53:05,542 INFO werkzeug Thread-30 : 10.20.201.72 - - [14/May/2022 12:53:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:53:05,588 INFO werkzeug Thread-31 : 10.20.201.72 - - [14/May/2022 12:53:05] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:53:06,850 INFO app Thread-32 : histories are [<Recipe 'lentils soup '>, <Recipe 'broccoli cream'>]
+2022-05-14 12:53:06,851 INFO werkzeug Thread-32 : 10.20.201.72 - - [14/May/2022 12:53:06] "GET /history HTTP/1.1" 200 -
+2022-05-14 12:53:06,902 INFO werkzeug Thread-33 : 10.20.201.72 - - [14/May/2022 12:53:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:53:06,943 INFO werkzeug Thread-34 : 10.20.201.72 - - [14/May/2022 12:53:06] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:54:23,609 INFO app Thread-35 : histories are [<Recipe 'lentils soup '>, <Recipe 'broccoli cream'>]
+2022-05-14 12:54:23,614 INFO werkzeug Thread-35 : 10.20.201.72 - - [14/May/2022 12:54:23] "GET /history HTTP/1.1" 200 -
+2022-05-14 12:54:23,656 INFO werkzeug Thread-36 : 10.20.201.72 - - [14/May/2022 12:54:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:54:23,698 INFO werkzeug Thread-37 : 10.20.201.72 - - [14/May/2022 12:54:23] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:55:04,375 INFO app Thread-38 : histories are [<Recipe 'lentils soup '>, <Recipe 'broccoli cream'>]
+2022-05-14 12:55:04,380 INFO werkzeug Thread-38 : 10.20.201.72 - - [14/May/2022 12:55:04] "GET /history HTTP/1.1" 200 -
+2022-05-14 12:55:04,476 INFO werkzeug Thread-39 : 10.20.201.72 - - [14/May/2022 12:55:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:55:04,517 INFO werkzeug Thread-40 : 10.20.201.72 - - [14/May/2022 12:55:04] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:55:14,049 INFO werkzeug Thread-41 : 10.20.201.72 - - [14/May/2022 12:55:14] "GET /recipes HTTP/1.1" 200 -
+2022-05-14 12:55:14,099 INFO werkzeug Thread-42 : 10.20.201.72 - - [14/May/2022 12:55:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:55:14,141 INFO werkzeug Thread-43 : 10.20.201.72 - - [14/May/2022 12:55:14] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:55:28,157 INFO werkzeug Thread-44 : 10.20.201.72 - - [14/May/2022 12:55:28] "GET /recipes HTTP/1.1" 200 -
+2022-05-14 12:55:28,200 INFO werkzeug Thread-45 : 10.20.201.72 - - [14/May/2022 12:55:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:55:28,243 INFO werkzeug Thread-46 : 10.20.201.72 - - [14/May/2022 12:55:28] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 12:56:05,104 INFO app Thread-47 : histories are [<Recipe 'lentils soup '>, <Recipe 'broccoli cream'>]
+2022-05-14 12:56:05,106 INFO werkzeug Thread-47 : 10.20.201.72 - - [14/May/2022 12:56:05] "GET /history HTTP/1.1" 200 -
+2022-05-14 12:56:05,154 INFO werkzeug Thread-48 : 10.20.201.72 - - [14/May/2022 12:56:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 12:56:05,198 INFO werkzeug Thread-49 : 10.20.201.72 - - [14/May/2022 12:56:05] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -

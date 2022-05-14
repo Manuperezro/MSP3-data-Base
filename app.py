@@ -19,7 +19,7 @@ from random import choice
 
 app = Flask(__name__)
 
-# app.config['SECRET_KEY'] = "lalalalala"
+
 app.secret_key = os.environ.get("SECRET_KEY")
 
 
@@ -257,8 +257,10 @@ def search():
     if request.method == 'POST':
         form = request.form
         search_value = form['search_string']
+        app.logger.info('search Value = %s', search_value)
         search = "%{}%".format(search_value)
         results = Recipes.query.filter(Recipes.name.like(search)).all()
+        app.logger.info('Results = %s', results)
         return render_template('history.html', recipes=results, legend="Search Results")
     else:
         return redirect('history.html')
