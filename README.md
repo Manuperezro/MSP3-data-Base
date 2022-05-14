@@ -250,7 +250,7 @@ Users table
 
 ### Bugs and Errors during development:
 
-- Recipes History Not loading.
+#### Recipes History Not loading.
 
 The issue :
 
@@ -264,19 +264,24 @@ I tried to simplify the code, and to used what was already working and retieving
 - ![History ](static/css/images/bugs/HistoryBug.png "History List Bug")
 
 
-- Users Login not accesing to the Users Table. 
+#### Users Login not accesing the Users Table. 
 
 The issue : 
 
-The route for Users registration , was collecting the data into the user table corretly but the route I created for loggin it wasent collecting any data.
+The route for Users registration, was collecting the data into the user table corretly but the route I created for loggin it wasent collecting any data.
 
 The solution : 
 
-On proccess......
+I was using the <reg-form.username.data> to syntax to request the data, and I changes for the <request> method imported from flask <username = request.form.get('username')>
 
 
-- ![Login]("Loging bug")
+- ![Registration ](static/css/images/usersBug.png "Users registration Bug")
 
+#### push to Heroku rejected
+
+The issue: 
+
+I am unable to push the changes to Heroku, I got a message saying that the push was rejected. falied to push some refts to my <heroku remote link>
 
 ## Deployment:
 
