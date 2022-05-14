@@ -3676,3 +3676,75 @@ sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in
 2022-05-11 17:20:11,993 INFO werkzeug MainThread :  * Restarting with stat
 2022-05-11 17:20:12,297 WARNING werkzeug MainThread :  * Debugger is active!
 2022-05-11 17:20:12,297 INFO werkzeug MainThread :  * Debugger PIN: 129-582-226
+2022-05-14 07:25:44,457 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.5.2:8080 (Press CTRL+C to quit)
+2022-05-14 07:25:44,458 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-14 07:25:44,770 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-14 07:25:44,771 INFO werkzeug MainThread :  * Debugger PIN: 847-433-149
+2022-05-14 07:25:48,129 INFO app Thread-2 : IN START
+2022-05-14 07:25:48,139 INFO werkzeug Thread-2 : 10.20.127.2 - - [14/May/2022 07:25:48] "GET / HTTP/1.1" 200 -
+2022-05-14 07:25:48,211 INFO werkzeug Thread-3 : 10.20.127.2 - - [14/May/2022 07:25:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-05-14 07:25:48,268 INFO werkzeug Thread-5 : 10.20.127.2 - - [14/May/2022 07:25:48] "GET /static/css/images/notebook2.jpg HTTP/1.1" 200 -
+2022-05-14 07:25:48,268 INFO werkzeug Thread-4 : 10.20.127.2 - - [14/May/2022 07:25:48] "GET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1" 200 -
+2022-05-14 07:25:49,741 INFO werkzeug Thread-6 : 10.20.127.2 - - [14/May/2022 07:25:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-14 07:26:00,328 INFO app Thread-7 : in login function
+2022-05-14 07:26:00,332 INFO werkzeug Thread-7 : 10.20.127.2 - - [14/May/2022 07:26:00] "GET /login HTTP/1.1" 200 -
+2022-05-14 07:26:00,399 INFO werkzeug Thread-8 : 10.20.127.2 - - [14/May/2022 07:26:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:26:00,442 INFO werkzeug Thread-9 : 10.20.127.2 - - [14/May/2022 07:26:00] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:00,443 INFO werkzeug Thread-10 : 10.20.127.2 - - [14/May/2022 07:26:00] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:02,652 INFO app Thread-11 : register-route
+2022-05-14 07:26:02,654 INFO werkzeug Thread-11 : 10.20.127.2 - - [14/May/2022 07:26:02] "GET /register HTTP/1.1" 200 -
+2022-05-14 07:26:02,714 INFO werkzeug Thread-12 : 10.20.127.2 - - [14/May/2022 07:26:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:26:02,784 INFO werkzeug Thread-13 : 10.20.127.2 - - [14/May/2022 07:26:02] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:02,787 INFO werkzeug Thread-14 : 10.20.127.2 - - [14/May/2022 07:26:02] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:04,370 INFO app Thread-15 : IN START
+2022-05-14 07:26:04,371 INFO werkzeug Thread-15 : 10.20.127.2 - - [14/May/2022 07:26:04] "GET / HTTP/1.1" 200 -
+2022-05-14 07:26:04,420 INFO werkzeug Thread-16 : 10.20.127.2 - - [14/May/2022 07:26:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:26:04,468 INFO werkzeug Thread-17 : 10.20.127.2 - - [14/May/2022 07:26:04] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:04,470 INFO werkzeug Thread-18 : 10.20.127.2 - - [14/May/2022 07:26:04] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:07,989 INFO app Thread-19 : in login function
+2022-05-14 07:26:07,992 INFO werkzeug Thread-19 : 10.20.127.2 - - [14/May/2022 07:26:07] "GET /login HTTP/1.1" 200 -
+2022-05-14 07:26:08,039 INFO werkzeug Thread-20 : 10.20.127.2 - - [14/May/2022 07:26:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:26:08,103 INFO werkzeug Thread-22 : 10.20.127.2 - - [14/May/2022 07:26:08] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:08,103 INFO werkzeug Thread-21 : 10.20.127.2 - - [14/May/2022 07:26:08] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:09,466 INFO app Thread-23 : register-route
+2022-05-14 07:26:09,466 INFO werkzeug Thread-23 : 10.20.127.2 - - [14/May/2022 07:26:09] "GET /register HTTP/1.1" 200 -
+2022-05-14 07:26:09,511 INFO werkzeug Thread-24 : 10.20.127.2 - - [14/May/2022 07:26:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:26:09,560 INFO werkzeug Thread-25 : 10.20.127.2 - - [14/May/2022 07:26:09] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:09,561 INFO werkzeug Thread-26 : 10.20.127.2 - - [14/May/2022 07:26:09] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:25,792 INFO app Thread-27 : register-route
+2022-05-14 07:26:25,793 INFO app Thread-27 : impost request
+2022-05-14 07:26:25,793 INFO app Thread-27 : username are Juana
+2022-05-14 07:26:25,793 INFO app Thread-27 : password are juanita
+2022-05-14 07:26:25,821 INFO werkzeug Thread-27 : 10.20.127.2 - - [14/May/2022 07:26:25] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-14 07:26:25,848 INFO app Thread-28 : register-route
+2022-05-14 07:26:25,849 INFO werkzeug Thread-28 : 10.20.127.2 - - [14/May/2022 07:26:25] "GET /register HTTP/1.1" 200 -
+2022-05-14 07:26:25,890 INFO werkzeug Thread-29 : 10.20.127.2 - - [14/May/2022 07:26:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:26:25,936 INFO werkzeug Thread-30 : 10.20.127.2 - - [14/May/2022 07:26:25] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:25,936 INFO werkzeug Thread-31 : 10.20.127.2 - - [14/May/2022 07:26:25] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:27,877 INFO app Thread-32 : in login function
+2022-05-14 07:26:27,880 INFO werkzeug Thread-32 : 10.20.127.2 - - [14/May/2022 07:26:27] "GET /login HTTP/1.1" 200 -
+2022-05-14 07:26:27,929 INFO werkzeug Thread-33 : 10.20.127.2 - - [14/May/2022 07:26:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:26:27,980 INFO werkzeug Thread-34 : 10.20.127.2 - - [14/May/2022 07:26:27] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:27,981 INFO werkzeug Thread-35 : 10.20.127.2 - - [14/May/2022 07:26:27] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:26:38,126 INFO app Thread-36 : in login function
+2022-05-14 07:26:38,130 INFO app Thread-36 : request form,
+2022-05-14 07:26:38,133 INFO app Thread-36 : userlist is [<Register 'Manuel '>, <Register 'Hola'>, <Register 'Juana'>]
+2022-05-14 07:26:38,134 INFO app Thread-36 : username ok Juana
+2022-05-14 07:26:38,134 INFO app Thread-36 : password ok juanita
+2022-05-14 07:26:38,136 INFO app Thread-36 : user in  ok True
+2022-05-14 07:26:38,139 INFO werkzeug Thread-36 : 10.20.127.2 - - [14/May/2022 07:26:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-14 07:26:38,161 INFO app Thread-37 : IN START
+2022-05-14 07:26:38,166 INFO werkzeug Thread-37 : 10.20.127.2 - - [14/May/2022 07:26:38] "GET / HTTP/1.1" 200 -
+2022-05-14 07:26:38,224 INFO werkzeug Thread-38 : 10.20.127.2 - - [14/May/2022 07:26:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-14 07:26:38,267 INFO werkzeug Thread-39 : 10.20.127.2 - - [14/May/2022 07:26:38] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-14 07:28:57,042 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-14 07:28:57,092 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-14 07:28:57,437 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-14 07:28:57,437 INFO werkzeug MainThread :  * Debugger PIN: 847-433-149
+2022-05-14 07:29:09,529 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-14 07:29:09,604 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-14 07:29:09,973 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-14 07:29:09,973 INFO werkzeug MainThread :  * Debugger PIN: 847-433-149
