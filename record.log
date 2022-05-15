@@ -5346,3 +5346,36 @@ sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in
 2022-05-15 09:46:33,164 INFO werkzeug Thread-15 : 10.20.201.72 - - [15/May/2022 09:46:33] "GET / HTTP/1.1" 200 -
 2022-05-15 09:46:33,225 INFO werkzeug Thread-16 : 10.20.201.72 - - [15/May/2022 09:46:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2022-05-15 09:46:33,285 INFO werkzeug Thread-17 : 10.20.201.72 - - [15/May/2022 09:46:33] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-15 10:40:37,123 INFO werkzeug Thread-18 : 10.20.201.72 - - [15/May/2022 10:40:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-15 10:40:37,153 INFO app Thread-19 : register-route
+2022-05-15 10:40:37,155 INFO werkzeug Thread-19 : 10.20.201.72 - - [15/May/2022 10:40:37] "GET /register HTTP/1.1" 200 -
+2022-05-15 10:40:37,313 INFO werkzeug Thread-20 : 10.20.201.72 - - [15/May/2022 10:40:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-15 10:40:37,356 INFO werkzeug Thread-21 : 10.20.201.72 - - [15/May/2022 10:40:37] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-15 10:40:37,357 INFO werkzeug Thread-22 : 10.20.201.72 - - [15/May/2022 10:40:37] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-15 10:40:49,579 INFO app Thread-23 : register-route
+2022-05-15 10:40:49,580 INFO werkzeug Thread-23 : 10.20.201.72 - - [15/May/2022 10:40:49] "GET /register HTTP/1.1" 200 -
+2022-05-15 10:40:49,625 INFO werkzeug Thread-24 : 10.20.201.72 - - [15/May/2022 10:40:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-15 10:40:49,669 INFO werkzeug Thread-25 : 10.20.201.72 - - [15/May/2022 10:40:49] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-15 10:40:49,671 INFO werkzeug Thread-26 : 10.20.201.72 - - [15/May/2022 10:40:49] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-15 10:47:38,432 INFO app Thread-27 : in login function
+2022-05-15 10:47:38,435 INFO werkzeug Thread-27 : 10.20.201.72 - - [15/May/2022 10:47:38] "GET /login HTTP/1.1" 200 -
+2022-05-15 10:47:38,594 INFO werkzeug Thread-28 : 10.20.201.72 - - [15/May/2022 10:47:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-15 10:47:38,649 INFO werkzeug Thread-30 : 10.20.201.72 - - [15/May/2022 10:47:38] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-15 10:47:38,650 INFO werkzeug Thread-29 : 10.20.201.72 - - [15/May/2022 10:47:38] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-15 10:48:18,395 INFO app Thread-31 : in login function
+2022-05-15 10:48:18,397 INFO app Thread-31 : request form,
+2022-05-15 10:48:18,398 INFO app Thread-31 : userlist is [<Register 'Manuel '>, <Register 'Hola'>, <Register 'Juana'>, <Register 'Ana Belen'>, <Register 'Ana Belen'>, <Register 'Juana'>, <Register 'Juana'>, <Register 'Juana'>, <Register 'pako'>, <Register 'Juana'>, <Register 'Lola'>]
+2022-05-15 10:48:18,398 INFO app Thread-31 : username ok Ana Belen
+2022-05-15 10:48:18,480 INFO app Thread-31 : password ok pbkdf2:sha256:260000$4ry2PgI8kgDkUE8F$0b3b4083dad4832cd4a56aaca17e2e977ee2a90c73a76eccd016ae7163ac41ba
+2022-05-15 10:48:18,482 INFO app Thread-31 : user in  ok True
+2022-05-15 10:48:18,486 INFO werkzeug Thread-31 : 10.20.201.72 - - [15/May/2022 10:48:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-15 10:48:18,527 INFO app Thread-32 : IN START
+2022-05-15 10:48:18,533 INFO werkzeug Thread-32 : 10.20.201.72 - - [15/May/2022 10:48:18] "GET / HTTP/1.1" 200 -
+2022-05-15 10:48:18,686 INFO werkzeug Thread-33 : 10.20.201.72 - - [15/May/2022 10:48:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-15 10:48:18,734 INFO werkzeug Thread-34 : 10.20.201.72 - - [15/May/2022 10:48:18] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-15 10:48:39,290 INFO werkzeug Thread-35 : 10.20.201.72 - - [15/May/2022 10:48:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-15 10:48:39,315 INFO app Thread-36 : register-route
+2022-05-15 10:48:39,316 INFO werkzeug Thread-36 : 10.20.201.72 - - [15/May/2022 10:48:39] "GET /register HTTP/1.1" 200 -
+2022-05-15 10:48:39,500 INFO werkzeug Thread-37 : 10.20.201.72 - - [15/May/2022 10:48:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-15 10:48:39,553 INFO werkzeug Thread-38 : 10.20.201.72 - - [15/May/2022 10:48:39] "[36mGET /static/css/images/wireframes/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-15 10:48:39,554 INFO werkzeug Thread-39 : 10.20.201.72 - - [15/May/2022 10:48:39] "[36mGET /static/css/images/notebook2.jpg HTTP/1.1[0m" 304 -
