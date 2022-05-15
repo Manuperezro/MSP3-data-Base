@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, session
+from flask import Flask, render_template, request, redirect, session, flash
 from flask_session import Session
 import os 
 import logging
@@ -9,6 +9,7 @@ from models.histories import Histories
 from models.register import Users
 import MySQLdb.cursors
 import datetime
+from werkzeug.security import generate_password_hash, check_password_hash
 from random import choice
 
 
@@ -69,10 +70,11 @@ def register():
     app.logger.info('register-route')
     
     if request.method == "POST" and "username" in request.form and "email" in request.form and "password" in request.form:
+        # check if username already exist?
         app.logger.info('impost request')
         username = request.form.get('username')
         email = request.form.get('email')
-        password = request.form.get('password')
+        password = generate_password_hash(request.form.get('password'))
 
         app.logger.info('username are %s', username)
         app.logger.info('password are %s', password)
@@ -81,6 +83,7 @@ def register():
         db_session.add(user)
         db_session.commit()
 
+        flash("You have register Succesfully!")
         return redirect('/login')
 
     else:
@@ -109,7 +112,7 @@ def login():
         username = request.form.get('username')
         app.logger.info('username ok %s', username)
 
-        password = request.form.get('password')
+        password = generate_password_hash(request.form.get('password'))
         app.logger.info('password ok %s', password)
 
 
@@ -139,6 +142,7 @@ def login():
 
 @app.route('/logout')
 def logout():
+    flash("You have logged out!")
     session.pop('username', None)
     session.pop('id', None)
     session.pop('loggedIn', None)
