@@ -70,7 +70,7 @@ def register():
     app.logger.info('register-route')
     
     if request.method == "POST" and "username" in request.form and "email" in request.form and "password" in request.form:
-        # check if username already exist?
+        # check if username already exist
         app.logger.info('impost request')
         username = request.form.get('username')
         email = request.form.get('email')
@@ -83,19 +83,15 @@ def register():
         db_session.add(user)
         db_session.commit()
 
-        flash("You have register Succesfully!")
         return redirect('/login')
-
-    else:
-        registerMessage = "Ups try again with a different name or password"
 
     return render_template('register.html')
 
 
-@app.route('/userslog')
-def userslog():
-    userslog = Users.query.all()
-    return render_template('users.html', userslog=userslog)
+# @app.route('/userslog')
+# def userslog():
+#     userslog = Users.query.all()
+#     return render_template('users.html', userslog=userslog)
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -117,7 +113,6 @@ def login():
 
 
         # check if user exists in register database
-        
         userExists = bool(Users.query.filter_by(username=username).first())
         app.logger.info('user in  ok %s', userExists)
         if userExists is True:
@@ -126,9 +121,11 @@ def login():
             session['username'] = user.username
             session['id'] = user.id
             session['loggedIn'] = True
+            flash("Welcomeback, {user.username}!")
 
             return redirect('/') 
             return render_template('start.html')
+
         else:
             # account dosn't exist
             errorMessage = "Invalid Username or Password "
@@ -142,12 +139,13 @@ def login():
 
 @app.route('/logout')
 def logout():
-    flash("You have logged out!")
+
+    flash("You are logout! See you soon!")
     session.pop('username', None)
     session.pop('id', None)
     session.pop('loggedIn', None)
 
-    return redirect('/login')
+    return redirect('/register')
 
 
 

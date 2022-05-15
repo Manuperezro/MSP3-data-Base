@@ -43,6 +43,21 @@
         </nav>
     </div>
 
+    <section>
+        <!--flash messsages-->
+        {%  with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                <div class="row flashes">
+                    <div class="col-12">
+                    <h4 class="m-5">{{message}}</h4>
+                </div>
+                </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </section>
+
     {% block content %}
 
     {% endblock %}
@@ -50,6 +65,11 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+        
+        .flashes {
+            text-align: center;
+
+        }
 
         html {
             height: 100%;
