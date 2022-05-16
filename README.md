@@ -8,7 +8,7 @@
 
 ### By Manuel Perez
 
-![Mock-up](static/css/images/mokauP3.png"MockUp")
+![Mock-up](static/css/images/mokauP3.png "MockUp")
 
 [View Repository in GitHub Pages](https://github.com/Manuperezro/MSP3-data-Base)
 
