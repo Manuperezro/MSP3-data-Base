@@ -17,7 +17,6 @@ from random import choice
 # python CRUD udemy, Walktrhought project Code Institute, CRUD with Python codecademy.
 # the app.logger.info("") = It is used for Debugin:
 # I did log status of code to see if the code was working correctly it can be seeing in record.log
-
 app = Flask(__name__)
 
 
@@ -121,7 +120,7 @@ def login():
             session['username'] = user.username
             session['id'] = user.id
             session['loggedIn'] = True
-            flash("Welcomeback, {user.username}!")
+            flash(f"Welcomeback, {username}!")
 
             return redirect('/') 
             return render_template('start.html')
@@ -139,8 +138,8 @@ def login():
 
 @app.route('/logout')
 def logout():
-
-    flash("You are logout! See you soon!")
+    
+    flash(f"You are logout! See you soon!")
     session.pop('username', None)
     session.pop('id', None)
     session.pop('loggedIn', None)
