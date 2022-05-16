@@ -8,7 +8,7 @@
 
 ### By Manuel Perez
 
-##Table of Content
+## Table of Content
 
 ![Mock-up](static/css/images/mokauP3.png "MockUp")
 
