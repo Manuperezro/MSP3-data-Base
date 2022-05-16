@@ -12,7 +12,7 @@
 
 [View Repository in GitHub Pages](https://github.com/Manuperezro/MSP3-data-Base)
 
-[View Deployment link Heroku](https://receipes-notebook.herokuapp.com/)
+[View Deployment link Heroku](https://myrecipes-notebook.herokuapp.com/)
 
 
 [view Website Link ] ()
