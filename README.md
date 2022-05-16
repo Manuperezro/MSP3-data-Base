@@ -8,17 +8,55 @@
 
 ### By Manuel Perez
 
+##Table of Content
+
 ![Mock-up](static/css/images/mokauP3.png "MockUp")
 
 [View Repository in GitHub Pages](https://github.com/Manuperezro/MSP3-data-Base)
 
 [View Deployment link Heroku](https://myrecipes-notebook.herokuapp.com/)
 
+  * [The Why](#the-why)
+  * [The Bussines Goal](#the-bussines-goal)
+  * [(UX) User Experience:](#-ux--user-experience-)
+    + [User Stories](#user-stories)
+      - [First time Users Goals:](#first-time-users-goals-)
+      - [Returning Users Goals:](#returning-users-goals-)
+      - [Frequent Users Goals:](#frequent-users-goals-)
+      - [Website Owner Goals:](#website-owner-goals-)
+    + [I want users to:](#i-want-users-to-)
+  * [Design:](#design-)
+    + [Theme and Colour Scheme](#theme-and-colour-scheme)
+    + [Design Brief:](#design-brief-)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+      - [Existing Features:](#existing-features-)
+        * [(Main page)](#-main-page-)
+  * [Technologies:](#technologies-)
+    + [Languages used:](#languages-used-)
+    + [Frameworks Libraries and programm used:](#frameworks-libraries-and-programm-used-)
+  * [Database Schema:](#database-schema-)
+    + [Schema:](#schema-)
+  * [Testing:](#testing-)
+    + [Testing results:](#testing-results-)
+- [Validators Results :](#validators-results--)
+- [light House](#light-house)
+    + [Bugs and Errors during development:](#bugs-and-errors-during-development-)
+      - [Debuging procces :](#debuging-procces--)
+      - [Recipes History Not loading.](#recipes-history-not-loading)
+      - [Users Login not accesing the Users Table.](#users-login-not-accesing-the-users-table)
+      - [push to Heroku rejected](#push-to-heroku-rejected)
+  * [Deployment:](#deployment-)
+    + [Inception:](#inception-)
+      - [Deployment to GitHub Pages:](#deployment-to-github-pages-)
+      - [Deployment to Heroku Pages:](#deployment-to-heroku-pages-)
+    + [Cloning repository:](#cloning-repository-)
+    + [Forking repository:](#forking-repository-)
+  * [Credits:](#credits-)
+  * [Turorials, guides and courses recources:](#turorials--guides-and-courses-recources-)
+  * [Aknowledgements:](#aknowledgements-)
 
-[view Website Link ] ()
-
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+  <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 ## The Why
