@@ -5,7 +5,6 @@ import logging
 from database import db_session, init_db
 from sqlalchemy import desc
 from models.recipes import Recipes
-from models.histories import Histories 
 from models.register import Users
 import MySQLdb.cursors
 import datetime
@@ -118,9 +117,9 @@ def login():
             # get the user from the database
             user = Users.query.filter(Users.username == username and Users.password == password).first()
             session['username'] = user.username
-            session['id'] = user.id
+            session['userId'] = user.id
             session['loggedIn'] = True
-            flash(f"Welcomeback, {username}!")
+            flash(f"Welcomeback, {session.get('username')}!")
 
             return redirect('/') 
             return render_template('start.html')
@@ -175,17 +174,12 @@ def create_recipe():
         name = request.form.get('name')
         description = request.form.get('description')
         site_url = request.form.get('site_url')
-        username = request.form.get('username')
 
-        user = Users.query.filter(Users.username == username).first()
-        app.logger.info('user in create %s', user)
+        user_id = session.get('userId')
 
+        recipe = Recipes(name=name, description=description, site_url=site_url, user_id=user_id)
 
-        recipe = Recipes(name=name, description=description, site_url=site_url)
-
-        # app.logger.info('recipe ==  %s', recipe.id)
-
-        # user.recipe_ids.append(recipe.id)
+        app.logger.info('recipe ==  %s', recipe.user_id)
 
         # addRecipe = user.recipe_ids.append(recipe.id)
 
@@ -201,9 +195,16 @@ def create_recipe():
     return render_template('create_recipe.html')
 
 
+
 @app.route('/recipes')
-def recipe_list():
-    recipes = Recipes.query.all()
+def user_recipe_list():
+    userId = session.get('userId')
+
+    app.logger.info('user ID is %s', userId)
+    recipes = Recipes.query.filter(Recipes.user_id == userId).all()
+
+    app.logger.info('user recipes are %s', recipes)
+
 
     return render_template("recipe.html", nav=recipes, recipes=recipes)
 

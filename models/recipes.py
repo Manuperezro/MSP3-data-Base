@@ -8,20 +8,18 @@ import datetime
 class Recipes(Base):
     __tablename__ = 'recipes'
     id = Column(String(50), primary_key=True)
+    user_id = Column(String(50))
     name = Column(String(50))
     description = Column(String(100), nullable=True)
     site_url = Column(String(200), nullable=True)
     draw = Column(Integer(), default=0)
     created_time = Column(DateTime(), nullable=False)
     modified_time = Column(DateTime(), nullable=False)
-    histories = relationship(
-        'Histories',
-        backref='recipes',
-        cascade='all,delete'
-    )
 
-    def __init__(self, name, description, site_url):
+
+    def __init__(self, name, description, site_url, user_id):
         self.id = str(uuid.uuid4())
+        self.user_id = user_id
         self.name = name
         self.description = description
         self.site_url = site_url
@@ -30,4 +28,4 @@ class Recipes(Base):
       
 
     def __repr__(self):
-        return '<Recipe %r>' % (self.name)
+        return '<Recipe %r>' % (self.user_id)
