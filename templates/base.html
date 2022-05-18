@@ -37,8 +37,6 @@
                 href="/register">Registration</a>
             <a class="btn {% if nav == 'history' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
                 href="/login">login</a>
-            <a class="btn {% if nav == 'history' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
-                href="/userslog">Users</a>
             {% endif %}
         </nav>
     </div>
@@ -46,27 +44,27 @@
     <section>
         <!--flash messsages-->
         {%  with messages = get_flashed_messages() %}
-            {% if messages %}
-                {% for message in messages %}
-                <div class="row flashes">
-                    <div class="col-12">
-                    <h4 class="m-5">{{message}}</h4>
-                </div>
-                </div>
-                {% endfor %}
-            {% endif %}
+        {% if messages %}
+        {% for message in messages %}
+        <div class="row flashes">
+            <div class="col-12">
+                <h4 class="m-5">{{message}}</h4>
+            </div>
+        </div>
+        {% endfor %}
+        {% endif %}
         {% endwith %}
     </section>
 
     {% block content %}
 
     {% endblock %}
-    
+
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-        
+
         .flashes {
             text-align: center;
 
@@ -94,6 +92,7 @@
             box-sizing: inherit;
 
         }
+
 
         .navbar {
             border-radius: 5px;
@@ -150,8 +149,15 @@
             line-height: 22px;
         }
 
-        .note { 
+        .note {
             padding-top: 20px;
+            padding-bottom: 20px;
+            background: #ffffff none repeat scroll 0 0;
+            border-radius: 5px;
+            border: 0 solid #e7e7e7;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            width: 600px;
+            margin: 0 auto;
         }
 
         .card-body {
@@ -264,7 +270,7 @@
             font-size: xx-large;
         }
 
-        /* Reseting */
+        /* Register and login */
 
         .wrapper {
             max-width: 850px;
@@ -450,58 +456,17 @@
             color: #dc3545;
         }
 
-        @media (max-width: 860.5px) {
-            .wrapper {
-                margin: 50px 5px;
-            }
+
+        @media screen and (max-width:740px) {
             .form-left {
-                display:none;
-
-            }
-          }
-        }
-
-
-        @media (max-width: 767.5px) {
-            .wrapper {
-                flex-direction: column;
-                margin: 30px 20px;
-            }
-
-            .wrapper .form-left {
-                border-bottom-left-radius: 0px;
-            }
-            .form-left {
-                display:none;
-
-            }
-
-
-        }
-
-        @media (max-width: 575px) {
-
-            .wrapper {
-                margin: 30px 15px;
-            }
-
-            .wrapper .form-left {
-                padding: 25px;
-            }
-
-            .wrapper .form-left {
-                padding: 25px;
-            }
-            .form-left {
-                display:none;
+                display: none;
 
             }
         }
 
-        @media (max-width: 575px) {
-
-            footer {
-                height: 30px;
+        @media screen and (max-width:640px) {
+            .form-left {
+                display: none;
             }
         }
     </style>
