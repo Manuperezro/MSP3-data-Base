@@ -10,7 +10,7 @@
 
 ## Table of Content
 
-![Mock-up](static/css/images/mokauP3.png "MockUp")
+![Mock-up](../images/mokauP3.png "MockUp")
 
 [View Repository in GitHub Pages](https://github.com/Manuperezro/MSP3-data-Base)
 
@@ -114,9 +114,9 @@ The theme is inspired by a chopping borad and the elemts a chef used to prepare 
 
 + Colour:
 
-![Color](static/css/images/Coloe-Scheme1.png "Color Scheme")
+![Color](../images/Coloe-Scheme1.png "Color Scheme")
 
-![Color](static/css/images/Color-scheme.png "Color Scheme")
+![Color](../images/Color-scheme.png "Color Scheme")
 
 - Links : 
 
@@ -128,13 +128,13 @@ The Backgorund image and the image in the register form was unload from n[Pexels
 
 the goal was to inspire a clean, simple choping board in a bright, clean and minimalis kitchen wich inspire peace and invite to cook. 
 
-![BG](static/css/images/wireframes/pexels-lukas-349609.jpg "Background image")
+![BG](../images/wireframes/pexels-lukas-349609.jpg "Background image")
 
 - Register and login image:
 
 In this image the goal was to emulate a paper notebook with some elements to create the effect that when you are login into the app, you are opening your paper recipes notebook.
 
-![Register](static/css/images/notebook2.jpg "Register image")
+![Register](../images/notebook2.jpg "Register image")
 
 
 
@@ -148,15 +148,15 @@ Here some images of the proccess(to see full wireframe click PDF) :
 
 - PC Mac screen: 
 
- ![wireframe](static/css/images/wireframes/pcwireframe.png "PC wireframe")
+ ![wireframe](../images/wireframes/pcwireframe.png "PC wireframe")
 
 - Tablet screen:
 
-![wireframe](static/css/images/wireframes/tabletwireframe.png "PC wireframe")
+![wireframe](../images/wireframes/tabletwireframe.png "PC wireframe")
 
 - Mobile screen: 
 
- ![wireframe](static/css/images/wireframes/mobilewireframe.png "PC wireframe")
+ ![wireframe](../images/wireframes/mobilewireframe.png "PC wireframe")
 
 ## Features
 
@@ -168,41 +168,41 @@ Here some images of the proccess(to see full wireframe click PDF) :
 
    - Navigation Menu: I decided to go wiht a simple and clean navigation bar to keep the feeling of a clean empty chopping board    wich invite to Cook.
       
-   ![features](static/css/images/features/navbar.png "Navigation bar")
+   ![features](../images/features/navbar.png "Navigation bar")
 
    + What to it,  Draw Box.
 
    - One of the main features of the app, is that users can click in the Try luck buttom, and this will select a random recipe from the users recipe list.
 
-    ![features](static/css/images/features/Drawbox.png "Lucky Box")
+    ![features](../images/features/Drawbox.png "Lucky Box")
 
    + Create Recipes
 
    - The useres are able to click on the create new recipe buttom, and this will open a form wich allow users to create new recipes items and storage in the database.
 
-    ![features](static/css/images/features/createbuttom.png "Create recipe")
+    ![features](../images/features/createbuttom.png "Create recipe")
 
-    ![features](static/css/images/features/createreceipe.png "Create recipe")
+    ![features](../images/features/createreceipe.png "Create recipe")
 
    + Edit and deleted Recipes
    
    - Once the recipes are created they will be able to acces the recipes item and edit, and delete them
 
-    ![features](static/css/images/features/create.recipes.png "Recipes created")
+    ![features](../images/features/create.recipes.png "Recipes created")
 
    + Recipes History 
 
    - I decided to create a list where the users can see every created recipe organize from the lates creation till the oldest, it also can see wich type of meal is, and date and time of creation. 
 
-    ![features](static/css/images/features/history.png "Recipes History")
+    ![features](../images/features/history.png "Recipes History")
 
    + Registration and Login Form.
 
    - I also addded a registration and Loging Form, where useres can Sign up and register to be able to see their one data.
 
-   ![features](static/css/images/features/registration.png "Registration")
+   ![features](../images/features/registration.png "Registration")
 
-   ![features](static/css/images/features/login.png "Login")
+   ![features](../images/features/login.png "Login")
   
 ## Technologies: 
 
@@ -250,17 +250,17 @@ Here some images of the proccess(to see full wireframe click PDF) :
 
 This image is the databases in DB browser app.
 
-- ![Database in SQlite](static/css/images/dbimg.png "DB browser")
+- ![Database in SQlite](../images/dbimg.png "DB browser")
 
 This is are the 3 tables I used when start the app.
 
-- ![Tables](static/css/images/3databases.png "DB browser")
+- ![Tables](../images/3databases.png "DB browser")
 
 Recipes table
 
-- ![Recipes](static/css/images/recipiesDBSchema.jpeg "Recipes table")
+- ![Recipes](../images/recipiesDBSchema.jpeg "Recipes table")
 
-- ![Database in SQlite](static/css/images/db2.png "DB browser")
+- ![Database in SQlite](../images/db2.png "DB browser")
 
 ## Testing: 
 
@@ -294,11 +294,11 @@ For debugging and testing I used the following tools and techniques :
 
 In the next image you can see the lines of code I used tu log the results in the lrecord.log file.
 
-- ![Logging file](static/css/images/searlogger.png "Loggin file procces")
+- ![Logging file](../images/searlogger.png "Loggin file procces")
 
 In the next image you can see how the results are log in the record.log file:
 
-- ![Logging file](static/css/images/Sfilerecordlog.png "Loggin file procces")
+- ![Logging file](../images/Sfilerecordlog.png "Loggin file procces")
 
 This really help me to identify Bugs and fixed during the development procces.
 
@@ -318,7 +318,7 @@ The solution :
 I tried to simplify the code, and to used what was already working and retieving data, So made the following changes (Check images below for more details), and try collect the data from the Recipes model, as the results was the same. The user was able to see a list with all the created recipes.
 
 
-- ![History ](static/css/images/bugs/HistoryBug.png "History List Bug")
+- ![History ](../images/bugs/HistoryBug.png "History List Bug")
 
 
 #### Users Login not accesing the Users Table. 
@@ -332,13 +332,25 @@ The solution :
 I was using the <reg-form.username.data> to syntax to request the data, and I changes for the <request> method imported from flask <username = request.form.get('username')>
 
 
-- ![Registration ](static/css/images/usersBug.png "Users registration Bug")
+- ![Registration ](../images/usersBug.png "Users registration Bug")
 
-#### push to Heroku rejected
+#### Push to Heroku rejected
 
 The issue: 
 
 I am unable to push the changes to Heroku, I got a message saying that the push was rejected. falied to push some refts to my <heroku remote link>
+
+#### Css link not loading.
+
+The issue:
+
+The css style wasn't loading and the site didn't have any style, I was only able to see the code using the <Style> script at the bottom of the body in html.
+
+The file path was wrong.
+
+The solution:
+
+I change the file path from 
 
 ## Deployment:
 

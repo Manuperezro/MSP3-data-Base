@@ -1666,3 +1666,27 @@
 2022-05-19 13:04:49,998 INFO werkzeug Thread-355 : 10.20.201.72 - - [19/May/2022 13:04:49] "GET /history HTTP/1.1" 200 -
 2022-05-19 13:04:50,044 INFO werkzeug Thread-356 : 10.20.201.72 - - [19/May/2022 13:04:50] "GET /static/css/style.css HTTP/1.1" 200 -
 2022-05-19 13:04:50,096 INFO werkzeug Thread-357 : 10.20.201.72 - - [19/May/2022 13:04:50] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-19 13:06:40,409 INFO app Thread-358 : IN START
+2022-05-19 13:06:40,412 INFO werkzeug Thread-358 : 10.20.201.72 - - [19/May/2022 13:06:40] "GET / HTTP/1.1" 200 -
+2022-05-19 13:06:40,535 INFO werkzeug Thread-359 : 10.20.201.72 - - [19/May/2022 13:06:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-19 13:06:40,581 INFO werkzeug Thread-360 : 10.20.201.72 - - [19/May/2022 13:06:40] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-19 13:06:41,789 INFO app Thread-361 : user ID is a8b8027d-8572-46ac-a597-ca85b20d9f6e
+2022-05-19 13:06:41,791 INFO app Thread-361 : user recipes are [<Recipe 'a8b8027d-8572-46ac-a597-ca85b20d9f6e'>]
+2022-05-19 13:06:41,792 INFO werkzeug Thread-361 : 10.20.201.72 - - [19/May/2022 13:06:41] "GET /recipes HTTP/1.1" 200 -
+2022-05-19 13:06:41,859 INFO werkzeug Thread-362 : 10.20.201.72 - - [19/May/2022 13:06:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-19 13:06:41,906 INFO werkzeug Thread-363 : 10.20.201.72 - - [19/May/2022 13:06:41] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-19 13:06:43,337 INFO app Thread-364 : histories are [<Recipe 'a8b8027d-8572-46ac-a597-ca85b20d9f6e'>]
+2022-05-19 13:06:43,339 INFO werkzeug Thread-364 : 10.20.201.72 - - [19/May/2022 13:06:43] "GET /history HTTP/1.1" 200 -
+2022-05-19 13:06:43,380 INFO werkzeug Thread-365 : 10.20.201.72 - - [19/May/2022 13:06:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-19 13:06:43,434 INFO werkzeug Thread-366 : 10.20.201.72 - - [19/May/2022 13:06:43] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-19 13:06:44,822 INFO werkzeug Thread-367 : 10.20.201.72 - - [19/May/2022 13:06:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-19 13:06:44,846 INFO app Thread-368 : register-route
+2022-05-19 13:06:44,847 INFO werkzeug Thread-368 : 10.20.201.72 - - [19/May/2022 13:06:44] "GET /register HTTP/1.1" 200 -
+2022-05-19 13:06:44,924 INFO werkzeug Thread-369 : 10.20.201.72 - - [19/May/2022 13:06:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-19 13:06:44,968 INFO werkzeug Thread-370 : 10.20.201.72 - - [19/May/2022 13:06:44] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-19 13:06:44,970 INFO werkzeug Thread-371 : 10.20.201.72 - - [19/May/2022 13:06:44] "[36mGET /static/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-19 13:07:44,403 INFO app Thread-372 : register-route
+2022-05-19 13:07:44,410 INFO werkzeug Thread-372 : 10.20.201.72 - - [19/May/2022 13:07:44] "GET /register HTTP/1.1" 200 -
+2022-05-19 13:07:44,447 INFO werkzeug Thread-373 : 10.20.201.72 - - [19/May/2022 13:07:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-19 13:07:44,492 INFO werkzeug Thread-374 : 10.20.201.72 - - [19/May/2022 13:07:44] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-19 13:07:44,495 INFO werkzeug Thread-375 : 10.20.201.72 - - [19/May/2022 13:07:44] "[36mGET /static/images/notebook2.jpg HTTP/1.1[0m" 304 -
