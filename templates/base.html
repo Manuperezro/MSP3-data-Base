@@ -27,7 +27,7 @@
         <nav class="my-2 my-md-0 mr-md-3">
             {% if session.username %}
             <a class="btn {% if nav == 'start' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
-                href="/">Try luck</a>
+                href="/">What to cook?</a>
             <a class="btn {% if nav == 'recipes' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
                 href="/recipes">My Recipes List</a>
             <a class="btn {% if nav == 'history' %} btn btn-outline-primary {% else %} btn-outline-fix  text-dark{% endif %}"
@@ -61,7 +61,7 @@
     {% block content %}
 
     {% endblock %}
-    
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">

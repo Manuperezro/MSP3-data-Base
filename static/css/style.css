@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-
 .flashes {
     text-align: center;
 
@@ -86,6 +85,35 @@ body {
 
 .note {
     padding-top: 20px;
+    padding-bottom: 20px;
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px;
+    border: 0 solid #e7e7e7;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    width: 600px;
+    margin: 0 auto;
+}
+
+.note2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px;
+    border: 0 solid #e7e7e7;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    width: 900px;
+    margin: 0 auto;
+}
+
+.note3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px;
+    border: 0 solid #e7e7e7;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    width: 1100px;
+    margin: 0 auto;
 }
 
 .card-body {
@@ -192,10 +220,6 @@ footer {
     text-align: center;
     background: #ffffff none repeat scroll 0 0;
     opacity: 0.7;
-}
-
-.lead {
-    font-size: xx-large;
 }
 
 /* Register and login */
@@ -388,7 +412,7 @@ footer {
 @media screen and (max-width:740px) {
     .form-left {
         display: none;
-        
+
     }
 }
 
