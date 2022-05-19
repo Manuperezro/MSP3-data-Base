@@ -71,10 +71,6 @@ def register():
 
 
         return redirect('/login')
-        userExists = bool(Users.query.filter_by(username=username).first())
-
-        if userExists is True:
-            flash(f"Username already exist")
 
     return render_template('register.html')
 
@@ -89,6 +85,7 @@ def register():
 def login():
     errorMessage = " "
     if request.method == "POST" and "username" in request.form and "password" in request.form:
+
         #   account exists
         userslog = Users.query.all()
 
