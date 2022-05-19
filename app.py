@@ -33,12 +33,10 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 
-app.logger.info('IN app.py')
-app.logger.info('app.config', app.config)
-
 # for  debuging 
-
-logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+# logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+# app.logger.info('IN app.py')
+# app.logger.info('app.config', app.config)
 
 
 @app.before_first_request
@@ -57,31 +55,26 @@ def start():
     if not session.get('username'):
         return render_template('login.html')     
     now = datetime.datetime.now
-    app.logger.info('Session username', session.get('username'))
-    app.logger.info('Leged In', session.get('loggedIn'))
     return render_template('start.html', nav='start', now=now)
 
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
 
-    app.logger.info('register-route')
-    
     if request.method == "POST" and "username" in request.form and "email" in request.form and "password" in request.form:
         # check if username already exist
-        app.logger.info('impost request')
         username = request.form.get('username')
         email = request.form.get('email')
         password = generate_password_hash(request.form.get('password'))
 
-        app.logger.info('username are %s', username)
-        app.logger.info('password are %s', password)
-
         user = Users(username=username, email=email, password=password)
-        db_session.add(user)
-        db_session.commit()
+
 
         return redirect('/login')
+        userExists = bool(Users.query.filter_by(username=username).first())
+
+        if userExists is True:
+            flash(f"Username already exist")
 
     return render_template('register.html')
 
@@ -95,24 +88,17 @@ def register():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     errorMessage = " "
-    app.logger.info('in login function')
-    app.logger.info('request ok', request.method)
-    app.logger.info('request form,', request.form)
     if request.method == "POST" and "username" in request.form and "password" in request.form:
         #   account exists
         userslog = Users.query.all()
-        app.logger.info('userlist is %s', userslog)
 
         username = request.form.get('username')
-        app.logger.info('username ok %s', username)
 
         password = generate_password_hash(request.form.get('password'))
-        app.logger.info('password ok %s', password)
-
 
         # check if user exists in register database
         userExists = bool(Users.query.filter_by(username=username).first())
-        app.logger.info('user in  ok %s', userExists)
+
         if userExists is True:
             # get the user from the database
             user = Users.query.filter(Users.username == username and Users.password == password).first()

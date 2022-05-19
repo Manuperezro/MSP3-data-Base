@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" /> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>
@@ -16,6 +16,8 @@
 </head>
 
 <body>
+
+    <h4 class="username">User : {{session.username}}</h4>
 
     <!-- nav -->
     <div
@@ -60,10 +62,12 @@
 
     {% endblock %}
 
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
+    <!-- <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+        
+        .users {
+            text-align:
+        }
 
         .flashes {
             text-align: center;
@@ -468,8 +472,8 @@
             .form-left {
                 display: none;
             }
-        }
-    </style>
+        } 
+    </style> -->
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
