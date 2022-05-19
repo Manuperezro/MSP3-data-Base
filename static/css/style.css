@@ -18,7 +18,7 @@ body {
     text-align: center;
     width: 100%;
     height: 100%;
-    background: url("../static/css/wireframes/pexels-lukas-349609.jpg") no-repeat center center scroll;
+    background: url("../images/pexels-lukas-349609.jpg") no-repeat center center scroll;
     background-attachment: fixed;
     background-size: cover;
     margin-top: 5%;
@@ -212,7 +212,7 @@ footer {
 }
 
 .wrapper .form-left {
-    background: url("../static/css/notebook2.jpg") no-repeat center center scroll;
+    background: url("../images/notebook2.jpg") no-repeat center center scroll;
     background-size: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
