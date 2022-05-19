@@ -85,7 +85,6 @@ def register():
 def login():
     errorMessage = " "
     if request.method == "POST" and "username" in request.form and "password" in request.form:
-
         #   account exists
         userslog = Users.query.all()
 
