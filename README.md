@@ -252,7 +252,7 @@ This image is the databases in DB browser app.
 
 - ![Database in SQlite](static/images/dbimg.png "DB browser")
 
-This is are the 3 tables I used when start the app.
+This are the 3 tables I used when started the app.
 
 - ![Tables](static/images/3databases.png "DB browser")
 
@@ -261,6 +261,10 @@ Recipes table
 - ![Recipes](static/images/recipiesDBSchema.jpeg "Recipes table")
 
 - ![Database in SQlite](static/images/db2.png "DB browser")
+
+When the app was more developed, I decided to simplify the code and Try to achive the same results in the all History pages, not using the Hystory table.
+
+I lefted commented in the file just for documentation porpuses.
 
 ## Testing: 
 
@@ -340,6 +344,15 @@ The issue:
 
 I am unable to push the changes to Heroku, I got a message saying that the push was rejected. falied to push some refts to my <heroku remote link>
 
+The Solution:
+
+Step-1: I merged all the conflics one by one.
+
+Step-2: I deleted the remote I was usinng and create a new one.
+
+Step-3: I Created a new app in Heroku and push to it.
+
+
 #### Css link not loading.
 
 The issue:
@@ -350,7 +363,14 @@ The file path was wrong.
 
 The solution:
 
-I change the file path from 
+I change the file path, modifications in the image below:
+
+- ![CSS ](static/images/css-linkBug.png "CSS Bug")
+
+As I changed the file path for the CSS file I have to changes in the images too:
+
+- ![CSS ](static/images/CSSbug2.png "CSS Bug")
+
 
 ## Deployment:
 
