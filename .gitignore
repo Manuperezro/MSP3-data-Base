@@ -10,3 +10,4 @@ record.log
 MSP3-DATA-BASE.db
 cloudinary_python.txt
 flask_session
+.env
