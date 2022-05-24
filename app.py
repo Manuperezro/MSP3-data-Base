@@ -20,7 +20,8 @@ app = Flask(__name__)
 
 
 app.secret_key = os.environ.get("SECRET_KEY")
-
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://kpxglvdutselbp:2e2a2f39c9cc4a6af7ff7becb30ead93e271a478c97fa0b487990d2a1277fc4f@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/dfmf456hasfnet'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'heroku_database_url'
 
 # To dont storage any data 
 app.config["SESSION_PERMANENT"] = False
