@@ -18,14 +18,11 @@ from random import choice
 # I did log status of code to see if the code was working correctly it can be seeing in record.log
 app = Flask(__name__)
 
+app.config.from_pyfile('config.py')
 
-app.secret_key = os.environ.get("SECRET_KEY")
-app.secret_key = os.environ.get("DB_URL")
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://kpxglvdutselbp:2e2a2f39c9cc4a6af7ff7becb30ead93e271a478c97fa0b487990d2a1277fc4f@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/dfmf456hasfnet'
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'heroku_database_url'
 
 # To dont storage any data 
-app.config["SESSION_PERMANENT"] = False
+app.config["SESSION_PERMANENT"] = True
 
 
 # To store from the cookies. 
@@ -56,6 +53,7 @@ def shutdown_session(exception=None):
 @app.route('/')
 def start():
     app.logger.info('IN START')
+    app.logger.info('app.config-Start', app)
     if not session.get('username'):
         return render_template('login.html')     
     now = datetime.datetime.now
@@ -74,7 +72,8 @@ def register():
         app.logger.info('impost request')
         username = request.form.get('username')
         email = request.form.get('email')
-        password = generate_password_hash(request.form.get('password'))
+        # password = generate_password_hash(request.form.get('password'))
+        password = request.form.get('password')
 
         app.logger.info('username are %s', username)
         app.logger.info('password are %s', password)
@@ -149,9 +148,10 @@ def logout():
 
 
 
-# Try luck Buttom
+# What to cook buttom
 @app.route('/draw')
 def draw():
+    """Take a random recipe from the History to help the User with the decision"""
     recipes = Recipes.query.all()
 
     if not recipes:
@@ -160,7 +160,7 @@ def draw():
     random_recipe = choice(recipes)
 
     recipe = Recipes.query.get(random_recipe.id)
-    # recipe.draw += 1
+    recipe.draw += 1
     db_session.commit()
 
     now = datetime.datetime.now()
@@ -170,6 +170,7 @@ def draw():
 
 @app.route('/create-recipe', methods=['GET', 'POST'])
 def create_recipe():
+    """Create a nw recipy and aaded to both lists, History and My recipes list"""
 
     app.logger.info('CREATE RECIPE %s')
     if request.method == 'POST':
