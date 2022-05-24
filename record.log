@@ -1854,3 +1854,32 @@
 2022-05-24 12:13:15,303 INFO werkzeug MainThread :  * Restarting with stat
 2022-05-24 12:13:15,880 WARNING werkzeug MainThread :  * Debugger is active!
 2022-05-24 12:13:15,880 INFO werkzeug MainThread :  * Debugger PIN: 831-587-411
+2022-05-24 12:33:38,102 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/database.py', reloading
+2022-05-24 12:33:38,145 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-24 12:33:38,580 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-24 12:33:38,580 INFO werkzeug MainThread :  * Debugger PIN: 831-587-411
+2022-05-24 12:33:48,656 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/database.py', reloading
+2022-05-24 12:33:48,705 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-24 12:33:49,006 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-24 12:33:49,006 INFO werkzeug MainThread :  * Debugger PIN: 831-587-411
+2022-05-24 12:38:05,083 INFO app Thread-2 : user ID is a8b8027d-8572-46ac-a597-ca85b20d9f6e
+2022-05-24 12:38:05,088 INFO app Thread-2 : user recipes are [<Recipe 'a8b8027d-8572-46ac-a597-ca85b20d9f6e'>]
+2022-05-24 12:38:05,100 INFO werkzeug Thread-2 : 10.20.140.135 - - [24/May/2022 12:38:05] "GET /recipes HTTP/1.1" 200 -
+2022-05-24 12:38:05,312 INFO werkzeug Thread-3 : 10.20.140.135 - - [24/May/2022 12:38:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-24 12:38:05,436 INFO werkzeug Thread-4 : 10.20.140.135 - - [24/May/2022 12:38:05] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-24 12:38:07,487 INFO app Thread-5 : CREATE RECIPE %s
+2022-05-24 12:38:07,489 INFO werkzeug Thread-5 : 10.20.140.135 - - [24/May/2022 12:38:07] "GET /create-recipe HTTP/1.1" 200 -
+2022-05-24 12:38:07,557 INFO werkzeug Thread-6 : 10.20.140.135 - - [24/May/2022 12:38:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-24 12:38:07,638 INFO werkzeug Thread-7 : 10.20.140.135 - - [24/May/2022 12:38:07] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-24 12:38:22,660 INFO app Thread-8 : CREATE RECIPE %s
+2022-05-24 12:38:22,662 INFO app Thread-8 : recipe ==  a8b8027d-8572-46ac-a597-ca85b20d9f6e
+2022-05-24 12:38:22,666 INFO werkzeug Thread-8 : 10.20.140.135 - - [24/May/2022 12:38:22] "[32mPOST /create-recipe HTTP/1.1[0m" 302 -
+2022-05-24 12:38:22,692 INFO app Thread-9 : user ID is a8b8027d-8572-46ac-a597-ca85b20d9f6e
+2022-05-24 12:38:22,693 INFO app Thread-9 : user recipes are [<Recipe 'a8b8027d-8572-46ac-a597-ca85b20d9f6e'>, <Recipe 'a8b8027d-8572-46ac-a597-ca85b20d9f6e'>]
+2022-05-24 12:38:22,695 INFO werkzeug Thread-9 : 10.20.140.135 - - [24/May/2022 12:38:22] "GET /recipes HTTP/1.1" 200 -
+2022-05-24 12:38:22,856 INFO werkzeug Thread-10 : 10.20.140.135 - - [24/May/2022 12:38:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-24 12:38:22,954 INFO werkzeug Thread-11 : 10.20.140.135 - - [24/May/2022 12:38:22] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-24 12:38:25,496 INFO app Thread-12 : histories are [<Recipe 'a8b8027d-8572-46ac-a597-ca85b20d9f6e'>, <Recipe 'a8b8027d-8572-46ac-a597-ca85b20d9f6e'>]
+2022-05-24 12:38:25,501 INFO werkzeug Thread-12 : 10.20.140.135 - - [24/May/2022 12:38:25] "GET /history HTTP/1.1" 200 -
+2022-05-24 12:38:25,636 INFO werkzeug Thread-13 : 10.20.140.135 - - [24/May/2022 12:38:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-24 12:38:25,809 INFO werkzeug Thread-14 : 10.20.140.135 - - [24/May/2022 12:38:25] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
