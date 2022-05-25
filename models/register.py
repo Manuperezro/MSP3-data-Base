@@ -11,7 +11,7 @@ class Users(Base):
     id = Column(String(50), primary_key=True)
     username = Column(String(50), nullable=False)
     email = Column(String(50), nullable=False)
-    password = Column(String(50), nullable=False)
+    password = Column(String(), nullable=False)
     created_time = Column(DateTime(), nullable=False)
  
 

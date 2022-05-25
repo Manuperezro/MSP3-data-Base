@@ -516,3 +516,7 @@
 2022-05-25 14:14:11,456 INFO werkzeug Thread-22 : 10.20.140.135 - - [25/May/2022 14:14:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2022-05-25 14:14:11,503 INFO werkzeug Thread-23 : 10.20.140.135 - - [25/May/2022 14:14:11] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
 2022-05-25 14:14:11,504 INFO werkzeug Thread-24 : 10.20.140.135 - - [25/May/2022 14:14:11] "[36mGET /static/images/notebook2.jpg HTTP/1.1[0m" 304 -
+2022-05-25 14:18:32,636 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/models/register.py', reloading
+2022-05-25 14:18:32,682 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-25 14:18:33,044 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-25 14:18:33,045 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
