@@ -32,7 +32,7 @@ History
                             <th>Id</th>
                             <th>Name</th>
                             <th>Notes</th>
-                            <th>Meal</th>
+                            <th>URL</th>
                             <th>Date Time</th>
                         </tr>
                         </thead>
@@ -42,7 +42,7 @@ History
                                 <td scope="row">{{ loop.index}}</td>
                                 <td>{{ item ['name'] }}</td>
                                 <td><span class="badge badge-primary">{{ item['description'] }}</span></td>
-                                <td>{{ item['created_time']|meal }}</td>
+                                <td>{{ item['site_url'] }}</td>
                                 <td>{{ item['created_time']|datetime}}</td>
                             </tr>
                             {% endfor %}

@@ -25,7 +25,6 @@ class Recipes(Base):
         self.site_url = site_url
         self.created_time = datetime.datetime.now()
         self.modified_time = datetime.datetime.now()
-      
 
     def __repr__(self):
         return '<Recipe %r>' % (self.user_id)

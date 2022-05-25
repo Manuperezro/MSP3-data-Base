@@ -90,6 +90,7 @@ body {
     border: 0 solid #e7e7e7;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     width: 600px;
+    margin-top: 6rem;
     margin: 0 auto;
 }
 
@@ -99,8 +100,9 @@ body {
     border-radius: 5px;
     border: 0 solid #e7e7e7;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-    width: 900px;
+    width: 950px;
     margin: 0 auto;
+    margin-top: 6rem;
 }
 
 .note3 {
@@ -416,5 +418,31 @@ footer {
 @media screen and (max-width:640px) {
     .form-left {
         display: none;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .note2 .note3 {
+        width: 600px;
+
+    }
+}
+
+@media screen and (max-width:640px) {
+    .note2 .note3 {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .note3 {
+        width: 600px;
+
+    }
+}
+
+@media screen and (max-width:640px) {
+    .note3 {
+        width: 400px;
     }
 }
