@@ -73,7 +73,7 @@ def register():
         username = request.form.get('username')
         email = request.form.get('email')
         password = generate_password_hash(request.form.get('password'))
-        # password = request.form.get('password')
+        password = request.form.get('password')
 
         app.logger.info('username are %s', username)
         app.logger.info('password are %s', password)
