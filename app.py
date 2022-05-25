@@ -14,8 +14,10 @@ from random import choice
 
 # Code isnpire with a few tutorials: 
 # python CRUD udemy, Walktrhought project Code Institute, CRUD with Python codecademy.
-# the app.logger.info("") = It is used for Debugin:
+
+# The app.logger.info("") = It is used for Debugin:
 # I did log status of code to see if the code was working correctly it can be seeing in record.log
+
 app = Flask(__name__)
 
 app.config.from_pyfile('config.py')

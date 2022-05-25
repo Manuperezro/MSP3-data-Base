@@ -740,3 +740,21 @@
 2022-05-25 14:52:54,871 INFO werkzeug MainThread :  * Restarting with stat
 2022-05-25 14:52:55,181 WARNING werkzeug MainThread :  * Debugger is active!
 2022-05-25 14:52:55,181 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
+2022-05-25 14:56:07,321 INFO app Thread-2 : IN START
+2022-05-25 14:56:07,335 INFO werkzeug Thread-2 : 10.20.140.135 - - [25/May/2022 14:56:07] "GET / HTTP/1.1" 200 -
+2022-05-25 14:56:07,372 INFO werkzeug Thread-3 : 10.20.140.135 - - [25/May/2022 14:56:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-25 14:56:07,425 INFO werkzeug Thread-4 : 10.20.140.135 - - [25/May/2022 14:56:07] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-25 14:56:09,766 INFO app Thread-5 : user ID is e19e0363-1387-4885-a340-aa7a1cbf79af
+2022-05-25 14:56:09,808 INFO app Thread-5 : user recipes are [<Recipe 'e19e0363-1387-4885-a340-aa7a1cbf79af'>]
+2022-05-25 14:56:09,831 INFO werkzeug Thread-5 : 10.20.140.135 - - [25/May/2022 14:56:09] "GET /recipes HTTP/1.1" 200 -
+2022-05-25 14:56:09,881 INFO werkzeug Thread-6 : 10.20.140.135 - - [25/May/2022 14:56:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-05-25 14:56:09,932 INFO werkzeug Thread-7 : 10.20.140.135 - - [25/May/2022 14:56:09] "[36mGET /static/images/pexels-lukas-349609.jpg HTTP/1.1[0m" 304 -
+2022-05-25 14:58:23,382 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/config.py', reloading
+2022-05-25 14:58:23,445 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-25 14:58:23,822 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-25 14:58:23,823 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
+2022-05-25 15:03:57,064 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/app.py', reloading
+2022-05-25 15:03:57,119 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-25 15:03:57,476 WARNING dotenv.main MainThread : Python-dotenv could not parse statement starting at line 1
+2022-05-25 15:03:57,481 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-25 15:03:57,481 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
