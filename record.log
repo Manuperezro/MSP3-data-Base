@@ -823,3 +823,23 @@
 2022-05-25 15:25:53,325 WARNING dotenv.main MainThread : Python-dotenv could not parse statement starting at line 1
 2022-05-25 15:25:53,330 WARNING werkzeug MainThread :  * Debugger is active!
 2022-05-25 15:25:53,330 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
+2022-05-25 15:29:03,756 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/config.py', reloading
+2022-05-25 15:29:03,831 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-25 15:29:04,229 WARNING dotenv.main MainThread : Python-dotenv could not parse statement starting at line 1
+2022-05-25 15:29:04,233 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-25 15:29:04,233 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
+2022-05-25 15:29:48,549 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/env.py', reloading
+2022-05-25 15:29:48,597 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-25 15:29:48,966 WARNING dotenv.main MainThread : Python-dotenv could not parse statement starting at line 1
+2022-05-25 15:29:48,973 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-25 15:29:48,973 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
+2022-05-25 15:30:37,317 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/env.py', reloading
+2022-05-25 15:30:37,362 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-25 15:30:37,695 WARNING dotenv.main MainThread : Python-dotenv could not parse statement starting at line 1
+2022-05-25 15:30:37,699 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-25 15:30:37,699 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
+2022-05-25 15:32:09,285 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/config.py', reloading
+2022-05-25 15:32:09,348 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-25 15:32:09,753 WARNING dotenv.main MainThread : Python-dotenv could not parse statement starting at line 1
+2022-05-25 15:32:09,758 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-25 15:32:09,758 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
