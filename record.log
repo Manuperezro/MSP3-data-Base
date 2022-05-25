@@ -843,3 +843,5 @@
 2022-05-25 15:32:09,753 WARNING dotenv.main MainThread : Python-dotenv could not parse statement starting at line 1
 2022-05-25 15:32:09,758 WARNING werkzeug MainThread :  * Debugger is active!
 2022-05-25 15:32:09,758 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
+2022-05-25 15:38:07,136 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/env.py', reloading
+2022-05-25 15:38:07,218 INFO werkzeug MainThread :  * Restarting with stat

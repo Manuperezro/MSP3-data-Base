@@ -4,10 +4,11 @@ from sqlalchemy.ext.declarative import declarative_base
 import os
 from os import environ, path
 from dotenv import load_dotenv
+load_dotenv()
 
 
 basedir = path.abspath(path.dirname(__file__))
-load_dotenv(path.join(basedir, '.env'))
+# load_dotenv(path.join(basedir, '.env'))
 
 current_dir = os.path.dirname(__file__)
 
