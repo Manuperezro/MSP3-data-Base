@@ -808,3 +808,13 @@
 2022-05-25 15:12:21,556 WARNING dotenv.main MainThread : Python-dotenv could not parse statement starting at line 1
 2022-05-25 15:12:21,561 WARNING werkzeug MainThread :  * Debugger is active!
 2022-05-25 15:12:21,561 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
+2022-05-25 15:18:14,084 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/config.py', reloading
+2022-05-25 15:18:14,137 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-25 15:18:14,447 WARNING dotenv.main MainThread : Python-dotenv could not parse statement starting at line 1
+2022-05-25 15:18:14,451 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-25 15:18:14,452 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
+2022-05-25 15:18:15,470 INFO werkzeug MainThread :  * Detected change in '/workspace/MSP3-data-Base/config.py', reloading
+2022-05-25 15:18:15,528 INFO werkzeug MainThread :  * Restarting with stat
+2022-05-25 15:18:15,888 WARNING dotenv.main MainThread : Python-dotenv could not parse statement starting at line 1
+2022-05-25 15:18:15,894 WARNING werkzeug MainThread :  * Debugger is active!
+2022-05-25 15:18:15,894 INFO werkzeug MainThread :  * Debugger PIN: 105-760-458
