@@ -283,6 +283,8 @@ I lefted commented in the file just for documentation porpuses.
 
 # light House
 
+- ![Light house ](static/images/lighthouse.png "Testing")
+
 
 ### Bugs and Errors during development:
 
