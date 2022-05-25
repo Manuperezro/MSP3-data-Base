@@ -66,7 +66,7 @@ def start():
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
-
+    errorMessage = " "
     app.logger.info('register-route')
     
     if request.method == "POST" and "username" in request.form and "email" in request.form and "password" in request.form:
@@ -74,7 +74,7 @@ def register():
         app.logger.info('impost request')
         username = request.form.get('username')
         email = request.form.get('email')
-        # password = generate_password_hash(request.form.get('password'))
+        password = generate_password_hash(request.form.get('password'))
         password = request.form.get('password')
 
         app.logger.info('username are %s', username)
@@ -85,6 +85,10 @@ def register():
         db_session.commit()
 
         return redirect('/login')
+        
+    else:
+        # account dosn't exist
+        errorMessage = "Try with another username or email"
 
     return render_template('register.html')
 
