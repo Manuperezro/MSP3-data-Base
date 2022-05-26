@@ -74,7 +74,7 @@ def register():
         app.logger.info('impost request v2')
         username = request.form.get('username')
         email = request.form.get('email')
-        password = generate_password_hash(request.form.get('password'))
+        # password = generate_password_hash(request.form.get('password'))
         password = request.form.get('password')
 
         if len(username) > 0 and len(email) > 0 and len(password) > 0:
@@ -121,7 +121,7 @@ def login():
         username = request.form.get('username')
         app.logger.info('username ok %s', username)
 
-        password = generate_password_hash(request.form.get('password'))
+        # password = generate_password_hash(request.form.get('password'))
         password = request.form.get('password')
         app.logger.info('password ok %s', password)
 
@@ -134,7 +134,7 @@ def login():
             username = request.form.get('username')
             app.logger.info('username ok %s', username)
 
-            password = generate_password_hash(request.form.get('password'))
+            # password = generate_password_hash(request.form.get('password'))
             password = request.form.get('password')
             app.logger.info('password ok %s', password)
 
@@ -146,6 +146,7 @@ def login():
                 # get the user from the database
                 user = Users.query.filter(Users.username == username and Users.password == password).first()
                 session['username'] = user.username
+                session['password'] = user.password
                 session['userId'] = user.id
                 session['loggedIn'] = True
                 flash(f"Welcomeback, {session.get('username')}!")

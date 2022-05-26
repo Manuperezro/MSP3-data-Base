@@ -4,7 +4,7 @@
 
 ## Code Institute - Milestone Project 3
 
-## HTML/ CSS / Python / Flask / SQAlchemy / SQLite - Backend Development Milestone Project 3.
+## HTML/ CSS / Python / Flask / SQAlchemy / Postgress - Backend Development Milestone Project 3.
 
 ### By Manuel Perez
 
@@ -277,6 +277,12 @@ I lefted commented in the file just for documentation porpuses.
 
  + To validate HTML and CSS code.
 
+ - ![Validators](static/images/Cssvalidator.png "css")
+
+ - There is one error in the HTML and templates, but is regarding the flask the flask syntax, the validator dont recognises Flask syntax as HTML.
+ 
+ - ![Validators](static/images/HTMLvalidator.png "HTML")
+  
 
  # Validators Results :
 
@@ -476,6 +482,8 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 - Main Code structure, Flask, Python, Html, Css:
 
+  [Udemy LuvkyDraw CRUD](https://www.udemy.com)
+
   [HTML and CSS](https://www.w3schools.com/howto/howto_js_todolist.asp)
 
   [HTML and CSS](https://medium.com/claruswaymaking-a-todo-list-with-html-css-and-javascript-154839b770b6)
@@ -485,7 +493,9 @@ By forking the GitHub Repository we make a copy of the original repository on ou
   [Python and flask](https://www.youtube.com/watch?v=dam0GPOAvVI&t=198s&ab_channel=TechWithTim)
 
 
-- SQlite doumentation Guides
+- SQlite Doumentation Guides
+
+- Postgress Documentation
 
 - Bootstrapt Documentations Guides.
 
