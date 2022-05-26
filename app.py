@@ -66,31 +66,42 @@ def start():
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
-    errorMessage = " "
-    app.logger.info('register-route')
+    errorRegister = " "
+    app.logger.info('register-routev2')
     
-    if request.method == "POST" and "username" in request.form and "email" in request.form and "password" in request.form:
+    if request.method == "POST":
         # check if username already exist
-        app.logger.info('impost request')
+        app.logger.info('impost request v2')
         username = request.form.get('username')
         email = request.form.get('email')
         password = generate_password_hash(request.form.get('password'))
         password = request.form.get('password')
 
-        app.logger.info('username are %s', username)
-        app.logger.info('password are %s', password)
+        if len(username) > 0 and len(email) > 0 and len(password) > 0:
+            # password = str(password)
+            app.logger.info('password1 %s', type(password))
+            app.logger.info('username type %s', type(username))
 
-        user = Users(username=username, email=email, password=password)
-        db_session.add(user)
-        db_session.commit()
+            app.logger.info('username are %s', username)
+            app.logger.info('password3 are %s', password)
 
-        return redirect('/login')
+            user = Users(username=username, password=password, email=email)
+            db_session.add(user)
+            db_session.commit()
+            return redirect('/')
+        else:
+            if len(username) == 0:
+                errorRegister = "Please enter a Username"
+            elif len(email) == 0:
+                errorRegister = "Please enter an Email"
+            elif len(password) == 0:
+                errorRegister = "Please enter a Password"    
+
+            app.logger.info('Error registering msg %s', errorRegister)
+            return render_template('register.html', errorRegister=errorRegister)
+            
         
-    else:
-        # account dosn't exist
-        errorMessage = "Try with another username or email"
-
-    return render_template('register.html')
+    return render_template('register.html', errorRegister=errorRegister)
 
 
 # @app.route('/userslog')
@@ -105,41 +116,57 @@ def login():
     app.logger.info('in login function')
     app.logger.info('request ok', request.method)
     app.logger.info('request form,', request.form)
-    if request.method == "POST" and "username" in request.form and "password" in request.form:
-        #   account exists
-        userslog = Users.query.all()
-        app.logger.info('userlist is %s', userslog)
 
+    if request.method == "POST":
         username = request.form.get('username')
         app.logger.info('username ok %s', username)
 
         password = generate_password_hash(request.form.get('password'))
+        password = request.form.get('password')
         app.logger.info('password ok %s', password)
 
+        if len(username) > 0 and len(password) > 0:
+            #   account exists
+            app.logger.info('length >0')
+            userslog = Users.query.all()
+            app.logger.info('userlist is %s', userslog)
 
-        # check if user exists in register database
-        userExists = bool(Users.query.filter_by(username=username).first())
-        app.logger.info('user in  ok %s', userExists)
-        if userExists is True:
-            # get the user from the database
-            user = Users.query.filter(Users.username == username and Users.password == password).first()
-            session['username'] = user.username
-            session['userId'] = user.id
-            session['loggedIn'] = True
-            flash(f"Welcomeback, {session.get('username')}!")
+            username = request.form.get('username')
+            app.logger.info('username ok %s', username)
 
-            return redirect('/') 
-            return render_template('start.html')
+            password = generate_password_hash(request.form.get('password'))
+            password = request.form.get('password')
+            app.logger.info('password ok %s', password)
 
+            # check if user exists in register database
+            userExists = bool(Users.query.filter_by(username=username).first())
+            app.logger.info('user in  ok %s', userExists)
+
+            if userExists is True:
+                # get the user from the database
+                user = Users.query.filter(Users.username == username and Users.password == password).first()
+                session['username'] = user.username
+                session['userId'] = user.id
+                session['loggedIn'] = True
+                flash(f"Welcomeback, {session.get('username')}!")
+                return redirect('/') 
+                return render_template('start.html')
+            else:
+                # account dosn't exist
+                errorMessage = "Invalid Username or Password "
+                app.logger.info('errorMessage %s', errorMessage)
         else:
-            # account dosn't exist
-            errorMessage = "Invalid Username or Password "
+            app.logger.info('length No')
+            if len(username) == 0:
+                errorMessage = "Please enter a Username"
+            elif len(password) == 0:
+                errorMessage = "Please enter a Password"    
+            app.logger.info('Error login msg %s', errorMessage)
+            return render_template('login.html', errorMessage=errorMessage)
 
         # When users favourite recipes store into users database. add this to the others routes.
 
-
     return render_template('login.html', errorMessage=errorMessage)
-
 
 
 @app.route('/logout')
@@ -153,8 +180,7 @@ def logout():
     return redirect('/register')
 
 
-
-# What to cook buttom
+# What to cook buttom take a random recipe from The History list and siplay the link and name to the User 
 @app.route('/draw')
 def draw():
     """Take a random recipe from the History to help the User with the decision"""
@@ -174,6 +200,7 @@ def draw():
     return render_template('draw.html', recipe=recipe, now=now)
 
 
+# Create a recipe and added to the User and History list
 @app.route('/create-recipe', methods=['GET', 'POST'])
 def create_recipe():
     """Create a nw recipy and aaded to both lists, History and My recipes list"""
@@ -204,7 +231,7 @@ def create_recipe():
     return render_template('create_recipe.html')
 
 
-
+# The list of recipe
 @app.route('/recipes')
 def user_recipe_list():
     userId = session.get('userId')
@@ -218,6 +245,7 @@ def user_recipe_list():
     return render_template("recipe.html", nav=recipes, recipes=recipes)
 
 
+# Edit the recipes from user list
 @app.route('/edit-recipe', methods=['GET', 'POST'])
 def edit_recipe():
 
@@ -242,6 +270,7 @@ def edit_recipe():
     return render_template('edit_recipe.html', recipe=recipe)
 
 
+# Delete recipes from users and History list
 @app.route('/delete-recipe')
 def delete_recipe():
 
@@ -256,6 +285,7 @@ def delete_recipe():
     return redirect('/recipes')
 
 
+# render template for History 
 @app.route('/history')
 def history():
 
@@ -265,6 +295,7 @@ def history():
     return render_template('history.html', nav=history, recipes=histories)
 
 
+# Search recipes in the History list 
 @app.route('/search', methods=['GET', 'POST'])
 def search():
     if request.method == 'POST':
@@ -279,7 +310,8 @@ def search():
         return redirect('history.html')
 
 
-# Code inspire by a udemy flask video-tutorial,
+
+# Code inspire by a udemy flask video-tutorial LuckyDraw,
 # To format the text depending on time. 
 
 def mealformat(value):

@@ -100,7 +100,7 @@ body {
     border-radius: 5px;
     border: 0 solid #e7e7e7;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-    width: 950px;
+    width: 750px;
     margin: 0 auto;
     margin-top: 6rem;
 }
@@ -407,6 +407,10 @@ footer {
     color: #dc3545;
 }
 
+.errorRegister {
+    font-size: medium;
+    color: #dc3545;
+}
 
 @media screen and (max-width:740px) {
     .form-left {

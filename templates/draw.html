@@ -9,7 +9,7 @@
 <div class="mt-5 draw spx-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" style="max-width: 700px;">
     <h1 class="draw-text display-4">Today's {{ now|meal }}</span> can be <span class=" font-weight-bold">{{ recipe['name'] }}</span></h1>
     <!-- <p class="lead">{{ recipe ['description'] }}</p> -->
-    <a href="{{ recipe['site_url'] }}" class="btn btn-lg btn-outline-primary">Go to the Website</a>
+    <a href="{{ recipe['site_url'] }}" target="_blank" class="btn btn-lg btn-outline-primary">Go to the Website</a>
     <a href="/draw" class="btn btn-lg btn-primary">Try Again</a>
 
 </div>
