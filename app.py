@@ -74,11 +74,10 @@ def register():
         app.logger.info('impost request v2')
         username = request.form.get('username')
         email = request.form.get('email')
-        # password = generate_password_hash(request.form.get('password'))
+        password = generate_password_hash(request.form.get('password'))
         password = request.form.get('password')
 
         if len(username) > 0 and len(email) > 0 and len(password) > 0:
-            # password = str(password)
             app.logger.info('password1 %s', type(password))
             app.logger.info('username type %s', type(username))
 
@@ -121,7 +120,7 @@ def login():
         username = request.form.get('username')
         app.logger.info('username ok %s', username)
 
-        # password = generate_password_hash(request.form.get('password'))
+        password = generate_password_hash(request.form.get('password'))
         password = request.form.get('password')
         app.logger.info('password ok %s', password)
 
@@ -134,7 +133,7 @@ def login():
             username = request.form.get('username')
             app.logger.info('username ok %s', username)
 
-            # password = generate_password_hash(request.form.get('password'))
+            password = generate_password_hash(request.form.get('password'))
             password = request.form.get('password')
             app.logger.info('password ok %s', password)
 
@@ -156,6 +155,7 @@ def login():
                 # account dosn't exist
                 errorMessage = "Invalid Username or Password "
                 app.logger.info('errorMessage %s', errorMessage)
+                
         else:
             app.logger.info('length No')
             if len(username) == 0:

@@ -379,6 +379,145 @@ As I changed the file path for the CSS file I have to changes in the images too:
 
 - ![CSS ](static/images/CSSbug2.png "CSS Bug")
 
+### Remainding bug:
+
+#### Users Login accepting Users with wrong password.
+
+The isuue:
+
+The login code avle users to login with a Wrong password, it catch the error if the imput field is empty, but not if is a different password. Oprning the users name sesion.
+
+The Solution:
+
+Not founded yet
+
+What I tried so Far:
+
+I modify the code from this logic:
+
+<@app.route('/login', methods=['GET', 'POST'])
+ def login():
+    errorMessage = " "
+    app.logger.info('in login function')
+    app.logger.info('request ok', request.method)
+    app.logger.info('request form,', request.form)
+    if request.method == "POST" and "username" in request.form and "password" in request.form:
+        #   account exists
+        userslog = Users.query.all()
+        app.logger.info('userlist is %s', userslog)
+
+        username = request.form.get('username')
+        app.logger.info('username ok %s', username)
+
+        password = generate_password_hash(request.form.get('password'))
+        app.logger.info('password ok %s', password)
+
+
+        # check if user exists in register database
+        userExists = bool(Users.query.filter_by(username=username).first())
+        app.logger.info('user in  ok %s', userExists)
+        if userExists is True:
+            # get the user from the database
+            user = Users.query.filter(Users.username == username and Users.password == password).first()
+            session['username'] = user.username
+            session['userId'] = user.id
+            session['loggedIn'] = True
+            flash(f"Welcomeback, {session.get('username')}!")
+
+            return redirect('/') 
+            return render_template('start.html')
+
+        else:
+            # account dosn't exist
+            errorMessage = "Invalid Username or Password "
+
+        # When users favourite recipes store into users database. add this to the others routes.
+
+
+    return render_template('login.html', errorMessage=errorMessage)>
+
+    - To the following one:
+
+<@app.route('/login', methods=['GET', 'POST'])
+def login():
+    errorMessage = " "
+    app.logger.info('in login function')
+    app.logger.info('request ok', request.method)
+    app.logger.info('request form,', request.form)
+
+    if request.method == "POST":
+        username = request.form.get('username')
+        app.logger.info('username ok %s', username)
+
+        password = generate_password_hash(request.form.get('password'))
+        password = request.form.get('password')
+        app.logger.info('password ok %s', password)
+
+        if len(username) > 0 and len(password) > 0:
+            #   account exists
+            app.logger.info('length >0')
+            userslog = Users.query.all()
+            app.logger.info('userlist is %s', userslog)
+
+            username = request.form.get('username')
+            app.logger.info('username ok %s', username)
+
+            password = generate_password_hash(request.form.get('password'))
+            password = request.form.get('password')
+            app.logger.info('password ok %s', password)
+
+            # check if user exists in register database
+            userExists = bool(Users.query.filter_by(username=username).first())
+            app.logger.info('user in  ok %s', userExists)
+
+            if userExists is True:
+                # get the user from the database
+                user = Users.query.filter(Users.username == username and Users.password == password).first()
+                session['username'] = user.username
+                session['password'] = user.password
+                session['userId'] = user.id
+                session['loggedIn'] = True
+                flash(f"Welcomeback, {session.get('username')}!")
+                return redirect('/') 
+                return render_template('start.html')
+            else:
+                # account dosn't exist
+                errorMessage = "Invalid Username or Password "
+                app.logger.info('errorMessage %s', errorMessage)
+                
+        else:
+            app.logger.info('length No')
+            if len(username) == 0:
+                errorMessage = "Please enter a Username"
+            elif len(password) == 0:
+                errorMessage = "Please enter a Password"    
+            app.logger.info('Error login msg %s', errorMessage)
+            return render_template('login.html', errorMessage=errorMessage)
+
+        # When users favourite recipes store into users database. add this to the others routes.
+
+    return render_template('login.html', errorMessage=errorMessage)>
+
+    Steps: 
+    1- I mannage to get the username and password hash form the Users table.
+    2- I cath the errors when the imput fields are empty with anf if statement.
+    3- I try to handle the I users Not exist with this specific code:
+
+    <            if userExists is True:
+                # get the user from the database
+                user = Users.query.filter(Users.username == username and Users.password == password).first()
+                session['username'] = user.username
+                session['password'] = user.password
+                session['userId'] = user.id
+                session['loggedIn'] = True
+                flash(f"Welcomeback, {session.get('username')}!")
+                return redirect('/') 
+                return render_template('start.html')
+            else:
+                # account dosn't exist
+                errorMessage = "Invalid Username or Password "
+                app.logger.info('errorMessage %s', errorMessage)>
+
 
 ## Deployment:
 
