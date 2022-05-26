@@ -426,17 +426,25 @@ footer {
 }
 
 @media screen and (max-width:740px) {
-    .note2 .note3 {
-        width: 600px;
+    .note2 {
+        width: 500px;
 
     }
 }
 
 @media screen and (max-width:640px) {
-    .note2 .note3 {
-        width: 400px;
+    .note2 {
+        width: 350px;
     }
 }
+
+@media screen and (max-width:540px) {
+    .note2 .note3 {
+        width: 250px;
+
+    }
+}
+
 
 @media screen and (max-width:740px) {
     .note3 {
@@ -448,5 +456,12 @@ footer {
 @media screen and (max-width:640px) {
     .note3 {
         width: 400px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .note3 {
+        width: 250px;
+
     }
 }
