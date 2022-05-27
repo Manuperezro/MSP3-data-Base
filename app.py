@@ -122,12 +122,6 @@ def register():
     return render_template('register.html', errorRegister=errorRegister)
 
 
-# @app.route('/userslog')
-# def userslog():
-#     userslog = Users.query.all()
-#     return render_template('users.html', userslog=userslog)
-
-
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     """Users Session login"""
@@ -341,7 +335,6 @@ def search():
 
 # Code inspire by a udemy flask video-tutorial LuckyDraw,
 # To format the text depending on time. 
-
 def mealformat(value):
     if value.hour in [4, 5, 6, 7, 8, 9]:
         return 'Breakfast'
