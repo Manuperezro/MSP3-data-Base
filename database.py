@@ -14,7 +14,7 @@ current_dir = os.path.dirname(__file__)
 
 database_url = environ.get('DB_URL')
 
-uri = "postgres://kpxglvdutselbp:2e2a2f39c9cc4a6af7ff7becb30ead93e271a478c97fa0b487990d2a1277fc4f@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/dfmf456hasfnet"
+uri = "postgres://ovesfafluvsmiz:1bd280879108710801ffcbe68d1f94e4dba264bf4bd83ab155d87f3b87dc76f5@ec2-176-34-215-248.eu-west-1.compute.amazonaws.com:5432/desl9r7q4mtiq"
 if uri and uri.startswith("postgres://"):
     uri = uri.replace("postgres://", "postgresql://", 1)
 

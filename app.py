@@ -5,7 +5,7 @@ import logging
 from database import db_session, init_db
 from sqlalchemy import desc
 from models.recipes import Recipes
-from models.register import Users
+from models.User import Users
 import MySQLdb.cursors
 import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -66,40 +66,59 @@ def start():
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
+    """Add Useres to the Users table"""
     errorRegister = " "
     app.logger.info('register-routev2')
     
     if request.method == "POST":
-        # check if username already exist
         app.logger.info('impost request v2')
+        # Get the data from the useres imput field in the Register form
+
         username = request.form.get('username')
         email = request.form.get('email')
         password = generate_password_hash(request.form.get('password'))
         password = request.form.get('password')
 
-        if len(username) > 0 and len(email) > 0 and len(password) > 0:
-            app.logger.info('password1 %s', type(password))
-            app.logger.info('username type %s', type(username))
-
-            app.logger.info('username are %s', username)
-            app.logger.info('password3 are %s', password)
-
-            user = Users(username=username, password=password, email=email)
-            db_session.add(user)
-            db_session.commit()
-            return redirect('/')
-        else:
-            if len(username) == 0:
-                errorRegister = "Please enter a Username"
-            elif len(email) == 0:
-                errorRegister = "Please enter an Email"
-            elif len(password) == 0:
-                errorRegister = "Please enter a Password"    
-
-            app.logger.info('Error registering msg %s', errorRegister)
-            return render_template('register.html', errorRegister=errorRegister)
-            
+        userNameExists = bool(Users.query.filter_by(username=username).first())
+        userEmailExists = bool(Users.query.filter_by(email=email).first())
+        app.logger.info('Useremail %s', userEmailExists)
         
+        if userNameExists is False and userEmailExists is False:
+            # to catch error email or username already exist
+
+            if len(username) > 0 and len(email) > 0 and len(password) > 0:
+                # to catch error usrname, email or password empty
+                # Get New Users and add and commit to the users session.
+                app.logger.info('password1 %s', type(password))
+                app.logger.info('username type %s', type(username))
+
+                app.logger.info('username are %s', username)
+                app.logger.info('password3 are %s', password)
+
+                user = Users(username=username, password=password, email=email)
+                db_session.add(user)
+                db_session.commit()
+                return redirect('/')
+            else:
+                # to catch error username, email or password empty
+                if len(username) == 0:
+                    errorRegister = "Please enter a Username"
+                elif len(email) == 0:
+                    errorRegister = "Please enter an Email"
+                elif len(password) == 0:
+                    errorRegister = "Please enter a Password"    
+
+                app.logger.info('Error registering msg %s', errorRegister)
+                return render_template('register.html', errorRegister=errorRegister)
+        else:
+            if userNameExists:
+                errorRegister = "Username is already in use"
+            elif userEmailExists:
+                errorRegister = "Email is already in use"
+            
+            app.logger.info('Username taken error msg %s', errorRegister)
+            return render_template('register.html', errorRegister=errorRegister)
+
     return render_template('register.html', errorRegister=errorRegister)
 
 
@@ -111,6 +130,7 @@ def register():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    """Users Session login"""
     errorMessage = " "
     app.logger.info('in login function')
     app.logger.info('request ok', request.method)
@@ -118,39 +138,45 @@ def login():
 
     if request.method == "POST":
         username = request.form.get('username')
+
         app.logger.info('username ok %s', username)
 
         password = generate_password_hash(request.form.get('password'))
         password = request.form.get('password')
+
         app.logger.info('password ok %s', password)
 
         if len(username) > 0 and len(password) > 0:
-            #   account exists
+
+            #  check if the imputs fields are empty
             app.logger.info('length >0')
             userslog = Users.query.all()
+
             app.logger.info('userlist is %s', userslog)
-
-            username = request.form.get('username')
-            app.logger.info('username ok %s', username)
-
-            password = generate_password_hash(request.form.get('password'))
-            password = request.form.get('password')
-            app.logger.info('password ok %s', password)
-
-            # check if user exists in register database
+            # Check if username is in the Users table.
             userExists = bool(Users.query.filter_by(username=username).first())
             app.logger.info('user in  ok %s', userExists)
 
+            # Get users by username 
+            user = Users.query.filter(Users.username == username).first()
+            app.logger.info('user in User list %s', user)
+
             if userExists is True:
-                # get the user from the database
-                user = Users.query.filter(Users.username == username and Users.password == password).first()
-                session['username'] = user.username
-                session['password'] = user.password
-                session['userId'] = user.id
-                session['loggedIn'] = True
-                flash(f"Welcomeback, {session.get('username')}!")
-                return redirect('/') 
-                return render_template('start.html')
+                # gCheck if Users exists and if password match to the Users table data
+                if user.password == password:
+                    app.logger.info('user password is true')
+                    session['username'] = user.username
+                    session['password'] = user.password
+                    session['userId'] = user.id
+                    session['loggedIn'] = True
+                    flash(f"Welcomeback, {session.get('username')}!")
+                    return redirect('/') 
+                    return render_template('start.html')
+                else:
+                    # Wrong password
+                    errorMessage = "Invalid Password "
+                    app.logger.info('errorMessage %s', errorMessage)
+                    
             else:
                 # account dosn't exist
                 errorMessage = "Invalid Username or Password "
@@ -172,6 +198,7 @@ def login():
 
 @app.route('/logout')
 def logout():
+    """Closed Useres session"""
     
     flash(f"You are logout! See you soon!")
     session.pop('username', None)

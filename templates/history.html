@@ -42,7 +42,7 @@ History
                                 <td scope="row">{{ loop.index}}</td>
                                 <td>{{ item ['name'] }}</td>
                                 <td><span class="badge badge-primary">{{ item['description'] }}</span></td>
-                                <td>{{ item['site_url'] }}</td>
+                                <td><a href="{{ item['site_url'] }}">Link</a></td>
                                 <td>{{ item['created_time']|datetime}}</td>
                             </tr>
                             {% endfor %}

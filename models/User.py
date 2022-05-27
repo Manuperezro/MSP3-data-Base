@@ -24,5 +24,5 @@ class Users(Base):
 
 
     def __repr__(self):
-        return '<Register %r>' % (self.username)
+        return '<User %r>' % (self.id)
 
