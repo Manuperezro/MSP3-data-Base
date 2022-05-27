@@ -34,6 +34,7 @@ History
                             <th>Notes</th>
                             <th>URL</th>
                             <th>Date Time</th>
+                            <th>Created By</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -44,6 +45,7 @@ History
                                 <td><span class="badge badge-primary">{{ item['description'] }}</span></td>
                                 <td><a href="{{ item['site_url'] }}">Link</a></td>
                                 <td>{{ item['created_time']|datetime}}</td>
+                                <td>{{session.username}}</td>
                             </tr>
                             {% endfor %}
                         </tbody>
