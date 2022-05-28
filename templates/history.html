@@ -32,20 +32,20 @@ History
                             <th>Id</th>
                             <th>Name</th>
                             <th>Notes</th>
-                            <th>URL</th>
-                            <th>Date Time</th>
-                            <th>Created By</th>
+                            <th>Links</th>
+                            <!-- <th>Date Time</th>
+                            <th>Created By</th> -->
                         </tr>
                         </thead>
                         <tbody>
                             {% for item in recipes %}
                             <tr>
                                 <td scope="row">{{ loop.index}}</td>
-                                <td>{{ item ['name'] }}</td>
+                                <td><strong>{{ item ['name'] }}</strong></td>
                                 <td><span class="badge badge-primary">{{ item['description'] }}</span></td>
-                                <td><a href="{{ item['site_url'] }}">Link</a></td>
-                                <td>{{ item['created_time']|datetime}}</td>
-                                <td>{{session.username}}</td>
+                                <td><strong><a href="{{ item['site_url'] }}" target="blank">Link to Recipe</a></strong></td>
+                                <!-- <td>{{ item['created_time']|datetime}}</td>
+                                <td>{{ session.username }}</td> -->
                             </tr>
                             {% endfor %}
                         </tbody>
