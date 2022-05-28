@@ -332,7 +332,6 @@ def search():
         return redirect('history.html')
 
 
-
 # Code inspire by a udemy flask video-tutorial LuckyDraw,
 # To format the text depending on time. 
 def mealformat(value):
