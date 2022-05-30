@@ -10,9 +10,15 @@ import MySQLdb.cursors
 import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
 from random import choice
+from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv('.env')
+
+load_dotenv()
+
+env_path = Path('.')/'.env'
+
+load_dotenv(dotenv_path=env_path)
 
 # Code isnpire with a few tutorials: 
 # python CRUD udemy, Walktrhought project Code Institute, CRUD with Python codecademy.
@@ -21,9 +27,6 @@ load_dotenv('.env')
 # I did log status of code to see if the code was working correctly it can be seeing in record.log
 
 app = Flask(__name__)
-
-app.config.from_pyfile('config.py')
-
 
 # To dont storage any data 
 app.config["SESSION_PERMANENT"] = True
