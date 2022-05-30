@@ -12,11 +12,11 @@ env_path = Path('.')/'.env'
 
 load_dotenv(dotenv_path=env_path)
 
-uri = os.getenv("SQLALCHEMY_DATABASE_URI")
+
+uri = os.getenv("DATABASE_URL")
 if uri and uri.startswith("postgres://"):
     uri = uri.replace("postgres://", "postgresql://", 1)
 
-# engine = create_engine(database_url.format(current_dir), convert_unicode=True)
 
 engine = create_engine(uri)
 db_session = scoped_session(sessionmaker(autocommit=False,

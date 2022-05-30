@@ -38,7 +38,6 @@ app.config["SESSION_TYPE"] = "filesystem"
 
 Session(app)
 
-
 app.logger.info('IN app.py')
 app.logger.info('app.config', app.config)
 
@@ -133,7 +132,7 @@ def login():
     errorMessage = " "
     app.logger.info('in login function')
     app.logger.info('environ.get => => => =>')
-    app.logger.info('Flask env check', os.getenv('FLASK_ENV'))
+    app.logger.debug('Flask env check', os.getenv('FLASK_ENV'))
     app.logger.info('request ok', request.method)
     app.logger.info('request form,', request.form)
 
