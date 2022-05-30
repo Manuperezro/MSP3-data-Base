@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, session, flash
 from flask_session import Session
-import os 
+import os
 import logging
 from database import db_session, init_db
 from sqlalchemy import desc
@@ -10,7 +10,9 @@ import MySQLdb.cursors
 import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
 from random import choice
+from dotenv import load_dotenv
 
+load_dotenv('.env')
 
 # Code isnpire with a few tutorials: 
 # python CRUD udemy, Walktrhought project Code Institute, CRUD with Python codecademy.
@@ -127,6 +129,8 @@ def login():
     """Users Session login"""
     errorMessage = " "
     app.logger.info('in login function')
+    app.logger.info('environ.get => => => =>')
+    app.logger.info('Flask env check', os.getenv('FLASK_ENV'))
     app.logger.info('request ok', request.method)
     app.logger.info('request form,', request.form)
 
