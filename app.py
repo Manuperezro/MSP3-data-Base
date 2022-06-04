@@ -8,6 +8,7 @@ from models.recipes import Recipes
 from models.User import Users
 import MySQLdb.cursors
 import datetime
+import re
 from werkzeug.security import generate_password_hash, check_password_hash
 from random import choice
 from pathlib import Path
@@ -81,16 +82,22 @@ def register():
         userEmailExists = bool(Users.query.filter_by(email=email).first())
         
         if userNameExists is False and userEmailExists is False:
-            # to catch error email or username already exist
+            # to catch error email or username doesn't exist
 
             if len(username) > 0 and len(email) > 0 and len(password) > 0:
                 # to catch error usrname, email or password empty
                 # Get New Users and add and commit to the users session.
 
-                user = Users(username=username, password=password, email=email)
-                db_session.add(user)
-                db_session.commit()
-                return redirect('/')
+                emailRegex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+                if re.fullmatch(emailRegex, email):
+                    user = Users(username=username, password=password, email=email)
+                    db_session.add(user)
+                    db_session.commit()
+                    return redirect('/')
+                else:
+                    errorRegister = "Please enter a valid Email"
+                    return render_template('register.html', errorRegister=errorRegister)
+
             else:
                 # to catch error username, email or password empty
                 if len(username) == 0:

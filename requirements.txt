@@ -8,5 +8,7 @@ itsdangerous==2.1.2
 mysqlclient==2.1.0
 psycopg2==2.9.3
 python-dotenv==0.20.0
+regex==2022.6.2
 SQLAlchemy==1.4.36
 Werkzeug==2.1.2
+
