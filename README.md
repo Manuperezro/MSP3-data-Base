@@ -1,4 +1,4 @@
-# My Receipes Note Book
+# My Recipes Note Book
 
 # A responsive web apllication where the  users can store recipes and also use the draw buttom to see one ramdom recipe from their list.
 
@@ -61,7 +61,7 @@
 
 ## The Why
 
-Help the users to keep online recipes that they find in the web in an orgaize app, where the users can comeback easily to find links and notes about their favourites receipes.
+Help the users to keep online recipes that they find in the web in an organize app, where the users can comeback easily to find links and notes about their favourites recipes.
 
 ## The Bussines Goal
 
@@ -139,7 +139,7 @@ In this image the goal was to emulate a paper notebook with some elements to cre
 
 ## Wireframes
 
-The Basic structure of My receipes Notebook was skectched using 
+The Basic structure of My recipes Notebook was skectched using 
 
   [balsamiq](https://balsamiq.com/).
 
