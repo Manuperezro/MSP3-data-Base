@@ -72,11 +72,9 @@ def register():
     
     if request.method == "POST":
         # Get the data from the useres imput field in the Register form
-
         username = request.form.get('username')
         email = request.form.get('email')
         password = generate_password_hash(request.form.get('password'))
-        # password = request.form.get('password')
 
         userNameExists = bool(Users.query.filter_by(username=username).first())
         userEmailExists = bool(Users.query.filter_by(email=email).first())
@@ -87,8 +85,8 @@ def register():
             if len(username) > 0 and len(email) > 0 and len(password) > 0:
                 # to catch error usrname, email or password empty
                 # Get New Users and add and commit to the users session.
-
                 emailRegex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+                # Email regex used to create what is an acceptable email format.
                 if re.fullmatch(emailRegex, email):
                     user = Users(username=username, password=password, email=email)
                     db_session.add(user)
@@ -123,40 +121,24 @@ def register():
 def login():
     """Users Session login"""
     errorMessage = " "
-    app.logger.info('in login function')
-    app.logger.info('environ.get => => => =>')
-    app.logger.debug('Flask env check', os.getenv('FLASK_ENV'))
-    app.logger.info('request ok', request.method)
-    app.logger.info('request form,', request.form)
 
     if request.method == "POST":
         username = request.form.get('username')
-
-        app.logger.info('username ok %s', username)
         
         password = request.form.get('password')
 
         if len(username) > 0 and len(password) > 0:
-
-            #  check if the imputs fields are empty
-            app.logger.info('length >0')
-            userslog = Users.query.all()
-
-            app.logger.info('userlist is %s', userslog)
             # Check if username is in the Users table.
             userExists = bool(Users.query.filter_by(username=username).first())
-            app.logger.info('user in  ok %s', userExists)
 
             # Get users by username 
             user = Users.query.filter(Users.username == username).first()
-            app.logger.info('user in User list %s', user)
 
             if userExists is True:
                 # Check if Users exists and if password match to the Users table data
 
                 check_user_password = check_password_hash(user.password, password)
                 if check_user_password:
-                    app.logger.info('user password is true')
                     session['username'] = user.username
                     session['password'] = user.password
                     session['userId'] = user.id
@@ -172,15 +154,12 @@ def login():
             else:
                 # account dosn't exist
                 errorMessage = "Invalid Username or Password "
-                app.logger.info('errorMessage %s', errorMessage)
                 
         else:
-            app.logger.info('length No')
             if len(username) == 0:
                 errorMessage = "Please enter a Username"
             elif len(password) == 0:
                 errorMessage = "Please enter a Password"    
-            app.logger.info('Error login msg %s', errorMessage)
             return render_template('login.html', errorMessage=errorMessage)
 
         # When users favourite recipes store into users database. add this to the others routes.
@@ -228,22 +207,12 @@ def create_recipe():
         name = request.form.get('name')
         description = request.form.get('description')
         site_url = request.form.get('site_url')
-
         user_id = session.get('userId')
-
         recipe = Recipes(name=name, description=description, site_url=site_url, user_id=user_id)
-
-        # addRecipe = user.recipe_ids.append(recipe.id)
-
-        # db_session.add(addRecipe)
-
         db_session.add(recipe)
         db_session.commit()
-
-        # app.logger.info('is recipe addded to user ?  %s', user.recipe_ids)
+    
         return redirect('/recipes')
-
-
     return render_template('create_recipe.html')
 
 
@@ -251,13 +220,7 @@ def create_recipe():
 @app.route('/recipes')
 def user_recipe_list():
     userId = session.get('userId')
-
-    app.logger.info('user ID is %s', userId)
     recipes = Recipes.query.filter(Recipes.user_id == userId).all()
-
-    app.logger.info('user recipes are %s', recipes)
-
-
     return render_template("recipe.html", nav=recipes, recipes=recipes)
 
 
@@ -273,8 +236,6 @@ def edit_recipe():
         name = request.form.get('name')
         description = request.form.get('description')
         site_url = request.form.get('site_url')
-        
-
         recipe.name = name
         recipe.description = description
         recipe.site_url = site_url
@@ -282,32 +243,26 @@ def edit_recipe():
         
         db_session.commit()
         return redirect('/recipes')
-    
     return render_template('edit_recipe.html', recipe=recipe)
 
 
 # Delete recipes from users and History list
 @app.route('/delete-recipe')
 def delete_recipe():
-
     id = request.args.get('id')
-
     recipe = Recipes.query.filter(Recipes.id == id).first()
 
     if recipe:
         db_session.delete(recipe)
         db_session.commit()
-
     return redirect('/recipes')
 
 
 # render template for History 
 @app.route('/history')
 def history():
-
     histories = Recipes.query.all()
     app.logger.info('histories are %s', histories)
-
     return render_template('history.html', nav=history, recipes=histories)
 
 
@@ -341,6 +296,7 @@ def mealformat(value):
 
 def datetimeformat(value):
     return value.strftime("%m/%d/%Y, %H:%M:%S")
+
 
 app.jinja_env.filters['meal'] = mealformat
 app.jinja_env.filters['datetime'] = datetimeformat

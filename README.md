@@ -239,7 +239,8 @@ The Basic structure of My receipes Notebook was skectched using
 
 - [SQAlchemy](https://sqlitebrowser.org/)
 
-- [SQAlchemy](https://www.sqlalchemy.org/)
+- [SQAlchemy](https://regexr.com/)
+
 
 ## Database Schema:
 
@@ -358,6 +359,14 @@ Step-2: I deleted the remote I was usinng and create a new one.
 
 Step-3: I Created a new app in Heroku and push to it.
 
+Problem part 2 :
+
+After I add some of the variables to the gitignore file, Heroku was giving me an error in the logs, that wasn't able to find the env.py file, and some modules, 
+
+The solution:
+
+After read a lot in Stackoverflow I tryed to change a bit the file structure, in the way i was working with the enviromental files, instead of using the env.py I am using .env wich has a slightly different structure, but Heroku is working ok now.
+
 
 #### Css link not loading.
 
@@ -411,7 +420,7 @@ The Solution:
     Final solution:
 
   - ![Login ](static/images/HASH.png "password Bug")
-  
+
 ## Deployment:
 
 
