@@ -33,8 +33,6 @@ History
                             <th>Name</th>
                             <th>Notes</th>
                             <th>Links</th>
-                            <!-- <th>Date Time</th>
-                            <th>Created By</th> -->
                         </tr>
                         </thead>
                         <tbody>
@@ -44,8 +42,6 @@ History
                                 <td><strong>{{ item ['name'] }}</strong></td>
                                 <td><span class="badge badge-primary">{{ item['description'] }}</span></td>
                                 <td><strong><a href="{{ item['site_url'] }}" target="blank">Link to Recipe</a></strong></td>
-                                <!-- <td>{{ item['created_time']|datetime}}</td>
-                                <td>{{ session.username }}</td> -->
                             </tr>
                             {% endfor %}
                         </tbody>

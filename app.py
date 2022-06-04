@@ -168,7 +168,7 @@ def login():
 
 @app.route('/logout')
 def logout():
-    """Closed Useres session"""
+    """Closed Users session"""
     
     flash(f"You are logout! See you soon!")
     session.pop('username', None)
