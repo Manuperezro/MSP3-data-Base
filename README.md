@@ -61,25 +61,25 @@
 
 ## The Why
 
-Help the users to keep online recipes that they find in the web in an orgaize app, where the users can comeback easyly to find links and notes about their favourites receipes.
+Help the users to keep online recipes that they find in the web in an orgaize app, where the users can comeback easily to find links and notes about their favourites receipes.
 
 ## The Bussines Goal
 
 + Increase the number of users.  
-+ Increase the number od users paying the pro quote (Future feature).
++ Increase the number of users paying the pro quote (Future feature).
 
 ## (UX) User Experience: 
 
-Users will be able to navigate through the web application easy and find the recipes the saved
+Users will be able to navigate through the web application easily and find the recipes the saved
 
-Users will be able to use the draw service (What do i cook today??) with the minimoun amount of clicks , so users can save time in the decision maker procces on what to cook.
+Users will be able to use the draw service (What do I cook today??) with the minimun amount of clicks , so users can save time in the decision making procces of what to cook.
 
 - ### User Stories
 
   - #### First time Users Goals:
-     - To be able to use the app easyly.
+     - To be able to use the app easily.
      - Uderstand how the app works.
-     - to create new receipes cards 
+     - To create new receipes cards 
      - To be able to safe the recipes they want.
 
   - #### Returning Users Goals:
@@ -90,16 +90,14 @@ Users will be able to use the draw service (What do i cook today??) with the min
      
   - #### Frequent Users Goals:
      - To see if there is any new update or feature in the app.
-     - To be able to deleted the recipes they are not using anymore.
-     - To be able to clean the recipes history
-
+     - To be able to delete recipes that they are not using anymore.
 
   - #### Website Owner Goals:
 
   - ### I want users to:
 
-     - To be able to use the web app  intuitive and whitout many instructions.
-     - To be able to enjoy the service the app offers wihtout errors.
+     - To be able to use the web app  intuitive and whithout many instructions.
+     - To be able to enjoy the service that the app offers wihtout errors.
      - To save a big number of receipes.
      - To be able to open he link of the receipes with a few clicks.
 
@@ -107,7 +105,9 @@ Users will be able to use the draw service (What do i cook today??) with the min
 
    ### Theme and Colour Scheme
 
-The theme is inspired by a chopping borad and the elemts a chef used to prepare a pleasent meal and is intended to appeal a minimalism and clean chopping board. A clean and modern colour scheme with contrasting and complementary colours was chosen to reflect a sense of simple energy. Coolors was used to generate two colour palettes which were incorporated as utility classes in the CSS file, to be easily called upon directly from the HTML files.
+The theme is inspired by a chopping board and the elemts that a chef use to prepare a pleasent meal and is intented to appeal a minimalism and clean chopping board. 
+
+A clean and modern colour scheme with contrasting and complementary colours was chosen to reflect a sense of simple energy. Colors was used to generate two colour palettes which were incorporated as utility classes in the CSS file, to be easily called upon directly from the HTML files.
 
 
 ### Design Brief:
@@ -122,11 +122,11 @@ The theme is inspired by a chopping borad and the elemts a chef used to prepare 
 
 + Images:
 
-The Backgorund image and the image in the register form was unload from n[Pexels](https://www.pexels.com/es-es/).
+The Background image and the image in the register form was unload from n[Pexels](https://www.pexels.com/es-es/).
 
 - background image:
 
-the goal was to inspire a clean, simple choping board in a bright, clean and minimalis kitchen wich inspire peace and invite to cook. 
+the goal was to inspire a clean, simple choping board in a bright, clean and minimalism kitchen wich inspire peace and invite to cook. 
 
 ![BG](static/images/wireframes/pexels-lukas-349609.jpg "Background image")
 
@@ -137,14 +137,11 @@ In this image the goal was to emulate a paper notebook with some elements to cre
 ![Register](static/images/notebook2.jpg "Register image")
 
 
-
 ## Wireframes
 
 The Basic structure of My receipes Notebook was skectched using 
 
   [balsamiq](https://balsamiq.com/).
-
-Here some images of the proccess(to see full wireframe click PDF) : 
 
 - PC Mac screen: 
 
@@ -166,13 +163,13 @@ Here some images of the proccess(to see full wireframe click PDF) :
      
    + Navigation bar 
 
-   - Navigation Menu: I decided to go wiht a simple and clean navigation bar to keep the feeling of a clean empty chopping board    wich invite to Cook.
+   - Navigation Menu: I decided to go with a simple and clean navigation bar to keep the feeling of a clean kitchen which invite to Cook.
       
    ![features](static/images/features/navbar.png "Navigation bar")
 
-   + What to it,  Draw Box.
+   + What to Cook?,  Draw Box.
 
-   - One of the main features of the app, is that users can click in the Try luck buttom, and this will select a random recipe from the users recipe list.
+   - One of the main features of the app, is that users can click in the what to cook, and this will select a random recipe from the list.
 
     ![features](static/images/features/Drawbox.png "Lucky Box")
 
@@ -192,13 +189,15 @@ Here some images of the proccess(to see full wireframe click PDF) :
 
    + Recipes History 
 
-   - I decided to create a list where the users can see every created recipe organize from the lates creation till the oldest, it also can see wich type of meal is, and date and time of creation. 
+   - I decided to create a list where the users can see every created recipe organize from the latest creation till the oldest.
+
+   Users also can see wich type of meal is, and date and time of creation. 
 
     ![features](static/images/features/history.png "Recipes History")
 
    + Registration and Login Form.
 
-   - I also addded a registration and Loging Form, where useres can Sign up and register to be able to see their one data.
+   - I also added a registration and Loging Form, where users can Sign up and register to be able to see their own data.
 
    ![features](static/images/features/registration.png "Registration")
 
@@ -246,7 +245,7 @@ Here some images of the proccess(to see full wireframe click PDF) :
 
 ### Schema: 
 
-- To check if my schema was valid, I check if tables I were achiving to solve the requirements of the tasks I used DB Browser desktop app:
+- To check if my schema was valid, I check if the tables were achiving to solve the requirements of the tasks. I used DB Browser desktop app:
 
 This image is the databases in DB browser app.
 
@@ -298,7 +297,7 @@ I lefted commented in the file just for documentation porpuses.
 
 For debugging and testing I used the following tools and techniques : 
 
-+ Manual testing : Where I check manually if the differents features of the project works according the user hstories.
++ Manual testing : Where I check manually if the differents features of the project works according the user histories.
 
 + User testing : Where Myself and others users impersonate the users, this allow me to collect direct feedback from real users, collecting valuables ideas to implement new features and improve the existing ones.
 
@@ -314,7 +313,6 @@ In the next image you can see how the results are log in the record.log file:
 
 This really help me to identify Bugs and fixed during the development procces.
 
-
 To be able to use this it is neccesary to type the following lne or code on your main.py file : 
 
 <logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')>
@@ -327,7 +325,7 @@ When I first tryed to create a history page with all the existing recipes in the
 
 The solution : 
 
-I tried to simplify the code, and to used what was already working and retieving data, So made the following changes (Check images below for more details), and try collect the data from the Recipes model, as the results was the same. The user was able to see a list with all the created recipes.
+I tried to simplify the code, and to used what was already working and retriving data, to made the following changes:(Check images below for more details), and try collect the data from the Recipes model, as the results was the same. The user was able to see a list with all the created recipes.
 
 
 - ![History ](static/images/bugs/HistoryBug.png "History List Bug")
@@ -337,7 +335,7 @@ I tried to simplify the code, and to used what was already working and retieving
 
 The issue : 
 
-The route for Users registration, was collecting the data into the user table corretly but the route I created for loggin it wasent collecting any data.
+The route for Users registration, was collecting the data into the user table corretly but the route I created for login wasn't collecting any data.
 
 The solution : 
 
@@ -350,7 +348,7 @@ I was using the <reg-form.username.data> to syntax to request the data, and I ch
 
 The issue: 
 
-I am unable to push the changes to Heroku, I got a message saying that the push was rejected. falied to push some refts to my <heroku remote link>
+I was unable to push the changes to Heroku, I got a message saying that the push was rejected. falied to push some modules to my <heroku remote link>
 
 The Solution:
 
@@ -379,131 +377,23 @@ As I changed the file path for the CSS file I have to changes in the images too:
 
 - ![CSS ](static/images/CSSbug2.png "CSS Bug")
 
-### Remainding bug:
 
 #### Users Login accepting Users with wrong password.
 
-The isuue:
+The Issues:
 
-The login code avle users to login with a Wrong password, it catch the error if the imput field is empty, but not if is a different password. Oprning the users name sesion.
+1-The login code aBle users to login with a Wrong password, it catch the error if the imput field is empty, but not if is a different password. Oprning the users name sesion.
+
+2-Not accepting the password hash as valid.
 
 The Solution:
-
-Not founded yet
-
-What I tried so Far:
-
-I modify the code from this logic:
-
-<@app.route('/login', methods=['GET', 'POST'])
- def login():
-    errorMessage = " "
-    app.logger.info('in login function')
-    app.logger.info('request ok', request.method)
-    app.logger.info('request form,', request.form)
-    if request.method == "POST" and "username" in request.form and "password" in request.form:
-        #   account exists
-        userslog = Users.query.all()
-        app.logger.info('userlist is %s', userslog)
-
-        username = request.form.get('username')
-        app.logger.info('username ok %s', username)
-
-        password = generate_password_hash(request.form.get('password'))
-        app.logger.info('password ok %s', password)
-
-
-        # check if user exists in register database
-        userExists = bool(Users.query.filter_by(username=username).first())
-        app.logger.info('user in  ok %s', userExists)
-        if userExists is True:
-            # get the user from the database
-            user = Users.query.filter(Users.username == username and Users.password == password).first()
-            session['username'] = user.username
-            session['userId'] = user.id
-            session['loggedIn'] = True
-            flash(f"Welcomeback, {session.get('username')}!")
-
-            return redirect('/') 
-            return render_template('start.html')
-
-        else:
-            # account dosn't exist
-            errorMessage = "Invalid Username or Password "
-
-        # When users favourite recipes store into users database. add this to the others routes.
-
-
-    return render_template('login.html', errorMessage=errorMessage)>
-
-    - To the following one:
-
-<@app.route('/login', methods=['GET', 'POST'])
-def login():
-    errorMessage = " "
-    app.logger.info('in login function')
-    app.logger.info('request ok', request.method)
-    app.logger.info('request form,', request.form)
-
-    if request.method == "POST":
-        username = request.form.get('username')
-        app.logger.info('username ok %s', username)
-
-        password = generate_password_hash(request.form.get('password'))
-        password = request.form.get('password')
-        app.logger.info('password ok %s', password)
-
-        if len(username) > 0 and len(password) > 0:
-            #   account exists
-            app.logger.info('length >0')
-            userslog = Users.query.all()
-            app.logger.info('userlist is %s', userslog)
-
-            username = request.form.get('username')
-            app.logger.info('username ok %s', username)
-
-            password = generate_password_hash(request.form.get('password'))
-            password = request.form.get('password')
-            app.logger.info('password ok %s', password)
-
-            # check if user exists in register database
-            userExists = bool(Users.query.filter_by(username=username).first())
-            app.logger.info('user in  ok %s', userExists)
-
-            if userExists is True:
-                # get the user from the database
-                user = Users.query.filter(Users.username == username and Users.password == password).first()
-                session['username'] = user.username
-                session['password'] = user.password
-                session['userId'] = user.id
-                session['loggedIn'] = True
-                flash(f"Welcomeback, {session.get('username')}!")
-                return redirect('/') 
-                return render_template('start.html')
-            else:
-                # account dosn't exist
-                errorMessage = "Invalid Username or Password "
-                app.logger.info('errorMessage %s', errorMessage)
-                
-        else:
-            app.logger.info('length No')
-            if len(username) == 0:
-                errorMessage = "Please enter a Username"
-            elif len(password) == 0:
-                errorMessage = "Please enter a Password"    
-            app.logger.info('Error login msg %s', errorMessage)
-            return render_template('login.html', errorMessage=errorMessage)
-
-        # When users favourite recipes store into users database. add this to the others routes.
-
-    return render_template('login.html', errorMessage=errorMessage)>
 
     Steps: 
     1- I mannage to get the username and password hash form the Users table.
     2- I cath the errors when the imput fields are empty with anf if statement.
     3- I try to handle the I users Not exist with this specific code:
 
-    <            if userExists is True:
+    <           if userExists is True:
                 # get the user from the database
                 user = Users.query.filter(Users.username == username and Users.password == password).first()
                 session['username'] = user.username
@@ -518,7 +408,10 @@ def login():
                 errorMessage = "Invalid Username or Password "
                 app.logger.info('errorMessage %s', errorMessage)>
 
+    Final solution:
 
+  - ![Login ](static/images/HASH.png "password Bug")
+  
 ## Deployment:
 
 

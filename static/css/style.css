@@ -28,6 +28,14 @@ body {
 
 }
 
+.username {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    width: fit-content;
+}
+
 .navbar {
     border-radius: 5px;
     background-color: #bbc6cc;

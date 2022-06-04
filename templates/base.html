@@ -19,8 +19,9 @@
 </head>
 
 <body>
-
-    <h4 class="username">logged as {{session.username}}</h4>
+    {% if session.username %}
+    <h4 class="username my-2 py-2 px-2">Logged as: <stronge>{{ session.username }}</stronge></h4>
+    {% endif %}
 
     <!-- nav -->
     <div
