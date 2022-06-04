@@ -177,7 +177,7 @@ def logout():
 
     return redirect('/register')
 
-
+# Code inspire by a udemy flask video-tutorial LuckyDraw,
 # What to cook buttom take a random recipe from The History list and siplay the link and name to the User 
 @app.route('/draw')
 def draw():
@@ -201,7 +201,7 @@ def draw():
 # Create a recipe and added to the User and History list
 @app.route('/create-recipe', methods=['GET', 'POST'])
 def create_recipe():
-    """Create a nw recipy and aaded to both lists, History and My recipes list"""
+    """Create a nw recipy and added to both lists, History and My recipes list"""
 
     if request.method == 'POST':
         name = request.form.get('name')
