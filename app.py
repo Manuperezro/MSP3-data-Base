@@ -38,12 +38,11 @@ app.config["SESSION_TYPE"] = "filesystem"
 
 Session(app)
 
-app.logger.info('IN app.py')
-app.logger.info('app.config', app.config)
-
 # for  debuging 
+logger = logging.getLogger()
+logging.basicConfig(filename='record.log', level=logging.DEBUG)
 
-logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+logger.info('IN app.py')
 
 
 @app.before_first_request
@@ -58,13 +57,10 @@ def shutdown_session(exception=None):
 
 @app.route('/')
 def start():
-    app.logger.info('IN START')
-    app.logger.info('app.config-Start', app)
     if not session.get('username'):
         return render_template('login.html')     
     now = datetime.datetime.now
-    app.logger.info('Session username', session.get('username'))
-    app.logger.info('Leged In', session.get('loggedIn'))
+
     return render_template('start.html', nav='start', now=now)
 
 
@@ -72,20 +68,17 @@ def start():
 def register():
     """Add Useres to the Users table"""
     errorRegister = " "
-    app.logger.info('register-routev2')
     
     if request.method == "POST":
-        app.logger.info('impost request v2')
         # Get the data from the useres imput field in the Register form
 
         username = request.form.get('username')
         email = request.form.get('email')
         password = generate_password_hash(request.form.get('password'))
-        password = request.form.get('password')
+        # password = request.form.get('password')
 
         userNameExists = bool(Users.query.filter_by(username=username).first())
         userEmailExists = bool(Users.query.filter_by(email=email).first())
-        app.logger.info('Useremail %s', userEmailExists)
         
         if userNameExists is False and userEmailExists is False:
             # to catch error email or username already exist
@@ -93,11 +86,6 @@ def register():
             if len(username) > 0 and len(email) > 0 and len(password) > 0:
                 # to catch error usrname, email or password empty
                 # Get New Users and add and commit to the users session.
-                app.logger.info('password1 %s', type(password))
-                app.logger.info('username type %s', type(username))
-
-                app.logger.info('username are %s', username)
-                app.logger.info('password3 are %s', password)
 
                 user = Users(username=username, password=password, email=email)
                 db_session.add(user)
@@ -112,7 +100,6 @@ def register():
                 elif len(password) == 0:
                     errorRegister = "Please enter a Password"    
 
-                app.logger.info('Error registering msg %s', errorRegister)
                 return render_template('register.html', errorRegister=errorRegister)
         else:
             if userNameExists:
@@ -120,7 +107,6 @@ def register():
             elif userEmailExists:
                 errorRegister = "Email is already in use"
             
-            app.logger.info('Username taken error msg %s', errorRegister)
             return render_template('register.html', errorRegister=errorRegister)
 
     return render_template('register.html', errorRegister=errorRegister)
@@ -140,11 +126,8 @@ def login():
         username = request.form.get('username')
 
         app.logger.info('username ok %s', username)
-
-        password = generate_password_hash(request.form.get('password'))
+        
         password = request.form.get('password')
-
-        app.logger.info('password ok %s', password)
 
         if len(username) > 0 and len(password) > 0:
 
@@ -162,8 +145,10 @@ def login():
             app.logger.info('user in User list %s', user)
 
             if userExists is True:
-                # gCheck if Users exists and if password match to the Users table data
-                if user.password == password:
+                # Check if Users exists and if password match to the Users table data
+
+                check_user_password = check_password_hash(user.password, password)
+                if check_user_password:
                     app.logger.info('user password is true')
                     session['username'] = user.username
                     session['password'] = user.password
@@ -194,7 +179,6 @@ def login():
         # When users favourite recipes store into users database. add this to the others routes.
 
     return render_template('login.html', errorMessage=errorMessage)
-
 
 @app.route('/logout')
 def logout():
@@ -233,7 +217,6 @@ def draw():
 def create_recipe():
     """Create a nw recipy and aaded to both lists, History and My recipes list"""
 
-    app.logger.info('CREATE RECIPE %s')
     if request.method == 'POST':
         name = request.form.get('name')
         description = request.form.get('description')
@@ -242,8 +225,6 @@ def create_recipe():
         user_id = session.get('userId')
 
         recipe = Recipes(name=name, description=description, site_url=site_url, user_id=user_id)
-
-        app.logger.info('recipe ==  %s', recipe.user_id)
 
         # addRecipe = user.recipe_ids.append(recipe.id)
 
