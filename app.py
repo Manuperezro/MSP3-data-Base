@@ -177,7 +177,7 @@ def logout():
 
     return redirect('/register')
 
-# Code inspire by a udemy flask video-tutorial LuckyDraw,
+# Code inspire by a udemy flask video-tutorial SQL flask CRUD,
 # What to cook buttom take a random recipe from The History list and siplay the link and name to the User 
 @app.route('/draw')
 def draw():
@@ -281,7 +281,7 @@ def search():
         return redirect('history.html')
 
 
-# Code inspire by a udemy flask video-tutorial LuckyDraw,
+# Code inspire by a udemy flask video-tutorial SQL flask CRUD,
 # To format the text depending on time. 
 def mealformat(value):
     if value.hour in [4, 5, 6, 7, 8, 9]:

@@ -1,6 +1,6 @@
-# My Recipes Note Book
+# My Recipes NoteBook
 
-# A responsive web apllication where the  users can store recipes and also use the draw buttom to see one ramdom recipe from their list.
+# A responsive web apllication where the users can store recipes and also use the draw buttom to see one ramdom recipe from their list.
 
 ## Code Institute - Milestone Project 3
 
@@ -246,7 +246,7 @@ The Basic structure of My recipes Notebook was skectched using
 
 ### Schema: 
 
-- To check if my schema was valid, I check if the tables were achiving to solve the requirements of the tasks. I used DB Browser desktop app:
+- To check if my schema was valid, I checked if the tables were achiving to solve the requirements of the tasks. I used DB Browser desktop app:
 
 This image is the databases in DB browser app.
 
@@ -523,11 +523,17 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 - Main Code structure, Flask, Python, Html, Css:
 
-  [Udemy LuvkyDraw CRUD](https://www.udemy.com)
+  HTML Templates : 
+
+  [Udemy SQL flask CRUD](https://www.udemy.com)
 
   [HTML and CSS](https://www.w3schools.com/howto/howto_js_todolist.asp)
 
   [HTML and CSS](https://medium.com/claruswaymaking-a-todo-list-with-html-css-and-javascript-154839b770b6)
+  
+  CRUD:
+
+  [Udemy SQL flask CRUD](https://www.udemy.com)
 
   [Python and Flask](https://www.youtube.com/watch?v=6L3HNyXEais&ab_channel=TheProgrammerinYou)
 
@@ -546,7 +552,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
   [loging tutorial](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=6472s)
 
-- Login form with flask.
+- Login form With flask.
 
   [loging tutorial](https://www.youtube.com/watch?v=8aTnmsDMldY&t=1040s)
 
