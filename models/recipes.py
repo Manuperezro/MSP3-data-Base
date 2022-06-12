@@ -7,11 +7,11 @@ import datetime
 
 class Recipes(Base):
     __tablename__ = 'recipes'
-    id = Column(String(50), primary_key=True)
-    user_id = Column(String(50))
-    name = Column(String(50))
-    description = Column(String(100), nullable=True)
-    site_url = Column(String(200), nullable=True)
+    id = Column(String(1000), primary_key=True)
+    user_id = Column(String(1000))
+    name = Column(String(1000))
+    description = Column(String(1000), nullable=True)
+    site_url = Column(String(500), nullable=True)
     draw = Column(Integer(), default=0)
     created_time = Column(DateTime(), nullable=False)
     modified_time = Column(DateTime(), nullable=False)

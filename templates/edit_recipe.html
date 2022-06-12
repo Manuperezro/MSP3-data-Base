@@ -17,11 +17,11 @@ Edit Recipe
                     <form method="post" action="/edit-recipe?id={{ recipe['id'] }}">
                         <div class="form-group">
                             <p class="text-muted m-b-15 f-s-12">Recipe Name</p>
-                            <input name="name" type="text" value="{{ recipe['name'] }}" class="form-control input-default" required="required">
+                            <input name="name" type="text" placeholder="Max 50 characters" value="{{ recipe['name'] }}" class="form-control input-default" required="required">
                         </div>
                         <div class="form-group">
                             <p class="text-muted m-b-15 f-s-12">Notes</p>
-                            <input name="description" type="text"  value="{{ recipe['description'] }}"  class="form-control input-default"
+                            <input name="description" placeholder="Max 50 characters" type="text"  value="{{ recipe['description'] }}"  class="form-control input-default"
                                    required="required">
                         </div>
                         <div class="form-group">
