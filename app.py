@@ -1,25 +1,30 @@
-from flask import Flask, render_template, request, redirect, session, flash
-from flask_session import Session
-import os
-import logging
-from database import db_session, init_db
-from sqlalchemy import desc
-from models.recipes import Recipes
-from models.User import Users
-import MySQLdb.cursors
 import datetime
+import io
+import logging
+import os
 import re
-from werkzeug.security import generate_password_hash, check_password_hash
-from random import choice
 from pathlib import Path
+from random import choice
+
 from dotenv import load_dotenv
+from flask import Flask, render_template, request, redirect, session, flash
+from google.cloud import secretmanager
+from werkzeug.security import generate_password_hash, check_password_hash
 
+from database import db_session, init_db
+from flask_session import Session
+from models.User import Users
+from models.recipes import Recipes
 
-load_dotenv()
-
-env_path = Path('.')/'.env'
-
-load_dotenv(dotenv_path=env_path)
+if os.environ.get("GOOGLE_CLOUD_PROJECT", None):
+    # Pull secrets from Secret Manager
+    client = secretmanager.SecretManagerServiceClient()
+    project_id = os.environ.get("GOOGLE_CLOUD_PROJECT")
+    name = f"projects/{project_id}/secrets/recipes_project/versions/latest"
+    payload = client.access_secret_version(name=name).payload.data.decode("UTF-8")
+    load_dotenv(stream=io.StringIO(payload))
+else:
+    load_dotenv()
 
 # Code isnpire with a few tutorials: 
 # python CRUD udemy, Walktrhought project Code Institute, CRUD with Python codecademy.

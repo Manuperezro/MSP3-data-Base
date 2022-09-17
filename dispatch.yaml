@@ -1,0 +1,3 @@
+dispatch:
+  - url: recipes-project.manuel-perez.uk/*"
+    service: default
