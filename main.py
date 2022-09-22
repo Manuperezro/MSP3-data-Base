@@ -1,25 +1,29 @@
-from flask import Flask, render_template, request, redirect, session, flash
-from flask_session import Session
-import os
-import logging
-from database import db_session, init_db
-from sqlalchemy import desc
-from models.recipes import Recipes
-from models.User import Users
-import MySQLdb.cursors
 import datetime
+import io
+import logging
+import os
 import re
-from werkzeug.security import generate_password_hash, check_password_hash
 from random import choice
-from pathlib import Path
+
 from dotenv import load_dotenv
+from flask import Flask, render_template, request, redirect, session, flash
+from google.cloud import secretmanager
+from werkzeug.security import generate_password_hash, check_password_hash
 
+from database import db_session, init_db
+from flask_session import Session
+from models.User import Users
+from models.recipes import Recipes
 
-load_dotenv()
-
-env_path = Path('.')/'.env'
-
-load_dotenv(dotenv_path=env_path)
+if os.environ.get("GOOGLE_CLOUD_PROJECT", None):
+    # Pull secrets from Secret Manager
+    client = secretmanager.SecretManagerServiceClient()
+    project_id = os.environ.get("GOOGLE_CLOUD_PROJECT")
+    name = f"projects/{project_id}/secrets/recipes_project/versions/latest"
+    payload = client.access_secret_version(name=name).payload.data.decode("UTF-8")
+    load_dotenv(stream=io.StringIO(payload))
+else:
+    load_dotenv()
 
 # Code isnpire with a few tutorials: 
 # python CRUD udemy, Walktrhought project Code Institute, CRUD with Python codecademy.
@@ -32,16 +36,17 @@ app = Flask(__name__)
 # To dont storage any data 
 app.config["SESSION_PERMANENT"] = True
 
+base_folder = "/tmp/"
 
 # To store from the cookies. 
 app.config["SESSION_TYPE"] = "filesystem"
-
+app.config["SESSION_FILE_DIR"] = f"{base_folder}flask_session"
 
 Session(app)
 
 # for  debuging 
 logger = logging.getLogger()
-logging.basicConfig(filename='record.log', level=logging.DEBUG)
+logging.basicConfig(filename=f'{base_folder}record.log', level=logging.DEBUG)
 
 logger.info('IN app.py')
 
@@ -49,7 +54,7 @@ logger.info('IN app.py')
 @app.before_first_request
 def init():
     init_db()
-    
+
 
 @app.teardown_appcontext
 def shutdown_session(exception=None):
@@ -59,7 +64,7 @@ def shutdown_session(exception=None):
 @app.route('/')
 def start():
     if not session.get('username'):
-        return render_template('login.html')     
+        return render_template('login.html')
     now = datetime.datetime.now
 
     return render_template('start.html', nav='start', now=now)
@@ -69,7 +74,7 @@ def start():
 def register():
     """Add Useres to the Users table"""
     errorRegister = " "
-    
+
     if request.method == "POST":
         # Get the data from the useres imput field in the Register form
         username = request.form.get('username')
@@ -78,7 +83,7 @@ def register():
 
         userNameExists = bool(Users.query.filter_by(username=username).first())
         userEmailExists = bool(Users.query.filter_by(email=email).first())
-        
+
         if userNameExists is False and userEmailExists is False:
             # to catch error email or username doesn't exist
 
@@ -103,7 +108,7 @@ def register():
                 elif len(email) == 0:
                     errorRegister = "Please enter an Email"
                 elif len(password) == 0:
-                    errorRegister = "Please enter a Password"    
+                    errorRegister = "Please enter a Password"
 
                 return render_template('register.html', errorRegister=errorRegister)
         else:
@@ -111,7 +116,7 @@ def register():
                 errorRegister = "Username is already in use"
             elif userEmailExists:
                 errorRegister = "Email is already in use"
-            
+
             return render_template('register.html', errorRegister=errorRegister)
 
     return render_template('register.html', errorRegister=errorRegister)
@@ -124,7 +129,7 @@ def login():
 
     if request.method == "POST":
         username = request.form.get('username')
-        
+
         password = request.form.get('password')
 
         if len(username) > 0 and len(password) > 0:
@@ -144,38 +149,40 @@ def login():
                     session['userId'] = user.id
                     session['loggedIn'] = True
                     flash(f"Welcomeback, {session.get('username')}!")
-                    return redirect('/') 
+                    return redirect('/')
                     return render_template('start.html')
                 else:
                     # Wrong password
                     errorMessage = "Invalid Password "
                     app.logger.info('errorMessage %s', errorMessage)
-                    
+
             else:
                 # account dosn't exist
                 errorMessage = "Invalid Username or Password "
-                
+
         else:
             if len(username) == 0:
                 errorMessage = "Please enter a Username"
             elif len(password) == 0:
-                errorMessage = "Please enter a Password"    
+                errorMessage = "Please enter a Password"
             return render_template('login.html', errorMessage=errorMessage)
 
         # When users favourite recipes store into users database. add this to the others routes.
 
     return render_template('login.html', errorMessage=errorMessage)
 
+
 @app.route('/logout')
 def logout():
     """Closed Users session"""
-    
+
     flash(f"You are logout! See you soon!")
     session.pop('username', None)
     session.pop('id', None)
     session.pop('loggedIn', None)
 
     return redirect('/register')
+
 
 # Code inspire by a udemy flask video-tutorial SQL flask CRUD,
 # What to cook buttom take a random recipe from The History list and siplay the link and name to the User 
@@ -211,7 +218,7 @@ def create_recipe():
         recipe = Recipes(name=name, description=description, site_url=site_url, user_id=user_id)
         db_session.add(recipe)
         db_session.commit()
-    
+
         return redirect('/recipes')
     return render_template('create_recipe.html')
 
@@ -227,11 +234,10 @@ def user_recipe_list():
 # Edit the recipes from user list
 @app.route('/edit-recipe', methods=['GET', 'POST'])
 def edit_recipe():
-
     id = request.args.get('id')
 
     recipe = Recipes.query.filter(Recipes.id == id).first()
-    
+
     if request.method == 'POST':
         name = request.form.get('name')
         description = request.form.get('description')
@@ -240,7 +246,7 @@ def edit_recipe():
         recipe.description = description
         recipe.site_url = site_url
         recipe.modified_time = datetime.datetime.now()
-        
+
         db_session.commit()
         return redirect('/recipes')
     return render_template('edit_recipe.html', recipe=recipe)
@@ -300,7 +306,6 @@ def datetimeformat(value):
 
 app.jinja_env.filters['meal'] = mealformat
 app.jinja_env.filters['datetime'] = datetimeformat
-
 
 if __name__ == '__main__':
     app.jinja_env.auto_reload = True

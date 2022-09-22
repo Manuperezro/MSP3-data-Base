@@ -1,0 +1,64 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="20">
+            <item index="0" class="java.lang.String" itemvalue="ajax_elem_id" />
+            <item index="1" class="java.lang.String" itemvalue="ajax_view" />
+            <item index="2" class="java.lang.String" itemvalue="ajax_change" />
+            <item index="3" class="java.lang.String" itemvalue="ajax_on" />
+            <item index="4" class="java.lang.String" itemvalue="ajax_trig" />
+            <item index="5" class="java.lang.String" itemvalue="ajax_form" />
+            <item index="6" class="java.lang.String" itemvalue="ajax_form_id" />
+            <item index="7" class="java.lang.String" itemvalue="ajax_dest_id" />
+            <item index="8" class="java.lang.String" itemvalue="sb_account_name" />
+            <item index="9" class="java.lang.String" itemvalue="list_id" />
+            <item index="10" class="java.lang.String" itemvalue="push_list_id" />
+            <item index="11" class="java.lang.String" itemvalue="sb_list_id" />
+            <item index="12" class="java.lang.String" itemvalue="error_sb_list_id" />
+            <item index="13" class="java.lang.String" itemvalue="sb_list_ac_id" />
+            <item index="14" class="java.lang.String" itemvalue="error_sb_list_ac_id" />
+            <item index="15" class="java.lang.String" itemvalue="ajax_ready_id" />
+            <item index="16" class="java.lang.String" itemvalue="sb_account_id" />
+            <item index="17" class="java.lang.String" itemvalue="trigger_refresh_contact" />
+            <item index="18" class="java.lang.String" itemvalue="message_close" />
+            <item index="19" class="java.lang.String" itemvalue="message" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="Fiona" />
+            <item index="1" class="java.lang.String" itemvalue="geopandas" />
+            <item index="2" class="java.lang.String" itemvalue="unidecode" />
+            <item index="3" class="java.lang.String" itemvalue="apache-airflow-providers-elasticsearch" />
+            <item index="4" class="java.lang.String" itemvalue="astronomer-fab-security-manager" />
+            <item index="5" class="java.lang.String" itemvalue="tesserocr" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pathlib.Path.__add__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
