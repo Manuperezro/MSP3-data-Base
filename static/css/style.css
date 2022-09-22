@@ -419,6 +419,13 @@ footer {
     color: #dc3545;
 }
 
+@media screen and (max-width:350px) {
+    body {
+        max-width: fit-content;
+
+    }
+}
+
 @media screen and (max-width:740px) {
     .form-left {
         display: none;

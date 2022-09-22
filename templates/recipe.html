@@ -37,7 +37,7 @@ Recipes list
                 {{  recipe['description'] }}
             </p>
             <div class="button-list">
-                <div class="btn-group">
+                <div class="col-m btn-group">
                     <a href="{{ recipe['site_url'] }}" class="btn btn-visit" target="_blank">Visit Site</a>
                     <a href="/edit-recipe?id={{  recipe['id'] }}" class="btn btn-primary">Edit</a>
                     <a href="/delete-recipe?id={{recipe['id'] }}" onclick="return confirm('delete?')" class="btn btn-danger">Delete</a>
